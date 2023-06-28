@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container w-full max-w-md mx-auto px-4 text-center">
+        <h1 class="text-6xl font-bold py-12">
+            Better TISS Calendar
+        </h1>
+        <div class="h-52 flex flex-row justify-around mb-8">
+            <div class="w-[10rem] h-full border border-[color:#333] rounded-2xl text-start p-3">
+                <div class="text-lg font-bold">183.579 VU Technische Grundlagen der Informatik</div>
+                <div>AudiMax</div>
+                <div>Vorlesung</div>
+            </div>
+            <span class="my-auto text-5xl">-></span>
+            <div class="w-[10rem] h-full border border-[color:#333] rounded-2xl text-start p-3">
+                <div class="text-lg font-bold">TGI VU</div>
+                <div>AudiMax</div>
+                <div>Vorlesung</div>
+            </div>
+        </div>
+
+        <!--Original URL-->
+        <div class="w-full text-start">
+            <div class="w-full">
+                <label for="original_url" class="block mb-2 text-sm font-medium">
+                    Original calendar url (from
+                    <a href="https://tiss.tuwien.ac.at/events/personSchedule.xhtml">here</a>):
+                </label>
+                <div class="w-full flex flex-row space-x-3">
+                    <input type="text" id="original_url"
+                        class="bg-neutral-950 border border-[color:#333] rounded-lg focus:outline-none focus:border-white focus:ring-white  w-full p-2.5"
+                        placeholder="https://tiss.tuwien.ac.at/even..." required>
+                    <button
+                        class="bg-neutral-950 border border-[color:#333] rounded-lg px-3 hover:bg-white hover:text-black hover:transition-all">Verify</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Original URL-->
+        <div class="w-full text-start mt-8">
+            <div class="w-full">
+                <label for="original_url" class="block mb-2 text-sm font-medium">
+                    Better calendar url:
+                </label>
+                <div class="w-full flex flex-row space-x-3">
+                    <div id="original_url" class="bg-neutral-950 border border-[color:#333] rounded-lg w-full p-2.5">
+                        Ohn no
+                    </div>
+                    <button
+                        class="bg-neutral-950 border border-[color:#333] rounded-lg px-3 hover:bg-white hover:text-black hover:transition-all">Copy</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

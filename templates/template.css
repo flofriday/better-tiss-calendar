@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text-color: #fff;
+  --secondary-color: rgb(136, 136, 136);
+  --background-color: #000;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  @apply text-blue-400 visited:text-purple-400 hover:underline;
+}
