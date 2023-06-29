@@ -61,7 +61,7 @@ function setBetterUrl(originalUrl) {
   const locale = searchParams.get("locale");
 
   const domain = window.location.origin;
-  const better_url = `${domain}/tiss.ical?token=${encodeURIComponent(
+  const better_url = `${domain}/personal.ics?token=${encodeURIComponent(
     token
   )}&locale=${encodeURIComponent(locale)}`;
 
