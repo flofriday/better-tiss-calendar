@@ -31,6 +31,6 @@ def better_summary(old: str) -> str:
 
     # FIXME: add shorthands
     summary = f"{name} {lecture_type}"
-    if additional != ""
+    if additional != "":
         summary += " - " + additional
-    return summary 
+    return summary
