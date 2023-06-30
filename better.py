@@ -25,4 +25,9 @@ def better_summary(old: str) -> str:
 
     # FIXME: Might be better to write our own parser here
     [number, lecture_type, name] = match.groups()
-    return f"{name} {lecture_type}"
+    additional = ""
+    if " - " in name:
+        [name, additional] = name.rsplit(" - ", 1)
+
+    # FIXME: add shorthands
+    return f"{name} {lecture_type} - {additional}"
