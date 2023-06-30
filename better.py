@@ -30,4 +30,7 @@ def better_summary(old: str) -> str:
         [name, additional] = name.rsplit(" - ", 1)
 
     # FIXME: add shorthands
-    return f"{name} {lecture_type} - {additional}"
+    summary = f"{name} {lecture_type}"
+    if additional != ""
+        summary += " - " + additional
+    return summary 
