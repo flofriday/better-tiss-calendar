@@ -3,10 +3,9 @@ Description=A better TISS calendar
 After=network.target
 
 [Service]
-User=bettercal
-WorkingDirectory=/home/bettercal/better-tiss-caldendar/
-ExecStart=/bin/bash -c 'source /home/bettercal/better-tiss-calendar/.venv/bin/activate; gunicorn -w 5 --bind localhost:5001 app:app'
+WorkingDirectory=/home/bettercal/better-tiss-calendar/
+ExecStart=/bin/bash -c 'source /home/bettercal/better-tiss-calendar/.venv/bin/activate; gunicorn -w 5 --bind localhost:5003 app:app'
 Restart=always
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
