@@ -19,6 +19,13 @@ verifyBtn.onclick = async () => {
   await verify(urlText.value);
 };
 
+copyBtn.onclick = () => {
+  if (copyBtn.disabled) return;
+
+  text = betterText.innerText;
+  navigator.clipboard.writeText(text);
+};
+
 async function verify(url) {
   try {
     const response = await fetch(`/verify?url=${encodeURIComponent(url)}`);
@@ -38,19 +45,19 @@ async function verify(url) {
 }
 
 function disableBetterUrl() {
-  errorText.classList.add("hidden");
+  errorText.classList.add("invisible");
   betterText.classList.add("hidden");
   betterTextPlaceholder.classList.remove("hidden");
   copyBtn.disabled = true;
 }
 
 function setErrorMessage(message) {
-  errorText.classList.remove("hidden");
+  errorText.classList.remove("invisible");
   errorText.innerText = "🔥 " + message;
 }
 
 function setBetterUrl(originalUrl) {
-  errorText.classList.add("hidden");
+  errorText.classList.add("invisible");
   betterText.classList.remove("hidden");
   betterTextPlaceholder.classList.add("hidden");
   copyBtn.disabled = false;
