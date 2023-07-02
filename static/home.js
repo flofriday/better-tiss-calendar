@@ -6,6 +6,7 @@ const urlText = document.getElementById("original_url");
 const betterText = document.getElementById("better_url");
 const betterTextPlaceholder = document.getElementById("better_url_placeholder");
 const errorText = document.getElementById("error_message");
+const copyText = document.getElementById("copy_feedback");
 
 urlText.onchange = () => {
   disableBetterUrl();
@@ -16,7 +17,7 @@ urlText.onkeydown = () => {
 };
 
 verifyBtn.onclick = async () => {
-  await verify(urlText.value);
+  await verify(urlText.value.trim());
 };
 
 copyBtn.onclick = () => {
@@ -24,6 +25,11 @@ copyBtn.onclick = () => {
 
   text = betterText.innerText;
   navigator.clipboard.writeText(text);
+
+  copyText.classList.remove("flyaway");
+  setTimeout(function () {
+    copyText.classList.add("flyaway");
+  }, 1);
 };
 
 async function verify(url) {

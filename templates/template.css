@@ -19,3 +19,18 @@ body {
 a {
   @apply text-blue-400 visited:text-purple-400 hover:underline;
 }
+
+@keyframes flyaway {
+  0% {
+    transform: translateY(30px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-35px);
+    opacity: 0;
+  }
+}
+
+.flyaway {
+  animation: 1.5s ease-out 0s 1 flyaway;
+}
