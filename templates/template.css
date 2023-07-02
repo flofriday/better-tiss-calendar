@@ -8,8 +8,6 @@
   --background-color: #000;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-
 body {
   background-color: var(--background-color);
   color: var(--text-color);

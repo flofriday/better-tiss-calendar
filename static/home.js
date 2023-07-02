@@ -8,6 +8,10 @@ const betterTextPlaceholder = document.getElementById("better_url_placeholder");
 const errorText = document.getElementById("error_message");
 const copyText = document.getElementById("copy_feedback");
 
+window.onload = () => {
+  copyBtn.disabled = true;
+};
+
 urlText.onchange = () => {
   disableBetterUrl();
 };
