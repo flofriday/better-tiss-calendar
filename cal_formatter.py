@@ -1,5 +1,5 @@
 from icalendar import Calendar
-from dataclasses import dataclass, KW_ONLY
+from dataclasses import dataclass
 import re
 
 summary_regex = re.compile("([0-9A-Z]{3}\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
@@ -69,6 +69,7 @@ def event_from_ical(component) -> Event:
         [name, additional] = name.rsplit(" - ", 1)
 
     room = component.get("location")
+    description = component.get("description")
 
     return Event(
         name=name,
@@ -76,6 +77,7 @@ def event_from_ical(component) -> Event:
         lecture_type=lecture_type,
         additional=additional,
         room=room,
+        description=description,
     )
 
 
