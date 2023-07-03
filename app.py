@@ -2,7 +2,7 @@ from flask import Flask, render_template, send_from_directory, abort, request
 
 import requests
 import tiss
-from better import improve_calendar
+from cal_formatter import improve_calendar
 
 app = Flask(__name__)
 
