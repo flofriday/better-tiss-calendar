@@ -44,8 +44,15 @@ def improve_calendar(
         component.add("summary", summary)
 
         # Serialize the address
+        if event.address != "":
+            component.pop("location")
+            component.add("location", event.address)
 
         # Serialize the description
+        # FIXME: Add something special for HTMl enabled clients
+        description = f"{event.name}\nRoom: {event.room}\n\n{event.description}"
+        component.pop("description")
+        component.add("description", description)
 
     return cal
 
