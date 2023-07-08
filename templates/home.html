@@ -15,25 +15,29 @@
 <body class="h-screen">
     <div class="h-full flex flex-col justify-between">
         <main class="container w-full max-w-md mx-auto px-4 text-center">
-            <h1 class="text-6xl font-bold pt-12 pb-6">
+            <h1 class="text-6xl font-bold pt-12 pb-6 leading-snug">
                 Better TISS Calendar
-                <div class="mx-auto mt-2 text-xs font-bold w-min bg-pink-700 rounded-full px-2 py-1">BETA</div>
             </h1>
             <div class="pb-10 text-neutral-400">
                 We can't fix the room reservation problem, but there is still a
                 lot to improve.
             </div>
-            <div class="h-52 flex flex-row justify-around mb-12">
-                <div class="w-[10rem] h-full border border-[color:#333] rounded-2xl text-start p-3">
+            <div class="flex flex-row justify-around mb-12">
+                <div class="w-[12rem] h-full border border-[color:#333] rounded-2xl text-start p-3">
                     <div class="text-lg font-bold">183.579 VU Technische Grundlagen der Informatik</div>
-                    <div>AudiMax</div>
-                    <div>Vorlesung</div>
+                    <div class="my-1 text-sm">GM 1 Audi. Max.- ARCH-INF</div>
+                    <div class="my-1 text-sm">Vorlesung</div>
                 </div>
                 <span class="my-auto text-5xl px-2 whitespace-nowrap">➔</span>
-                <div class="w-[10rem] h-full border border-[color:#333] rounded-2xl text-start p-3">
+                <div class="w-[12rem] h-full border border-[color:#333] rounded-2xl text-start p-3">
                     <div class="text-lg font-bold">TGI VU</div>
-                    <div>AudiMax</div>
-                    <div>Vorlesung</div>
+                    <div class="my-1 text-sm">Getreidemarkt 9</div>
+                    <div class="my-1 text-sm">
+                        Technische Grundlagen der Informatik <br>
+                        Room: <span class="text-blue-400">GM 1 Audi. Max.- ARCH-INF</span><br>
+                        <br>
+                        Vorlesung
+                    </div>
                 </div>
             </div>
 
@@ -49,7 +53,7 @@
                             class="bg-neutral-950 border border-[color:#333] rounded-lg focus:outline-none focus:border-white focus:ring-white  w-full p-2.5"
                             placeholder="https://tiss.tuwien.ac.at/even..." required>
                         <button id="verify"
-                            class="bg-neutral-950 border border-[color:#333] rounded-lg px-3 hover:bg-white hover:text-black hover:transition-all">Verify</button>
+                            class="bg-neutral-950 border border-[color:#333] rounded-lg px-3 hover:bg-white hover:text-black transition-all ease-in-out duration-300">Create</button>
                     </div>
                     <div id="error_message" class="p-2 text-red-300 invisible">🔥???</div>
                 </div>
@@ -74,9 +78,16 @@
                                 </div>
                                 <div id="better_url" class="w-full whitespace-nowrap overflow-clip hidden"></div>
                             </div>
-                            <button id="copy"
-                                class="bg-neutral-950 border border-[color:#333] rounded-lg px-3 enabled:hover:bg-white enabled:hover:text-black hover:transition-all disabled:text-neutral-600"
-                                disabled>Copy</button>
+
+
+                            <button disabled id="copy"
+                                class="group bg-[color:#333] enabled:bg-gradient-to-r enabled:from-cyan-500 enabled:to-blue-500 p-[1px] rounded-lg">
+                                <div
+                                    class="bg-neutral-950  group-disabled:border-[color:#333] group-disabled:text-neutral-600 align-middle px-3 h-full flex flex-col justify-center rounded-lg group-enabled:hover:bg-opacity-0 transition ease-in-out duration-500">
+                                    Copy</div>
+                            </button>
+
+
                         </div>
                     </div>
                 </div>
@@ -86,7 +97,7 @@
                 <div class="flex flex-row justify-between">
                     <div>Made with ❤️ by <a href="https://github.com/flofriday">flofriday</a></div>
                     <div>
-                        available on <a href="https://github.com/flofriday/better-tiss-calendar">GitHub</a>
+                        on <a href="https://github.com/flofriday/better-tiss-calendar">GitHub</a>
                     </div>
                 </div>
             </div>

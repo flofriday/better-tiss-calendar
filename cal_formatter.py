@@ -19,9 +19,7 @@ class Event:
     room_url: str = ""
 
 
-def improve_calendar(
-    cal: Calendar, noshorthand: bool = False, keepNumber: bool = False
-) -> Calendar:
+def improve_calendar(cal: Calendar, use_shorthand: bool = True) -> Calendar:
     shorthands = read_shorthands()
 
     for component in cal.walk():
@@ -32,7 +30,8 @@ def improve_calendar(
 
         # Parse the event and enrich it
         event = event_from_ical(component)
-        event = add_shorthand(event, shorthands)
+        if use_shorthand:
+            event = add_shorthand(event, shorthands)
 
         # Serialize the summary
         summary = ""
