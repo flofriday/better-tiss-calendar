@@ -1,5 +1,6 @@
 from icalendar import Calendar
 from dataclasses import dataclass
+from functools import cache
 import re
 
 summary_regex = re.compile("([0-9A-Z]{3}\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
@@ -15,13 +16,12 @@ class Event:
     description: str = ""
     address: str = ""
     room: str = ""
+    floor: str = ""
     tiss_url: str = ""
     room_url: str = ""
 
 
 def improve_calendar(cal: Calendar, use_shorthand: bool = True) -> Calendar:
-    shorthands = read_shorthands()
-
     for component in cal.walk():
         if component.name != "VEVENT" or not summary_regex.match(
             component.get("summary")
@@ -31,7 +31,8 @@ def improve_calendar(cal: Calendar, use_shorthand: bool = True) -> Calendar:
         # Parse the event and enrich it
         event = event_from_ical(component)
         if use_shorthand:
-            event = add_shorthand(event, shorthands)
+            event = add_shorthand(event)
+        event = add_location(event)
 
         # Serialize the summary
         summary = ""
@@ -49,7 +50,10 @@ def improve_calendar(cal: Calendar, use_shorthand: bool = True) -> Calendar:
 
         # Serialize the description
         # FIXME: Add something special for HTMl enabled clients
-        description = f"{event.name}\nRoom: {event.room}\n\n{event.description}"
+        description = f"{event.name}\nRoom: {event.room}\n"
+        if event.floor != "":
+            description += f"Floor: {event.floor}\n"
+        description += f"\n{event.description}"
         component.pop("description")
         component.add("description", description)
 
@@ -59,8 +63,6 @@ def improve_calendar(cal: Calendar, use_shorthand: bool = True) -> Calendar:
 def event_from_ical(component) -> Event:
     summary = component.get("summary")
     match = summary_regex.match(summary)
-    print(summary)
-    print(match)
 
     [number, lecture_type, name] = match.groups()
     additional = ""
@@ -80,16 +82,50 @@ def event_from_ical(component) -> Event:
     )
 
 
-def add_shorthand(event: Event, shorthands: dict[str, str]) -> Event:
+def add_shorthand(event: Event) -> Event:
+    shorthands = read_shorthands()
     if event.name.lower() in shorthands:
         event.shorthand = shorthands[event.name.lower()].upper()
     return event
 
 
+def add_location(event: Event) -> Event:
+    rooms = read_rooms()
+    if event.room not in rooms:
+        return event
+
+    (address, floor, url) = rooms[event.room]
+    event.address = address
+    event.floor = floor
+    event.room_url = url
+    return event
+
+
+@cache
 def read_shorthands() -> dict[str, str]:
     with open("resources/shorthands.csv") as f:
         lines = f.readlines()[1:]
     return {l.split(",")[1].lower().strip(): l.split(",")[0].strip() for l in lines}
+
+
+@cache
+def read_rooms() -> dict[str, tuple[str, str, str]]:
+    with open("resources/rooms.csv") as f:
+        lines = f.readlines()
+
+    rooms = {}
+    for line in lines:
+        fields = line.split(";")
+        # FIXME: do something with the floor
+        name, address, floor, url = (
+            fields[0],
+            fields[6].split(",")[0].strip(),
+            fields[6].split(",")[-1].strip(),
+            fields[-1].strip(),
+        )
+        rooms[name] = (address, floor, url)
+
+    return rooms
 
 
 def better_summary(old: str, shorthands: dict[str, str]) -> str:
