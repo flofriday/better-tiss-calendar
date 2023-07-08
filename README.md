@@ -1,5 +1,9 @@
 # better-tiss-calendar
+
+![Screenshot](screenshot.png)
 A better tiss calendar
+
+[Live Website](https://bettercal.flofriday.dev/)
 
 ## Build it yourself
 
