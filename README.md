@@ -26,3 +26,8 @@ flag to the tailwind command.
 **Warning:** The flask server here cannot be used in production and is optimized
 for development comfort.
 
+## How we deploy 
+
+In production we use the [gunicorn](https://gunicorn.org/) server.
+The service is deployed as a systemd user service on a linux box, which is 
+described in `bettercal.service`.
