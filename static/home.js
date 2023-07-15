@@ -7,6 +7,10 @@ const betterText = document.getElementById("better_url");
 const betterTextPlaceholder = document.getElementById("better_url_placeholder");
 const errorText = document.getElementById("error_message");
 const copyText = document.getElementById("copy_feedback");
+const googleCheck = document.getElementById("is_google");
+
+let isDisabled = true;
+let currentUrl = "";
 
 window.onload = () => {
   copyBtn.disabled = true;
@@ -24,6 +28,11 @@ verifyBtn.onclick = async () => {
   await verify(urlText.value.trim());
 };
 
+googleCheck.onchange = () => {
+  if (isDisabled) return;
+  setBetterUrl(currentUrl);
+};
+
 copyBtn.onclick = () => {
   if (copyBtn.disabled) return;
 
@@ -37,6 +46,7 @@ copyBtn.onclick = () => {
 };
 
 async function verify(url) {
+  currentUrl = url;
   try {
     const response = await fetch(`/verify?url=${encodeURIComponent(url)}`);
     if (response.ok) {
@@ -55,6 +65,7 @@ async function verify(url) {
 }
 
 function disableBetterUrl() {
+  isDisabled = true;
   errorText.classList.add("invisible");
   betterText.classList.add("hidden");
   betterTextPlaceholder.classList.remove("hidden");
@@ -67,6 +78,7 @@ function setErrorMessage(message) {
 }
 
 function setBetterUrl(originalUrl) {
+  isDisabled = false;
   errorText.classList.add("invisible");
   betterText.classList.remove("hidden");
   betterTextPlaceholder.classList.add("hidden");
@@ -78,9 +90,12 @@ function setBetterUrl(originalUrl) {
   const locale = searchParams.get("locale");
 
   const domain = window.location.origin;
-  const better_url = `${domain}/personal.ics?token=${encodeURIComponent(
+  let betterUrl = `${domain}/personal.ics?token=${encodeURIComponent(
     token
   )}&locale=${encodeURIComponent(locale)}`;
+  if (googleCheck.checked) {
+    betterUrl += "&google";
+  }
 
-  betterText.innerText = better_url;
+  betterText.innerText = betterUrl;
 }

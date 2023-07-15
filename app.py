@@ -53,8 +53,10 @@ def icalendar():
     if locale is None:
         return "No locale provided", 400
 
+    is_google = "google" in request.args.keys()
+
     url = f"https://tiss.tuwien.ac.at/events/rest/calendar/personal?token={token}&locale={locale}"
     cal = tiss.get_calendar(url)
-    cal = improve_calendar(cal)
+    cal = improve_calendar(cal, google_cal=is_google)
 
     return cal.to_ical(), 200, {"Content-Type": "text/calendar; charset=utf-8"}
