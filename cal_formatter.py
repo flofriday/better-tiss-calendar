@@ -92,10 +92,10 @@ def improve_calendar(
 
         component.add("x-alt-desc;fmttype=text/html", event.html_description())
 
-        # Set some metadata
-        component.pop("prodid")
-        component.add("prodid", "-//flofriday//Better TISS CAL//EN")
-        cal.add("x-wr-calname", "Better TISS")
+    # Set some metadata
+    cal.pop("prodid")
+    cal.add("prodid", "-//flofriday//Better TISS CAL//EN")
+    cal.add("x-wr-calname", "Better TISS")
 
     return cal
 
@@ -111,8 +111,11 @@ def event_from_ical(component) -> Event:
 
     room = component.get("location")
     description = component.get("description")
+
+    # FIXME: We could also set the semester, but that would mean we would need
+    # to calculate the semester.
     tiss_url = (
-        "https://tiss.tuwien.ac.at/course/courseDetails.xhtml&courseNr="
+        "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr="
         + number.strip().replace(".", "")
     )
 
@@ -148,6 +151,9 @@ def add_location(event: Event) -> Event:
 
 @cache
 def read_shorthands() -> dict[str, str]:
+    # FIXME: Shorthands mostly only work when the calendar is in german, we should also
+    # have the english names in shorthands.csv, and simply add both version into
+    # the dict.
     with open("resources/shorthands.csv") as f:
         lines = f.readlines()[1:]
     return {l.split(",")[1].lower().strip(): l.split(",")[0].strip() for l in lines}
