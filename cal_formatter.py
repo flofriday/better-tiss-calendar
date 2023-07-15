@@ -31,6 +31,9 @@ class Event:
     def html_description(self) -> str:
         text = f"<b>{html.escape(self.name)}</b><br>"
 
+        if self.tiss_url != "":
+            text += f'Details: <a href="{self.tiss_url}">TISS</a><br>'
+
         if self.room_url != "":
             text += f'Room: <a href="{self.room_url}">{self.room}</a><br>'
         else:
@@ -38,9 +41,6 @@ class Event:
 
         if self.floor != "":
             text += f"Floor: {self.floor}<br>"
-
-        if self.tiss_url != "":
-            text += f'Details: <a href="{self.tiss_url}">TISS</a><br>'
 
         text += f"<br>{html.escape(self.description)}"
 
@@ -91,6 +91,11 @@ def improve_calendar(
             component.add("description", event.plain_description())
 
         component.add("x-alt-desc;fmttype=text/html", event.html_description())
+
+        # Set some metadata
+        component.pop("prodid")
+        component.add("prodid", "-//flofriday//Better TISS CAL//EN")
+        cal.add("x-wr-calname", "Better TISS")
 
     return cal
 
