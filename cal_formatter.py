@@ -112,7 +112,7 @@ def event_from_ical(component) -> Event:
     room = component.get("location")
     description = component.get("description")
     tiss_url = (
-        "https://tiss.tuwien.ac.at/course/educationDetails.xhtml&courseNr="
+        "https://tiss.tuwien.ac.at/course/courseDetails.xhtml&courseNr="
         + number.strip().replace(".", "")
     )
 
