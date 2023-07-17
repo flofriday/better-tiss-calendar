@@ -1,19 +1,51 @@
-from flask import Flask, render_template, send_from_directory, abort, request
-
+from flask import Flask, render_template, send_from_directory, request, g
 import requests
+import sqlite3
+
 import tiss
-from cal_formatter import improve_calendar
+from format import improve_calendar
+from monitoring import get_statistics, add_usage
 
 app = Flask(__name__)
+
+DATABASE = "bettercal.db"
+
+
+def get_db():
+    db = getattr(g, "_database", None)
+    if db is None:
+        db = g._database = sqlite3.connect(DATABASE)
+        db.execute("pragma journal_mode=wal")
+        db.cursor().executescript(
+            """
+            CREATE TABLE IF NOT EXISTS statistics (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                date TEXT DEFAULT (DATETIME('now')),
+                token_hash TEXT NOT NULL
+            );
+
+            CREATE INDEX IF NOT EXISTS idx_date ON statistics (date);
+            """
+        )
+        db.commit()
+    return db
+
+
+@app.teardown_appcontext
+def close_connection(exception):
+    db = getattr(g, "_database", None)
+    if db is not None:
+        db.close()
 
 
 @app.route("/")
 def home():
-    return render_template("home.html")
+    statistic = get_statistics(get_db())
+    return render_template("home.html", statistic=statistic)
 
 
 @app.route("/static/<path:path>")
-def send_report(path):
+def static_asset(path):
     return send_from_directory("static", path)
 
 
@@ -58,5 +90,8 @@ def icalendar():
     url = f"https://tiss.tuwien.ac.at/events/rest/calendar/personal?token={token}&locale={locale}"
     cal = tiss.get_calendar(url)
     cal = improve_calendar(cal, google_cal=is_google)
+    body = cal.to_ical()
 
-    return cal.to_ical(), 200, {"Content-Type": "text/calendar; charset=utf-8"}
+    add_usage(get_db(), token)
+
+    return body, 200, {"Content-Type": "text/calendar; charset=utf-8"}
