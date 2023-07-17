@@ -3,7 +3,22 @@
 ![Screenshot](screenshot.png)
 A better tiss calendar
 
-[Live Website](https://bettercal.flofriday.dev/)
+[Live Website](https://bettercal.flofriday.dev)
+
+## Features
+
+- Remove lecture number from the title
+- Use shorthands instead of the long name
+- Correct address in the location field, not just the room
+- Floor information
+- Links to TISS and TUW-Maps on HTML enabled clients
+
+## How it works
+
+Calendar clients download subscribed calendars periodically (some even let you 
+set the polling rate). Instead so when a request comes in for a calendar this 
+server downloads the original calendar from tiss and formats all events and 
+enriches them with more information before returning it to the client.
 
 ## Build it yourself
 
@@ -29,5 +44,12 @@ for development comfort.
 ## How we deploy 
 
 In production we use the [gunicorn](https://gunicorn.org/) server.
-The service is deployed as a systemd user service on a linux box, which is 
-described in `bettercal.service`.
+The main branch is automatically deployed as a systemd user service on a linux 
+box. The systemd config can be read in `bettercal.service`.
+
+## Contributing
+
+Contributions are quite welcome, you are awesome. 😊🎉
+
+If you want to add a shorthand for a lecture, the file you need to edit is 
+`ressources/shorthands.csv`.
