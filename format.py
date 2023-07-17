@@ -95,6 +95,7 @@ def improve_calendar(
     # Set some metadata
     cal.pop("prodid")
     cal.add("prodid", "-//flofriday//Better TISS CAL//EN")
+    cal.add("name", "Better TISS")
     cal.add("x-wr-calname", "Better TISS")
 
     return cal
