@@ -17,6 +17,7 @@ class Event:
     description: str = ""
     address: str = ""
     room: str = ""
+    room_code: str = ""
     floor: str = ""
     tiss_url: str = ""
     room_url: str = ""
@@ -31,8 +32,10 @@ class Event:
     def html_description(self) -> str:
         text = f"<b>{html.escape(self.name)}</b><br>"
 
-        if self.tiss_url != "":
-            text += f'Details: <a href="{self.tiss_url}">TISS</a><br>'
+        text += f'Details: <a href="{self.tiss_url}">TISS</a>'
+        if self.room_code != "":
+            text += f', <a href="https://tuw-maps.tuwien.ac.at/?q={self.room_code}#map">TUW-Maps</a>'
+        text += "<br>"
 
         if self.room_url != "":
             text += f'Room: <a href="{self.room_url}">{self.room}</a><br>'
@@ -143,9 +146,10 @@ def add_location(event: Event) -> Event:
     if event.room not in rooms:
         return event
 
-    (address, floor, url) = rooms[event.room]
+    (address, floor, code, url) = rooms[event.room]
     event.address = address
     event.floor = floor
+    event.room_code = code
     event.room_url = url
     return event
 
@@ -161,7 +165,7 @@ def read_shorthands() -> dict[str, str]:
 
 
 @cache
-def read_rooms() -> dict[str, tuple[str, str, str]]:
+def read_rooms() -> dict[str, tuple[str, str, str, str]]:
     with open("resources/rooms.csv") as f:
         lines = f.readlines()
 
@@ -169,12 +173,13 @@ def read_rooms() -> dict[str, tuple[str, str, str]]:
     for line in lines:
         fields = line.split(";")
         # FIXME: do something with the floor
-        name, address, floor, url = (
+        name, address, floor, code, url = (
             fields[0],
             fields[6].split(",")[0].strip(),
             fields[6].split(",")[-1].strip(),
+            fields[7].strip(),
             fields[-1].strip(),
         )
-        rooms[name] = (address, floor, url)
+        rooms[name] = (address, floor, code, url)
 
     return rooms
