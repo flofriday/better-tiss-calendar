@@ -55,6 +55,11 @@ def verify():
     if url is None:
         return "No url provided", 400
 
+    # A better error message if the submitted url is not of the icalendar but
+    # of the html page itself.
+    if url.startswith("https://tiss.tuwien.ac.at/events/personSchedule.xhtml"):
+        return "Almost, the url we need is at the bottom of the page you submitted", 400
+
     # FIXME: Propper url parsing, this could maybe lead to an attack by adding an
     # @ and using it as a username.
     if not url.startswith("https://tiss.tuwien.ac.at/events/rest/calendar/personal"):
