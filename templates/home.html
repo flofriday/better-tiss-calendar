@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -36,21 +36,21 @@
             </div>
             <div class="flex flex-row justify-around mb-12">
                 <div class="my-auto w-[12rem] h-full border border-[color:#666] rounded-2xl text-start p-3">
-                    <div class="text-lg font-bold">183.579 VU Technische Grundlagen der Informatik</div>
-                    <div class="my-1 text-sm">GM 1 Audi. Max.- ARCH-INF</div>
-                    <div class="my-1 text-sm">Vorlesung</div>
+                    <div lang="de" class="text-lg font-bold">183.579 VU Technische Grundlagen der Informatik</div>
+                    <div lang="de" class="my-1 text-sm">GM 1 Audi. Max.- ARCH-INF</div>
+                    <div lang="de" class="my-1 text-sm">Vorlesung</div>
                 </div>
-                <span class="my-auto text-5xl px-2 whitespace-nowrap">➔</span>
+                <span aria-hidden="true" class="my-auto text-5xl px-2 whitespace-nowrap">➔</span>
                 <div class="w-[12rem] h-full rounded-2xl p-[1px] bg-gradient-to-r from-pink-500 to-yellow-500">
                     <div class="w-full h-full bg-black rounded-2xl text-start p-3">
-                        <div class="text-lg font-bold">TGI VU</div>
-                        <div class="my-1 text-sm">Getreidemarkt 9</div>
+                        <div lang="de" class="text-lg font-bold">TGI VU</div>
+                        <div lang="de" class="my-1 text-sm">Getreidemarkt 9</div>
                         <div class="my-1 text-sm">
-                            <strong>Technische Grundlagen der Informatik</strong><br>
-                            Room: <span class="text-blue-400">GM 1 Audi. Max.- ARCH-INF</span><br>
-                            Floor: Erdgeschoss<br>
+                            <strong lang="de">Technische Grundlagen der Informatik</strong><br>
+                            Room: <span lang="de" class="text-blue-400">GM 1 Audi. Max.- ARCH-INF</span><br>
+                            Floor: <span lang="de"> Erdgeschoss</span><br>
                             <br>
-                            Vorlesung
+                            <span lang="de">Vorlesung</span>
                         </div>
                     </div>
                 </div>
@@ -59,9 +59,11 @@
             <!--Original URL-->
             <div class="w-full text-start">
                 <div class="w-full">
-                    <label for="original_url" class="block mb-2 font-medium">
-                        Original calendar url (from
-                        <a href="https://tiss.tuwien.ac.at/events/personSchedule.xhtml">here</a>):
+                    <label for="original_url" class="block mb-2">
+                        <h2 class="font-medium">
+                            Original calendar url (bottom from this
+                            <a href="https://tiss.tuwien.ac.at/events/personSchedule.xhtml">TISS page</a>):
+                        </h2>
                     </label>
                     <div class="w-full flex flex-row space-x-3">
                         <input type="text" id="original_url"
@@ -75,8 +77,8 @@
             </div>
 
             <div class="w-full text-start pb-8">
-                <div class="font-medium">
-                    Options:
+                <div>
+                    <h2 class="font-medium">Options:</h2>
                 </div>
 
                 <input type="checkbox" name="Hey there" id="is_google">
@@ -90,8 +92,8 @@
             <div class="w-full text-start mt-2">
                 <div class="w-full">
                     <div class="flex flex-row justify-between">
-                        <label for="new_url" class="block mb-2 font-medium">
-                            Better calendar url:
+                        <label for="new_url" class="block mb-2">
+                            <h2 class="font-medium">Better calendar url:</h2>
                         </label>
                         <div id="copy_feedback"
                             class="text-teal-300 font-bold text-end text-sm opacity-0 pr-2 select-none">Copied!
