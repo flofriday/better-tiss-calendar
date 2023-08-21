@@ -85,7 +85,6 @@ def icalendar():
     if token is None:
         return "No token provided", 400
 
-    # FIXME: is that required?
     locale = request.args.get("locale")
     if locale is None:
         return "No locale provided", 400
@@ -94,7 +93,7 @@ def icalendar():
 
     url = f"https://tiss.tuwien.ac.at/events/rest/calendar/personal?token={token}&locale={locale}"
     cal = tiss.get_calendar(url)
-    cal = improve_calendar(cal, google_cal=is_google)
+    cal = improve_calendar(cal, google_cal=is_google, locale=locale)
     body = cal.to_ical()
 
     add_usage(get_db(), token)
