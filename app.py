@@ -44,6 +44,12 @@ def home():
     return render_template("home.html", statistic=statistic)
 
 
+@app.route("/statistics")
+def statistic_page():
+    statistic = get_statistics(get_db())
+    return render_template("statistics.html", statistic=statistic)
+
+
 @app.route("/static/<path:path>")
 def static_asset(path):
     return send_from_directory("static", path)

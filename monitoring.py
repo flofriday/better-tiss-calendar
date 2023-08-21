@@ -15,6 +15,7 @@ def add_usage(db: Connection, token: str):
 class statistic:
     daily_users: int
     monthly_users: int
+    total_users: int
     total_usages: int
 
 
@@ -36,8 +37,15 @@ def get_statistics(db: Connection) -> statistic:
     )
     monthly_users = cursor.fetchone()[0]
 
+    # Get all users
+    cursor.execute(
+        """SELECT COUNT(DISTINCT token_hash) AS unique_users
+        FROM statistics;"""
+    )
+    total_users = cursor.fetchone()[0]
+
     # Get total number of rows
     cursor.execute("SELECT COUNT(*) FROM statistics")
     total_rows = cursor.fetchone()[0]
 
-    return statistic(daily_users, monthly_users, total_rows)
+    return statistic(daily_users, monthly_users, total_users, total_rows)
