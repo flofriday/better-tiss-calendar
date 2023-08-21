@@ -41,6 +41,20 @@ flag to the tailwind command.
 **Warning:** The flask server here cannot be used in production and is optimized
 for development comfort.
 
+## Build with Docker
+
+```bash
+docker build -t bettercal .
+docker run -it --rm -p 5000:5000 bettercal
+```
+
+The server should now start at http://localhost:5000
+
+This approach can be used in production. However, statistics will die with the 
+container, but they can be preserved by adding the 
+`--mount type=bind,source="$(pwd)"/bettercal.db,target=/app/bettercal.db` argument to the 
+`docker run` command.
+
 ## How we deploy 
 
 In production we use the [gunicorn](https://gunicorn.org/) server.

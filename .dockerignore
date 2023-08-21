@@ -1,0 +1,5 @@
+bettercal.db
+.venv/
+node_modules/
+__pycache__/
+.github/
