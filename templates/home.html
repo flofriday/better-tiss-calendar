@@ -36,17 +36,21 @@
             </div>
             <div class="flex flex-row justify-around mb-12">
                 <div class="my-auto w-[12rem] h-full border border-[color:#666] rounded-2xl text-start p-3">
-                    <div lang="de" class="text-lg font-bold">183.579 VU Technische Grundlagen der Informatik</div>
+                    <div lang="de" class="text-lg font-bold">183.579 VU Technische Grundlagen der
+                        Informatik</div>
                     <div lang="de" class="my-1 text-sm">GM 1 Audi. Max.- ARCH-INF</div>
                     <div lang="de" class="my-1 text-sm">Vorlesung</div>
                 </div>
                 <span aria-hidden="true" class="my-auto text-5xl px-2 whitespace-nowrap">➔</span>
                 <div class="w-[12rem] h-full rounded-2xl p-[1px] bg-gradient-to-r from-pink-500 to-yellow-500">
                     <div class="w-full h-full bg-black rounded-2xl text-start p-3">
-                        <div lang="de" class="text-lg font-bold">TGI VU</div>
+                        <div lang="de" id="preview-title" class="text-lg font-bold">TGI VU</div>
                         <div lang="de" class="my-1 text-sm">Getreidemarkt 9</div>
                         <div class="my-1 text-sm">
-                            <strong lang="de">Technische Grundlagen der Informatik</strong><br>
+                            <div id="preview-lecturename">
+                                <strong lang="de">Technische Grundlagen der
+                                    Informatik</strong><br>
+                            </div>
                             Room: <span lang="de" class="text-blue-400">GM 1 Audi. Max.- ARCH-INF</span><br>
                             Floor: <span lang="de"> Erdgeschoss</span><br>
                             <br>
@@ -82,11 +86,12 @@
                     <h2 class="font-medium">Options:</h2>
                 </div>
 
-                <input type="checkbox" name="Hey there" id="is_google">
+                <input type="checkbox" name="Google" id="is_google">
                 <label for="is_google" class="text-neutral-400">for Google Calendar</label>
-                <!-- <br>
-                <input type="checkbox" name="Hey there" id="shorthand" checked>
-                <label for="shorthand" class="text-neutral-400">use shorthands</label> -->
+                <br>
+
+                <input type="checkbox" name="Shorthand" id="no_shorthand">
+                <label for="no_shorthand" class="text-neutral-400">disable shorthands</label>
             </div>
 
             <!--Better URL-->

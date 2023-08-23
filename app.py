@@ -96,10 +96,16 @@ def icalendar():
         return "No locale provided", 400
 
     is_google = "google" in request.args.keys()
+    use_shorthand = "noshorthand" not in request.args.keys()
 
     url = f"https://tiss.tuwien.ac.at/events/rest/calendar/personal?token={token}&locale={locale}"
     cal = tiss.get_calendar(url)
-    cal = improve_calendar(cal, google_cal=is_google, locale=locale)
+    cal = improve_calendar(
+        cal,
+        google_cal=is_google,
+        use_shorthand=use_shorthand,
+        locale=locale,
+    )
     body = cal.to_ical()
 
     add_usage(get_db(), token)

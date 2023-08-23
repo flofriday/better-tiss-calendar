@@ -23,14 +23,22 @@ class Event:
     room_url: str = ""
 
     def plain_description_en(self) -> str:
-        text = f"{self.name}\nRoom: {self.room}\n"
+        text = ""
+
+        if self.shorthand != "":
+            text += f"{self.name}\n"
+        text += f"Room: {self.room}\n"
         if self.floor != "":
             text += f"Floor: {self.floor}\n"
         text += f"\n{self.description}"
+
         return text
 
     def html_description_en(self) -> str:
-        text = f"<b>{html.escape(self.name)}</b><br>"
+        text = ""
+
+        if self.shorthand != "":
+            text += f"<b>{html.escape(self.name)}</b><br>"
 
         text += f'Details: <a href="{self.tiss_url}">TISS</a>'
         if self.room_code != "":
@@ -50,14 +58,22 @@ class Event:
         return text
 
     def plain_description_de(self) -> str:
-        text = f"{self.name}\Raum: {self.room}\n"
+        text = ""
+
+        if self.shorthand != "":
+            text += f"{self.name}"
+        text += "\nRaum: {self.room}\n"
         if self.floor != "":
             text += f"Stock: {self.floor}\n"
         text += f"\n{self.description}"
+
         return text
 
     def html_description_de(self) -> str:
-        text = f"<b>{html.escape(self.name)}</b><br>"
+        text = ""
+
+        if self.shorthand != "":
+            text += f"<b>{html.escape(self.name)}</b><br>"
 
         text += f'Details: <a href="{self.tiss_url}">TISS</a>'
         if self.room_code != "":
@@ -222,14 +238,13 @@ def read_rooms() -> dict[str, tuple[str, str, str, str]]:
     rooms = {}
     for line in lines:
         fields = line.split(";")
-        # FIXME: do something with the floor
-        name, address, floor, code, url = (
-            fields[0],
-            fields[6].split(",")[0].strip(),
-            fields[6].split(",")[-1].strip(),
-            fields[7].strip(),
-            fields[-1].strip(),
-        )
+
+        name = fields[0]
+        address = fields[6].split(",")[0].strip()
+        floor = fields[6].split(",")[-1].strip()
+        code = fields[7].strip()
+        url = fields[-1].strip()
+
         rooms[name] = (address, floor, code, url)
 
     return rooms

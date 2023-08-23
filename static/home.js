@@ -8,6 +8,9 @@ const betterTextPlaceholder = document.getElementById("better_url_placeholder");
 const errorText = document.getElementById("error_message");
 const copyText = document.getElementById("copy_feedback");
 const googleCheck = document.getElementById("is_google");
+const noShorthandCheck = document.getElementById("no_shorthand");
+const previewTitle = document.getElementById("preview-title");
+const previewLectureName = document.getElementById("preview-lecturename");
 
 let isDisabled = true;
 let currentUrl = "";
@@ -29,6 +32,18 @@ verifyBtn.onclick = async () => {
 };
 
 googleCheck.onchange = () => {
+  if (isDisabled) return;
+  setBetterUrl(currentUrl);
+};
+
+noShorthandCheck.onchange = () => {
+  if (noShorthandCheck.checked) {
+    previewTitle.innerText = "Technische Grundlagen der Informatik VU";
+  } else {
+    previewTitle.innerText = "TGI VU";
+  }
+  previewLectureName.hidden = noShorthandCheck.checked;
+
   if (isDisabled) return;
   setBetterUrl(currentUrl);
 };
@@ -95,6 +110,9 @@ function setBetterUrl(originalUrl) {
   )}&locale=${encodeURIComponent(locale)}`;
   if (googleCheck.checked) {
     betterUrl += "&google";
+  }
+  if (noShorthandCheck.checked) {
+    betterUrl += "&noshorthand";
   }
 
   betterText.innerText = betterUrl;
