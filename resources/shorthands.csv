@@ -1,86 +1,82 @@
-Shorthand, Lecture
-prolog, Propädeutikum für Informatik
-akmath, Angleichungskurs Mathematik für INF und WINF
-orientierung, Orientierung Informatik und Wirtschaftsinformatik
-adm, Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik
-ana, Analysis für Informatik und Wirtschaftsinformatik
-ep1, Einführung in die Programmierung 1
-dwi, Denkweisen der Informatik
-tgi, Technische Grundlagen der Informatik
-gr-buf, Grundlagen der Betriebs
-gr-org, Grundlagen der Organisation
-klr, Kosten- und Leistungsrechnung
-rw, Rechnungswesen
-fmod, Formale Modellierung
-omod, Objektorientierte Modellierung
-algodat, Algorithmen und Datenstrukturen
-ep2, Einführung in die Programmierung 2
-progpar, Programmierparadigmen
-fmod, Formale Modellierung
-omod, Objektorientierte Modellierung
-algodat, Algorithmen und Datenstrukturen
-ep2, Einführung in die Programmierung 2
-progpar, Programmierparadigmen
-fp, Funktionale Programmierung
-lc, Logikprogrammierung und Constraints
-bs, Betriebssysteme
-am, Abstrakte Maschinen
-parco, Einführung in paralleles Rechnen
-ueb, Übersetzerbau
-evc, Einführung in Visual Computing
-cg, Computergraphik
-edbv, Einführung in die digitale Bildverarbeitung
-multimedia, Multimedia
-vis, Visualisierung
-ecg, Einführung in die Computergraphik
-em, Einführung in die Mustererkennung
-iid, Interface and Interaction Design
-ue, Usability Engineering
-avp, Audio Production and Video Production
-sec, Socially Embedded Computing
-gwg, Gesellschaftswissenschaftliche Grundlagen der Informatik
-dbs, Datenbanksysteme
-ewbs, Einführung in wissensbasierte Systeme
-ssd, Semistrukturierte Daten
-webengineering, Web Engineering
-eai, Einführung in Artificial Intelligence
-ab, Argumentieren und Beweisen
-dp, Deklaratives Problemlösen
-vh, Vertrags- und Haftungsrecht
-gp, Grundlagen der Physik
-introsec, Introduction to Security
-i-crypto, Introduction to Cryptography
-dir, Daten- und Informatikrecht
-pet, Privacy Enhancing Technologies
-sse, Security for Systems Engineering
-mobsec, Mobile Security
-ws, Statistik und Wahrscheinlichkeitstheorie
-sepm, Software Engineering und Projetkmanagement
-vs, Verteilte Systeme VO
-psv, Programm- und Systemverifikation
-sqs, Software-Qualitätssicherung
-til, Theoretische Informatik und Logik
-wa, Wissenschaftliches Arbeiten
-ana2, Analysis 2 für Informatik
-dopp, Datenorientierte Programmierparadigmen
-gir, Grundlagen des Information Retrieval
-pcer, Parallel Computing Einführung paralleles Rechnen
-gmod, Geschäftsprozessmodellierung
-eis, Enterprise Information Systems
-its, IT Strategie
-pw, Privates Wirtschaftsrecht
-gmikroö, Grundlagen der Mikroökonomie
-bo, Betriebswirtschaftliche Optimierung
-im, Innovationsmanagement und Marketing
-gmakroö, Grundlagen der Makroökonomie
-if, Investition und Finanzierung
-edvv, EDV-Vertragsrecht
-etil, Einführung in theoretische Informatik und Logik
-dst, Distributed Systems Technologies
-dync, Dynamic Compilation Dynamische Übersetzer
-foop, Fortgeschrittene objektorientierte Programmierung
-ps, Programmiersprachen
-seps, Seminar aus Programmiersprachen
-aic, Advanced Internet Computing
-fmi, Formale Methoden der Informatik
-ase, Advanced Software Engineering
+Shorthand, Lecture de, Lecture en
+prolog, Propädeutikum für Informatik, N/A 
+akmath, Angleichungskurs Mathematik für INF und WINF, Harmonisation Cours Mathematics for INF and WINF 
+orientierung, Orientierung Informatik und Wirtschaftsinformatik, Orientation Informatics and Business Informatics
+adm, Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik, N/A
+ana, Analysis für Informatik und Wirtschaftsinformatik, Analysis for Computer Science
+ep1, Einführung in die Programmierung 1, Introduction to Programming 1
+dwi, Denkweisen der Informatik, ways of thinking in informatics
+tgi, Technische Grundlagen der Informatik, Fundamentals of Digital Systems 
+gr-buf, Grundlagen der Betriebs- und Unternehmensführung, Fundamentals of Business Management 
+gr-org, Grundlagen der Organisation, Organization
+klr, Kosten- und Leistungsrechnung, Cost Accounting
+rw, Rechnungswesen, Accounting
+fmod, Formale Modellierung, Formal Modelling
+omod, Objektorientierte Modellierung, Object-oriented modeling 
+algodat, Algorithmen und Datenstrukturen, Algorithms and Data Structures
+ep2, Einführung in die Programmierung 2, Introduction to Programming 2 
+progpar, Programmierparadigmen, Programming Paradigms
+fp, Funktionale Programmierung, Functional Programming
+lc, Logikprogrammierung und Constraints, Logic programming and constraints
+bs, Betriebssysteme, Operating Systems
+am, Abstrakte Maschinen, Abstract Machines
+parco, Parallel Computing, N/A
+ueb, Übersetzerbau, Compilers 
+evc, Einführung in Visual Computing, Introduction to Visual Computing 
+cg, Computergraphik, Computer Graphics 
+edbv, Einführung in die digitale Bildverarbeitung, Introduction to Digital Image Processing
+multimedia, Multimedia, N/A
+vis, Visualisierung 1, Visualization 1
+vis2, Visualisierung 2, Visualization 2
+ecg, Einführung in die Computergraphik, Introduction to Computer Graphics 
+em, Einführung in die Mustererkennung, Introduction to Pattern Recognition
+iid, Interface and Interaction Design, N/A
+ue, Usability Engineering, N/A
+avp, Audio Production and Video Production, N/A
+sec, Socially Embedded Computing, N/A
+gwg, Gesellschaftswissenschaftliche Grundlagen der Informatik, Social issues in computing
+dbs, Datenbanksysteme, Data Base Systems
+ewbs, Einführung in wissensbasierte Systeme, Introduction to Knowledge-based Systems 
+ssd, Semistrukturierte Daten, Semistructured Data 
+webengineering, Web Engineering, N/A
+eai, Einführung in Artificial Intelligence, Introduction to Artificial Intelligence 
+ab, Argumentieren und Beweisen, Argumentation and Proof 
+dp, Deklaratives Problemlösen, Declarative Problem Solving
+vh, Vertrags- und Haftungsrecht, Contract and liability law 
+gp, Grundlagen der Physik, Introduction to basic physics for computer science students 
+introsec, Introduction to Security, N/A
+i-crypto, Introduction to Cryptography, N/A
+dir, Daten- und Informatikrecht, Data and Information Law 
+pet, Privacy Enhancing Technologies, N/A
+sse, Security for Systems Engineering, N/A
+mobsec, Mobile Security, N/A
+ws, Statistik und Wahrscheinlichkeitstheorie, Statistics and Probability Theory 
+sepm, Software Engineering und Projetkmanagement, Software Engineering and Project Management
+vs, Verteilte Systeme, Distributed Systems
+psv, Programm- und Systemverifikation, Program and System Verification 
+sqs, Software-Qualitätssicherung, Software Quality Assurance 
+til, Theoretische Informatik und Logik, Theoretical Computer Science and Logics
+wa, Wissenschaftliches Arbeiten, Scientific Research and Writing
+ana2, Analysis 2 für Informatik, Analysis 2
+dopp, Datenorientierte Programmierparadigmen, Data-oriented Programming Paradigms
+gir, Grundlagen des Information Retrieval, Introduction to Information Retrieval
+pcer, Parallel Computing Einführung paralleles Rechnen, N/A
+gmod, Geschäftsprozessmodellierung, Enterprise Modeling
+eis, Enterprise Information Systems, N/A
+its, IT Strategie, IT Strategy
+pw, Privates Wirtschaftsrecht, Private Law
+bo, Betriebswirtschaftliche Optimierung, Optimization in Business and Economics
+im, Innovationsmanagement und Marketing, Innovation Management and Marketing
+gmakroö, Grundlagen der Makroökonomie, Principles of Macroeconomics
+if, Investition und Finanzierung 1, Investment and Financing 1 
+if2, Investition und Finanzierung 2, Investment and Financing 2 
+edvv, EDV-Vertragsrecht, Law of IT-Contracts 
+etil, Einführung in theoretische Informatik und Logik, Introduction to Theoretical Computer Science and Logics 
+dst, Distributed Systems Technologies, N/A
+dync, Dynamic Compilation Dynamische Übersetzer, Dynamic Compilation 
+foop, Fortgeschrittene objektorientierte Programmierung, Advanced Object-Oriented Programming
+ps, Programmiersprachen, Programming Languages
+seps, Seminar aus Programmiersprachen, Programming languages seminar
+aic, Advanced Internet Computing, N/A
+fmi, Formale Methoden der Informatik, Formal Methods in Computer Science 
+ase, Advanced Software Engineering, N/A

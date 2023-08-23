@@ -196,11 +196,22 @@ def add_location(event: Event) -> Event:
 
 @cache
 def read_shorthands() -> dict[str, str]:
-    # FIXME: Shorthands mostly only work when the calendar is in german, we
-    # should therefore make the key not the german name but the lecture number
     with open("resources/shorthands.csv") as f:
+        # The first line is a header
         lines = f.readlines()[1:]
-    return {l.split(",")[1].lower().strip(): l.split(",")[0].strip() for l in lines}
+
+    shorthands = {}
+    for line in lines:
+        shorthand, lecture_de, lecture_en = line.split(",")
+        lecture_de = lecture_de.lower().strip()
+        lecture_en = lecture_en.lower().strip()
+
+        if lecture_de != "" and lecture_de != "N/A":
+            shorthands[lecture_de] = shorthand
+        if lecture_en != "" and lecture_en != "N/A":
+            shorthands[lecture_en] = shorthand
+
+    return shorthands
 
 
 @cache
