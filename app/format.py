@@ -62,7 +62,7 @@ class Event:
 
         if self.shorthand != "":
             text += f"{self.name}"
-        text += "\nRaum: {self.room}\n"
+        text += f"\nRaum: {self.room}\n"
         if self.floor != "":
             text += f"Stock: {self.floor}\n"
         text += f"\n{self.description}"
