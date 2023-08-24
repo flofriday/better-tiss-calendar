@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from functools import cache
 import re
 
-summary_regex = re.compile("([0-9A-Z]{3}\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
+summary_regex = re.compile("([0-9A-Z]{3}\\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
 
 
 @dataclass(kw_only=True)
