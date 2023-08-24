@@ -21,7 +21,7 @@ jobs:
           cd better-tiss-calendar
           git pull
           npm install
-          npx tailwindcss --minify -i templates/template.css -o static/style.css
+          npx tailwindcss --minify -i app/templates/template.css -o app/static/style.css
           source .venv/bin/activate
           python -m pip install -r requirements.txt
           systemctl --user restart bettercal.service

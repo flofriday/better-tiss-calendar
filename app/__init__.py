@@ -2,9 +2,9 @@ from flask import Flask, render_template, send_from_directory, request, g
 import requests
 import sqlite3
 
-import tiss
-from format import improve_calendar
-from monitoring import get_statistics, add_usage
+import app.tiss as tiss
+from app.format import improve_calendar
+from app.monitoring import get_statistics, add_usage
 
 app = Flask(__name__)
 
@@ -14,8 +14,12 @@ DATABASE = "bettercal.db"
 def get_db():
     db = getattr(g, "_database", None)
     if db is None:
-        db = g._database = sqlite3.connect(DATABASE)
-        db.execute("PRAGMA journal_mode=WAL;")
+        if app.config["TESTING"]:
+            db = g._database = sqlite3.connect(":memory:")
+        else:
+            db = g._database = sqlite3.connect(DATABASE)
+            db.execute("PRAGMA journal_mode=WAL;")
+
         db.cursor().executescript(
             """
             CREATE TABLE IF NOT EXISTS statistics (

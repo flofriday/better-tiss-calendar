@@ -2,7 +2,7 @@ FROM node:latest as tailwindbuild
 WORKDIR /app
 COPY . .
 RUN npm install
-RUN npx tailwindcss -i templates/template.css -o static/style.css
+RUN npx tailwindcss -i app/templates/template.css -o app/static/style.css
 
 FROM python:latest as pythonbuild
 WORKDIR /app

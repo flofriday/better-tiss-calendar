@@ -212,7 +212,7 @@ def add_location(event: Event) -> Event:
 
 @cache
 def read_shorthands() -> dict[str, str]:
-    with open("resources/shorthands.csv") as f:
+    with open("app/resources/shorthands.csv") as f:
         # The first line is a header
         lines = f.readlines()[1:]
 
@@ -232,7 +232,7 @@ def read_shorthands() -> dict[str, str]:
 
 @cache
 def read_rooms() -> dict[str, tuple[str, str, str, str]]:
-    with open("resources/rooms.csv") as f:
+    with open("app/resources/rooms.csv") as f:
         lines = f.readlines()
 
     rooms = {}
