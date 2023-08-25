@@ -1,5 +1,6 @@
 from flask.testing import FlaskClient
 from icalendar import Calendar
+import re
 
 
 def get_test_calendar(lang: str = "de"):
@@ -8,6 +9,10 @@ def get_test_calendar(lang: str = "de"):
     with open(f"tests/calendar_{lang}.ics") as f:
         cal = Calendar.from_ical(f.read())
     return cal
+
+
+def calendar_event_cnt(cal: Calendar) -> int:
+    return sum([1 for c in cal.walk() if c.name == "VEVENT"])
 
 
 def calendar_summaries(cal: Calendar) -> [str]:
@@ -50,7 +55,8 @@ def test_verify_success(client: FlaskClient, mocker):
 
 
 def test_icalendar_de_success(client: FlaskClient, mocker):
-    mocker.patch("app.tiss.get_calendar", return_value=get_test_calendar(lang="de"))
+    testcal = get_test_calendar(lang="de")
+    mocker.patch("app.tiss.get_calendar", return_value=testcal)
 
     response = client.get(
         "/personal.ics?locale=de&token=justATestingTokenObviouslyNotReal"
@@ -58,19 +64,39 @@ def test_icalendar_de_success(client: FlaskClient, mocker):
     assert response.status_code == 200
 
     cal = Calendar.from_ical(response.data)
-    assert "PS VU" in calendar_summaries(cal)
-    assert "SEPS SE" in calendar_summaries(cal)
-    assert any(["Programmiersprachen" in d for d in calendar_descriptions(cal)])
-    assert not any(["Programming Languages" in d for d in calendar_descriptions(cal)])
-    assert all(["Raum:" in d for d in calendar_descriptions(cal)])
-    assert not any(["Room:" in d for d in calendar_descriptions(cal)])
-    assert any(["Stock:" in d for d in calendar_descriptions(cal)])
-    assert not any(["Floor:" in d for d in calendar_descriptions(cal)])
-    assert not any(["<b>" in d for d in calendar_descriptions(cal)])
+    summaries = calendar_summaries(cal)
+    descriptions = calendar_descriptions(cal)
+
+    # Number of events
+    assert calendar_event_cnt(testcal) == calendar_event_cnt(cal)
+
+    # Shorthands
+    assert "PS VU" in summaries
+    assert "SEPS SE" in summaries
+
+    # Correct Language
+    assert any(["Programmiersprachen" in d for d in descriptions])
+    assert not any(["Programming Languages" in d for d in descriptions])
+    assert all(["Raum:" in d for d in descriptions])
+    assert not any(["Room:" in d for d in descriptions])
+    assert any(["Stock:" in d for d in descriptions])
+    assert not any(["Floor:" in d for d in descriptions])
+
+    # No HTML
+    assert not any(["<b>" in d for d in descriptions])
+
+    # No left template strings
+    assert not any(
+        [
+            re.fullmatch(".*\\{.*\\}.*", d) is not None in d
+            for d in calendar_descriptions(cal)
+        ]
+    )
 
 
 def test_icalendar_en_success(client: FlaskClient, mocker):
-    mocker.patch("app.tiss.get_calendar", return_value=get_test_calendar(lang="en"))
+    testcal = get_test_calendar(lang="en")
+    mocker.patch("app.tiss.get_calendar", return_value=testcal)
 
     response = client.get(
         "/personal.ics?locale=en&token=justATestingTokenObviouslyNotReal"
@@ -78,19 +104,39 @@ def test_icalendar_en_success(client: FlaskClient, mocker):
     assert response.status_code == 200
 
     cal = Calendar.from_ical(response.data)
-    assert "PS VU" in calendar_summaries(cal)
-    assert "SEPS SE" in calendar_summaries(cal)
-    assert any(["Programming Languages" in d for d in calendar_descriptions(cal)])
-    assert not any(["Programmiersprachen" in d for d in calendar_descriptions(cal)])
-    assert any(["Room:" in d for d in calendar_descriptions(cal)])
-    assert not all(["Raum:" in d for d in calendar_descriptions(cal)])
-    assert any(["Floor:" in d for d in calendar_descriptions(cal)])
-    assert not any(["Stock:" in d for d in calendar_descriptions(cal)])
-    assert not any(["<b>" in d for d in calendar_descriptions(cal)])
+    summaries = calendar_summaries(cal)
+    descriptions = calendar_descriptions(cal)
+
+    # Number of events
+    assert calendar_event_cnt(testcal) == calendar_event_cnt(cal)
+
+    # Shorthands
+    assert "PS VU" in summaries
+    assert "SEPS SE" in summaries
+
+    # Correct language
+    assert any(["Programming Languages" in d for d in descriptions])
+    assert not any(["Programmiersprachen" in d for d in descriptions])
+    assert any(["Room:" in d for d in descriptions])
+    assert not all(["Raum:" in d for d in descriptions])
+    assert any(["Floor:" in d for d in descriptions])
+    assert not any(["Stock:" in d for d in descriptions])
+
+    # No HTML
+    assert not any(["<b>" in d for d in descriptions])
+
+    # No left template strings
+    assert not any(
+        [
+            re.fullmatch(".*\\{.*\\}.*", d) is not None in d
+            for d in calendar_descriptions(cal)
+        ]
+    )
 
 
 def test_icalendar_forgoogle_de_success(client: FlaskClient, mocker):
-    mocker.patch("app.tiss.get_calendar", return_value=get_test_calendar(lang="de"))
+    testcal = get_test_calendar(lang="de")
+    mocker.patch("app.tiss.get_calendar", return_value=testcal)
 
     response = client.get(
         "/personal.ics?locale=de&token=justATestingTokenObviouslyNotReal&google"
@@ -98,19 +144,39 @@ def test_icalendar_forgoogle_de_success(client: FlaskClient, mocker):
     assert response.status_code == 200
 
     cal = Calendar.from_ical(response.data)
-    assert "PS VU" in calendar_summaries(cal)
-    assert "SEPS SE" in calendar_summaries(cal)
-    assert any(["Programmiersprachen" in d for d in calendar_descriptions(cal)])
-    assert not any(["Programming Languages" in d for d in calendar_descriptions(cal)])
-    assert all(["Raum:" in d for d in calendar_descriptions(cal)])
-    assert not any(["Room:" in d for d in calendar_descriptions(cal)])
-    assert any(["Stock:" in d for d in calendar_descriptions(cal)])
-    assert not any(["Floor:" in d for d in calendar_descriptions(cal)])
-    assert any(["<b>" in d for d in calendar_descriptions(cal)])
+    summaries = calendar_summaries(cal)
+    descriptions = calendar_descriptions(cal)
+
+    # Number of events
+    assert calendar_event_cnt(testcal) == calendar_event_cnt(cal)
+
+    # Shorthands
+    assert "PS VU" in summaries
+    assert "SEPS SE" in summaries
+
+    # Correct Language
+    assert any(["Programmiersprachen" in d for d in descriptions])
+    assert not any(["Programming Languages" in d for d in descriptions])
+    assert all(["Raum:" in d for d in descriptions])
+    assert not any(["Room:" in d for d in descriptions])
+    assert any(["Stock:" in d for d in descriptions])
+    assert not any(["Floor:" in d for d in descriptions])
+
+    # HTML in description
+    assert any(["<b>" in d for d in descriptions])
+
+    # No left template strings
+    assert not any(
+        [
+            re.fullmatch(".*\\{.*\\}.*", d) is not None in d
+            for d in calendar_descriptions(cal)
+        ]
+    )
 
 
 def test_icalendar_forgoogle_en_success(client: FlaskClient, mocker):
-    mocker.patch("app.tiss.get_calendar", return_value=get_test_calendar(lang="en"))
+    testcal = get_test_calendar(lang="en")
+    mocker.patch("app.tiss.get_calendar", return_value=testcal)
 
     response = client.get(
         "/personal.ics?locale=en&token=justATestingTokenObviouslyNotReal&google"
@@ -118,19 +184,39 @@ def test_icalendar_forgoogle_en_success(client: FlaskClient, mocker):
     assert response.status_code == 200
 
     cal = Calendar.from_ical(response.data)
-    assert "PS VU" in calendar_summaries(cal)
-    assert "SEPS SE" in calendar_summaries(cal)
-    assert any(["Programming Languages" in d for d in calendar_descriptions(cal)])
-    assert not any(["Programmiersprachen" in d for d in calendar_descriptions(cal)])
-    assert any(["Room:" in d for d in calendar_descriptions(cal)])
-    assert not all(["Raum:" in d for d in calendar_descriptions(cal)])
-    assert any(["Floor:" in d for d in calendar_descriptions(cal)])
-    assert not any(["Stock:" in d for d in calendar_descriptions(cal)])
-    assert any(["<b>" in d for d in calendar_descriptions(cal)])
+    summaries = calendar_summaries(cal)
+    descriptions = calendar_descriptions(cal)
+
+    # Number of events
+    assert calendar_event_cnt(testcal) == calendar_event_cnt(cal)
+
+    # Shorthands
+    assert "PS VU" in summaries
+    assert "SEPS SE" in summaries
+
+    # Correct language
+    assert any(["Programming Languages" in d for d in descriptions])
+    assert not any(["Programmiersprachen" in d for d in descriptions])
+    assert any(["Room:" in d for d in descriptions])
+    assert not all(["Raum:" in d for d in descriptions])
+    assert any(["Floor:" in d for d in descriptions])
+    assert not any(["Stock:" in d for d in descriptions])
+
+    # HTML in description
+    assert any(["<b>" in d for d in descriptions])
+
+    # No left template strings
+    assert not any(
+        [
+            re.fullmatch(".*\\{.*\\}.*", d) is not None in d
+            for d in calendar_descriptions(cal)
+        ]
+    )
 
 
 def test_icalendar_noshorthands_de_success(client: FlaskClient, mocker):
-    mocker.patch("app.tiss.get_calendar", return_value=get_test_calendar(lang="de"))
+    testcal = get_test_calendar(lang="de")
+    mocker.patch("app.tiss.get_calendar", return_value=testcal)
 
     response = client.get(
         "/personal.ics?locale=de&token=justATestingTokenObviouslyNotReal&noshorthand"
@@ -138,12 +224,31 @@ def test_icalendar_noshorthands_de_success(client: FlaskClient, mocker):
     assert response.status_code == 200
 
     cal = Calendar.from_ical(response.data)
-    assert "PS VU" not in calendar_summaries(cal)
-    assert "SEPS SE" not in calendar_summaries(cal)
-    assert not any(["Programmiersprachen" in d for d in calendar_descriptions(cal)])
-    assert not any(["Programming Languages" in d for d in calendar_descriptions(cal)])
-    assert all(["Raum:" in d for d in calendar_descriptions(cal)])
-    assert not any(["Room:" in d for d in calendar_descriptions(cal)])
-    assert any(["Stock:" in d for d in calendar_descriptions(cal)])
-    assert not any(["Floor:" in d for d in calendar_descriptions(cal)])
-    assert not any(["<b>" in d for d in calendar_descriptions(cal)])
+    summaries = calendar_summaries(cal)
+    descriptions = calendar_descriptions(cal)
+
+    # Number of events
+    assert calendar_event_cnt(testcal) == calendar_event_cnt(cal)
+
+    # No shorthands
+    assert "PS VU" not in summaries
+    assert "SEPS SE" not in summaries
+
+    # Correct language
+    assert not any(["Programmiersprachen" in d for d in descriptions])
+    assert not any(["Programming Languages" in d for d in descriptions])
+    assert all(["Raum:" in d for d in descriptions])
+    assert not any(["Room:" in d for d in descriptions])
+    assert any(["Stock:" in d for d in descriptions])
+    assert not any(["Floor:" in d for d in descriptions])
+
+    # No HTML
+    assert not any(["<b>" in d for d in descriptions])
+
+    # No left template strings
+    assert not any(
+        [
+            re.fullmatch(".*\\{.*\\}.*", d) is not None in d
+            for d in calendar_descriptions(cal)
+        ]
+    )
