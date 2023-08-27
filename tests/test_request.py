@@ -27,8 +27,7 @@ def calendar_descriptions(cal: Calendar) -> [str]:
 def test_home_page(client: FlaskClient):
     response = client.get("/")
     assert response.status_code == 200
-    assert b"flofriday" in response.data
-    assert b"Used by 0 students" in response.data
+    assert b"Original calendar url" in response.data
 
 
 def test_verify_bad_url(client: FlaskClient, mocker):
