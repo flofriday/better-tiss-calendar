@@ -234,9 +234,11 @@ def test_icalendar_noshorthands_de_success(client: FlaskClient, mocker):
     assert "PS VU" not in summaries
     assert "SEPS SE" not in summaries
 
-    # Correct language
+    # No full lecture name in description if already in title
     assert not any(["Programmiersprachen" in d for d in descriptions])
     assert not any(["Programming Languages" in d for d in descriptions])
+
+    # Correct language
     assert all(["Raum:" in d for d in descriptions])
     assert not any(["Room:" in d for d in descriptions])
     assert any(["Stock:" in d for d in descriptions])

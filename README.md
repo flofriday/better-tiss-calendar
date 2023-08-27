@@ -1,17 +1,22 @@
 # better-tiss-calendar
 
 ![Screenshot](screenshot.png)
-A better tiss calendar
+TISS is the information service of TU Wien which exports a suboptimal calendar 
+of events (like lectures). This project improves the calendar by rewriting the
+events and enriching them with useful information.
 
 [Live Website](https://bettercal.flofriday.dev)
 
 ## Features
 
 - Remove lecture number from the title
-- Use shorthands instead of the long name
+- Use shorthands instead of the long name (optional)
 - Correct address in the location field, not just the room
 - Floor information
 - Links to TISS and TUW-Maps on HTML enabled clients
+- Drop in replacement
+- Easy setup: no login, no account and no rage inducing captchas
+- Self-hosting friendly 
 
 ## How it works
 

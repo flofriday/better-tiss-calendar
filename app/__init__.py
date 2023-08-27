@@ -44,8 +44,7 @@ def close_connection(exception):
 
 @app.route("/")
 def home():
-    statistic = get_statistics(get_db())
-    return render_template("home.html", statistic=statistic)
+    return render_template("home.html")
 
 
 @app.route("/statistics")
