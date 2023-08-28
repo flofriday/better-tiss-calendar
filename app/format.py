@@ -243,7 +243,7 @@ def read_rooms() -> dict[str, tuple[str, str, str, str]]:
         address = fields[6].split(",")[0].strip()
         floor = fields[6].split(",")[-1].strip()
         code = fields[7].strip()
-        url = fields[-1].strip()
+        url = fields[8].strip()
 
         rooms[name] = (address, floor, code, url)
 
