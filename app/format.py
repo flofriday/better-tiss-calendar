@@ -126,7 +126,7 @@ def improve_calendar(
         # Serialize the address
         if event.address != "":
             component.pop("location")
-            component.add("location", event.address)
+            component.add("location", event.address + ", " + event.room)
 
         # Serialize the description
         if locale == "en":
@@ -194,6 +194,19 @@ def add_shorthand(event: Event) -> Event:
     shorthands = read_shorthands()
     if event.name.lower() in shorthands:
         event.shorthand = shorthands[event.name.lower()].upper()
+    else:
+        event = add_shorthand_fallback(event)
+    return event
+
+
+def add_shorthand_fallback(event: Event) -> Event:
+    iter = filter(lambda w: len(w) > 1 and w[0].isupper(), event.name.split(" "))
+    iter = map(lambda w: w[0], iter)
+    shorthand = "".join(iter)
+
+    # The generated shorthand can be somewhat bad so lets add some checks:
+    if len(shorthand) >= 2:
+        event.shorthand = shorthand
     return event
 
 
