@@ -36,8 +36,9 @@ def main():
                 cells = row.find_elements(By.CSS_SELECTOR, "td")
                 room = [cell.text for cell in cells]
                 room.append(
-                    "https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode="
-                    + room[7]
+                    cells[0]
+                    .find_elements(By.CSS_SELECTOR, "a")[0]
+                    .get_attribute("href")
                 )
                 data.append(room)
 
