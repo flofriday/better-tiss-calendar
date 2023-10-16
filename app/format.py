@@ -126,7 +126,7 @@ def improve_calendar(
         # Serialize the address
         if event.address != "":
             component.pop("location")
-            component.add("location", event.address + ", " + event.room)
+            component.add("location", event.address)
 
         # Serialize the description
         if locale == "en":
