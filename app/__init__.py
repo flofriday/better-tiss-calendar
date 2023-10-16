@@ -1,10 +1,11 @@
+import json
 from flask import Flask, render_template, send_from_directory, request, g
 import requests
 import sqlite3
 
 import app.tiss as tiss
 from app.format import improve_calendar
-from app.monitoring import get_statistics, add_usage
+from app.monitoring import get_statistics, add_usage, get_chart_data
 
 app = Flask(__name__)
 
@@ -50,7 +51,10 @@ def home():
 @app.route("/statistics")
 def statistic_page():
     statistic = get_statistics(get_db())
-    return render_template("statistics.html", statistic=statistic)
+    chart_data = get_chart_data(get_db())
+    return render_template(
+        "statistics.html", statistic=statistic, chart_data=json.dumps(chart_data)
+    )
 
 
 @app.route("/static/<path:path>")

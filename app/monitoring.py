@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from sqlite3 import Connection
 import hashlib
+from typing import Tuple
 
 
 def add_usage(db: Connection, token: str):
@@ -49,3 +50,17 @@ def get_statistics(db: Connection) -> statistic:
     total_rows = cursor.fetchone()[0]
 
     return statistic(daily_users, monthly_users, total_users, total_rows)
+
+
+def get_chart_data(db: Connection) -> list[Tuple[str, int]]:
+    # Get daily active users
+    cursor = db.cursor()
+    cursor.execute(
+        """
+        SELECT strftime('%Y-%m-%d', date) AS day, COUNT(DISTINCT token_hash) AS unique_token_count
+        FROM statistics
+        GROUP BY day;
+        """
+    )
+    rows = cursor.fetchall()
+    return rows
