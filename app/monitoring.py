@@ -57,9 +57,19 @@ def get_chart_data(db: Connection) -> list[Tuple[str, int]]:
     cursor = db.cursor()
     cursor.execute(
         """
-        SELECT strftime('%Y-%m-%d', date) AS day, COUNT(DISTINCT token_hash) AS unique_token_count
-        FROM statistics
-        GROUP BY day;
+            SELECT strftime('%Y-%m-%d', s.date) AS day,
+                    COUNT(DISTINCT token_hash) AS 'daily',
+                    (SELECT COUNT(DISTINCT token_hash)
+                    FROM statistics s2
+                    WHERE Date(s2.date) <= Date(s.date) AND Date(s2.date) >= DATE( s.date, '-30 days')
+                ) AS 'monbthly',
+                (SELECT COUNT(DISTINCT token_hash)
+                    FROM statistics s3
+                    WHERE Date(s3.date) <=  Date(s.date)
+                ) AS 'total'
+            FROM statistics s
+            GROUP BY day
+            ORDER BY day
         """
     )
     rows = cursor.fetchall()

@@ -32,21 +32,23 @@
 
   <body class="h-screen">
     <div class="h-full flex flex-col justify-between">
-      <main class="container w-full max-w-[40rem] mx-auto px-4 text-center">
-        <h1 class="text-6xl font-bold pt-12 pb-6 leading-snug">Statistics</h1>
+      <main class="container w-full mx-auto px-4 text-center">
+        <div class="max-x-[40rem] w-full">
+          <h1 class="text-6xl font-bold pt-12 pb-6 leading-snug">Statistics</h1>
 
-        <ul>
-          <li>Daily active users: {{statistic.daily_users}}</li>
-          <li>Montly active users: {{statistic.monthly_users}}</li>
-          <li>Total users: {{statistic.total_users}}</li>
-        </ul>
+          <ul>
+            <li>Daily active users: {{statistic.daily_users}}</li>
+            <li>Montly active users: {{statistic.monthly_users}}</li>
+            <li>Total users: {{statistic.total_users}}</li>
+          </ul>
+        </div>
 
-        <div class="pt-8 w-full">
+        <div class="pt-8 w-full mx-auto md:max-w-[75vw]">
           <canvas id="dailyChart"></canvas>
         </div>
       </main>
       <footer
-        class="bg-neutral-900 border-t-2 border-t-[color:#333] p-4 text-sm text-neutral-400 mt-16"
+        class="max-x-[40rem] w-full bg-neutral-900 border-t-2 border-t-[color:#333] p-4 text-sm text-neutral-400 mt-16"
       >
         <div class="container w-full max-w-lg mx-auto">
           <div class="flex flex-row justify-between">
@@ -66,7 +68,7 @@
     </div>
     <!-- prettier-ignore -->
     <script>
-        let daily_data = {{ chart_data | safe }};
+        let chart_data = {{ chart_data | safe }};
     </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="/static/statistics.js"></script>
