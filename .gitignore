@@ -3,3 +3,4 @@ __pycache__/
 node_modules/
 app/static/style.css
 bettercal.db*
+.DS_Store
