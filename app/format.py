@@ -223,7 +223,7 @@ def add_location(event: Event) -> Event:
     event.floor = floor
     event.room_code = code
     event.room_url = url
-    event.map_url = (f"https://tuw-maps.tuwien.ac.at/?q={code}#map",)
+    event.map_url = f"https://tuw-maps.tuwien.ac.at/?q={code}#map"
     return event
 
 
