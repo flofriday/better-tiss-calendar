@@ -21,12 +21,14 @@ class Event:
     floor: str = ""
     tiss_url: str = ""
     room_url: str = ""
+    map_url: str = ""
 
     def plain_description_en(self) -> str:
         text = ""
 
         if self.shorthand != "":
             text += f"{self.name}\n"
+
         text += f"Room: {self.room}\n"
         if self.floor != "":
             text += f"Floor: {self.floor}\n"
@@ -40,13 +42,13 @@ class Event:
         if self.shorthand != "":
             text += f"<b>{html.escape(self.name)}</b><br>"
 
-        text += f'Details: <a href="{self.tiss_url}">TISS</a>'
-        if self.room_code != "":
-            text += f', <a href="https://tuw-maps.tuwien.ac.at/?q={self.room_code}#map">TUW-Maps</a>'
+        text += f'Details: <a href="{self.tiss_url}">Lecture</a>'
+        if self.room_url != "":
+            text += f', <a href="{self.room_url}">Room-Schedule</a>'
         text += "<br>"
 
-        if self.room_url != "":
-            text += f'Room: <a href="{self.room_url}">{self.room}</a><br>'
+        if self.map_url != "":
+            text += f'Room: <a href="{self.map_url}">{self.room}</a><br>'
         else:
             text += f"Room: {self.room}<br>"
 
@@ -75,13 +77,13 @@ class Event:
         if self.shorthand != "":
             text += f"<b>{html.escape(self.name)}</b><br>"
 
-        text += f'Details: <a href="{self.tiss_url}">TISS</a>'
-        if self.room_code != "":
-            text += f', <a href="https://tuw-maps.tuwien.ac.at/?q={self.room_code}#map">TUW-Maps</a>'
+        text += f'Details: <a href="{self.tiss_url}">LVA</a>'
+        if self.room_url != "":
+            text += f', <a href="{self.room_url}">Raum Reservierung</a>'
         text += "<br>"
 
-        if self.room_url != "":
-            text += f'Raum: <a href="{self.room_url}">{self.room}</a><br>'
+        if self.map_url != "":
+            text += f'Raum: <a href="{self.map_url}">{self.room}</a><br>'
         else:
             text += f"Raum: {self.room}<br>"
 
@@ -148,6 +150,7 @@ def improve_calendar(
             component.add("description", html_description)
         else:
             component.add("description", plain_description)
+            component.add("url", event.map_url)
 
         component.add("x-alt-desc;fmttype=text/html", html_description)
 
@@ -220,6 +223,7 @@ def add_location(event: Event) -> Event:
     event.floor = floor
     event.room_code = code
     event.room_url = url
+    event.map_url = (f"https://tuw-maps.tuwien.ac.at/?q={code}#map",)
     return event
 
 
