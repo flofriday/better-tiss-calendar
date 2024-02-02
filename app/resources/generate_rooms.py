@@ -1,3 +1,6 @@
+# This script creates the files rooms.csv.
+# It does this automatically by the room UI from tiss and extracting the information from there.
+# To run this you first need to: pip install selenium
 import csv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -8,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 def main():
     TISS_ROOM_LINK = "https://tiss.tuwien.ac.at/events/selectRoom.xhtml"
     NAVIGATION_BUTTON_SELECTOR = ".ui-paginator-pages > *"
-    TABLE_ROW_SELECTOR = "#tableForm\:roomTbl_data > *"
+    TABLE_ROW_SELECTOR = "#tableForm\\:roomTbl_data > *"
 
     data = []
 
@@ -45,7 +48,7 @@ def main():
     data.sort(key=lambda i: i[0])
 
     with open("rooms.csv", "w", newline="", encoding="utf-8") as f:
-        csvwriter = csv.writer(f, delimiter=";")
+        csvwriter = csv.writer(f)
         csvwriter.writerows(data)
 
 

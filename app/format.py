@@ -1,3 +1,4 @@
+import csv
 import html
 from icalendar import Calendar
 from dataclasses import dataclass
@@ -250,18 +251,16 @@ def read_shorthands() -> dict[str, str]:
 @cache
 def read_rooms() -> dict[str, tuple[str, str, str, str]]:
     with open("app/resources/rooms.csv") as f:
-        lines = f.readlines()
+        reader = csv.reader(f)
 
-    rooms = {}
-    for line in lines:
-        fields = line.split(";")
+        rooms = {}
+        for fields in reader:
+            name = fields[0]
+            address = fields[6].split(",")[0].strip()
+            floor = fields[6].split(",")[-1].strip()
+            code = fields[7].strip()
+            url = fields[8].strip()
 
-        name = fields[0]
-        address = fields[6].split(",")[0].strip()
-        floor = fields[6].split(",")[-1].strip()
-        code = fields[7].strip()
-        url = fields[8].strip()
-
-        rooms[name] = (address, floor, code, url)
+            rooms[name] = (address, floor, code, url)
 
     return rooms
