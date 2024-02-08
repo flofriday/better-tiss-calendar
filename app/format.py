@@ -114,7 +114,7 @@ def improve_calendar(
         # Parse the event and enrich it
         event = event_from_ical(component)
         if use_shorthand:
-            event = add_shorthand(event)
+            event.shorthand = create_shorthand(event.name)
         event = add_location(event)
 
         # Serialize the summary
@@ -194,24 +194,26 @@ def event_from_ical(component) -> Event:
     )
 
 
-def add_shorthand(event: Event) -> Event:
+def create_shorthand(name: str) -> str:
     shorthands = read_shorthands()
-    if event.name.lower() in shorthands:
-        event.shorthand = shorthands[event.name.lower()].upper()
-    else:
-        event = add_shorthand_fallback(event)
-    return event
+    if name.lower() in shorthands:
+        return shorthands[name.lower()].upper()
+
+    return create_shorthand_fallback(name)
 
 
-def add_shorthand_fallback(event: Event) -> Event:
-    iter = filter(lambda w: len(w) > 1 and w[0].isupper(), event.name.split(" "))
+def create_shorthand_fallback(name: str) -> str:
+    # Shorthands are the first letters of all capitalized words.
+    iter = re.split(" |-", name)
+    iter = filter(lambda w: len(w) > 1 and w[0].isupper(), iter)
     iter = map(lambda w: w[0], iter)
     shorthand = "".join(iter)
 
     # The generated shorthand can be somewhat bad so lets add some checks:
     if len(shorthand) >= 2:
-        event.shorthand = shorthand
-    return event
+        return shorthand
+
+    return name
 
 
 def add_location(event: Event) -> Event:
