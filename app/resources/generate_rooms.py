@@ -1,6 +1,12 @@
 # This script creates the files rooms.csv.
-# It does this automatically by the room UI from tiss and extracting the information from there.
-# To run this you first need to: pip install selenium
+# It does this automatically by the room UI from tiss and extracting the
+# information from there.
+# To run this enter the following:
+# python3 -m venv venv
+# source venv/bin/activate
+# pip install -r requirements.txt
+# python generate_rooms.py
+
 import csv
 
 from selenium import webdriver

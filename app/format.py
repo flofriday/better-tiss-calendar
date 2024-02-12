@@ -133,12 +133,12 @@ def improve_calendar(
             component.add("location", event.address)
 
         # Serialize the description
-        if locale == "en":
-            plain_description = event.plain_description_en()
-            html_description = event.html_description_en()
-        else:
+        if locale == "de":
             plain_description = event.plain_description_de()
             html_description = event.html_description_de()
+        else:
+            plain_description = event.plain_description_en()
+            html_description = event.html_description_en()
 
         component.pop("description")
         if google_cal:

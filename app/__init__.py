@@ -65,8 +65,8 @@ def static_asset(path):
 
 @app.route("/verify")
 def verify():
-    url = request.args.get("url")
-    if url is None:
+    url = request.args.get("url").strip()
+    if url is None or url == "":
         return "No url provided", 400
 
     # A better error message if the submitted url is not of the icalendar but
@@ -88,7 +88,7 @@ def verify():
     except ValueError:
         return "TISS didn't return an ical file, did you paste the correct url?", 400
     except Exception:
-        return "Somthing unexpected went wrong, maybe create an GitHub issue?", 500
+        return "Something unexpected went wrong, maybe create an GitHub issue?", 500
 
     return "Ok"
 

@@ -61,7 +61,8 @@ def get_chart_data(db: Connection) -> list[Tuple[str, int]]:
                     COUNT(DISTINCT token_hash) AS 'daily',
                     (SELECT COUNT(DISTINCT token_hash)
                     FROM statistics s2
-                    WHERE Date(s2.date) <= s.date AND s2.date >= DATE( s.date, '-30 days')
+                    WHERE Date(s2.date) <= s.date 
+                    AND s2.date >= DATE( s.date, '-30 days')
                 ) AS 'monbthly',
                 (SELECT COUNT(DISTINCT token_hash)
                     FROM statistics s3

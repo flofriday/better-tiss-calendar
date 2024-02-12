@@ -6,4 +6,4 @@ branch = true
 source = ["app"]
 
 [tool.ruff.lint]
-select = ["F", "UP", "B", "SIM", "I"]
+select = ["E", "F", "UP", "B", "SIM", "I"]
