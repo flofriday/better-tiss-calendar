@@ -2,10 +2,11 @@
 # It does this automatically by the room UI from tiss and extracting the information from there.
 # To run this you first need to: pip install selenium
 import csv
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
 
 def main():

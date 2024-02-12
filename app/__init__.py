@@ -1,11 +1,12 @@
 import json
-from flask import Flask, render_template, send_from_directory, request, g
-import requests
 import sqlite3
+
+import requests
+from flask import Flask, g, render_template, request, send_from_directory
 
 import app.tiss as tiss
 from app.format import improve_calendar
-from app.monitoring import get_statistics, add_usage, get_chart_data
+from app.monitoring import add_usage, get_chart_data, get_statistics
 
 app = Flask(__name__)
 
@@ -86,7 +87,7 @@ def verify():
         return "Could not contact TISS. Maybe TISS is down?", 400
     except ValueError:
         return "TISS didn't return an ical file, did you paste the correct url?", 400
-    except:
+    except Exception:
         return "Somthing unexpected went wrong, maybe create an GitHub issue?", 500
 
     return "Ok"
@@ -102,8 +103,8 @@ def icalendar():
     if locale is None:
         return "No locale provided", 400
 
-    is_google = "google" in request.args.keys()
-    use_shorthand = "noshorthand" not in request.args.keys()
+    is_google = "google" in request.args
+    use_shorthand = "noshorthand" not in request.args
 
     url = f"https://tiss.tuwien.ac.at/events/rest/calendar/personal?token={token}&locale={locale}"
     cal = tiss.get_calendar(url)

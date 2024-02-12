@@ -1,9 +1,10 @@
 import csv
 import html
-from icalendar import Calendar
+import re
 from dataclasses import dataclass
 from functools import cache
-import re
+
+from icalendar import Calendar
 
 summary_regex = re.compile("([0-9A-Z]{3}\\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
 

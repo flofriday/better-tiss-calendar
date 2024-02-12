@@ -1,6 +1,7 @@
+import re
+
 from flask.testing import FlaskClient
 from icalendar import Calendar
-import re
 
 
 def get_test_calendar(lang: str = "de"):

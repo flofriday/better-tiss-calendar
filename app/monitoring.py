@@ -1,6 +1,6 @@
+import hashlib
 from dataclasses import dataclass
 from sqlite3 import Connection
-import hashlib
 from typing import Tuple
 
 
