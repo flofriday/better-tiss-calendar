@@ -11,6 +11,7 @@ const googleCheck = document.getElementById("is_google");
 const noShorthandCheck = document.getElementById("no_shorthand");
 const previewTitle = document.getElementById("preview-title");
 const previewLectureName = document.getElementById("preview-lecturename");
+const importTip = document.getElementById("import-tip");
 
 let isDisabled = true;
 let currentUrl = "";
@@ -84,6 +85,7 @@ function disableBetterUrl() {
   errorText.classList.add("invisible");
   betterText.classList.add("hidden");
   betterTextPlaceholder.classList.remove("hidden");
+  importTip.classList.add("invisible");
   copyBtn.disabled = true;
 }
 
@@ -97,6 +99,8 @@ function setBetterUrl(originalUrl) {
   errorText.classList.add("invisible");
   betterText.classList.remove("hidden");
   betterTextPlaceholder.classList.add("hidden");
+  importTip.classList.remove("invisible");
+  console.log(importTip);
   copyBtn.disabled = false;
 
   const tmpurl = new URL(originalUrl);
@@ -106,7 +110,7 @@ function setBetterUrl(originalUrl) {
 
   const domain = window.location.origin;
   let betterUrl = `${domain}/personal.ics?token=${encodeURIComponent(
-    token
+    token,
   )}&locale=${encodeURIComponent(locale)}`;
   if (googleCheck.checked) {
     betterUrl += "&google";
