@@ -48,7 +48,6 @@ EI 9 Hlawka HS - ETIT,181,,Zentral,Verfügbar,Gußhausstr. 27-29 - Neu El,"Gußh
 Ersatzraum Prechtlsaal 1,10,E299-01,Lokal & zentral,Verfügbar,Erzherzog-Johann-Pl. 1,"Erzherzog-Johann-Platz 1,",FCEG13A,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FCEG13A
 Ersatzraum Prechtlsaal 2,25,E299-01,Lokal & zentral,Verfügbar,Erzherzog-Johann-Pl. 1,"Erzherzog-Johann-Platz 1,",FBEG13,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FBEG13
 Ersatzraum Prechtlsaal 3,10,E299-01,Lokal & zentral,Verfügbar,Erzherzog-Johann-Pl. 1,"Erzherzog-Johann-Platz 1,",FBEG09,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FBEG09
-Ersatzraum Projektraum 8,36,E299-01,Lokal,Verfügbar,Hauptgebäude,"Karlsplatz 13,",AC0340,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AC0340
 FAV Hörsaal 1 Helmut Veith - INF,106,,Zentral,Verfügbar,Institutsgebäude,"Favoritenstraße 9-11, Erdgeschoß",HEEG02,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV1
 FAV Hörsaal 2,35,,Zentral,Verfügbar,Institutsgebäude,"Favoritenstraße 9-11, Erdgeschoß",HEEG03,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
 FAV Hörsaal 3 Zemanek (Seminarraum Zemanek),50,,Zentral,Verfügbar,Institutsgebäude,"Favoritenstraße 9-11, Erdgeschoß",HHEG01,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ZEMS
@@ -180,7 +179,8 @@ Seminarraum 8,20,,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13, Hof 2, Stiege
 Seminarraum AA 02 – 1,35,,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13, Hauptgebäude, Stiege1, 2. Stock",AA0241,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ZS15
 Seminarraum AA 03 - 1 - CEE,50,,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13,",AA0352,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AA0352
 Seminarraum AC 02 - 1 - UIW,36,E629,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13, Karlsplatz 13, 2. Stock, Stiege 5",AC0246,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AC0246
-Seminarraum AC 02 - 2 - ARCH,36,E629,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13, Karlsplatz 13, 2. Stock, Stiege 5",AC0240,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AC0240
+Seminarraum AC 02 - 2,36,E629,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13, Karlsplatz 13, 2. Stock, Stiege 5",AC0240,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AC0240
+Seminarraum AC 03 - 1,29,E060-04-1,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13,",AC0340,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AC0340
 Seminarraum AC0440,50,E264,Lokal,Verfügbar,Hauptgebäude,"Karlsplatz 13, 4. OG",AC0440,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AC0440
 Seminarraum AD 03 - 1,46,E222,Lokal,Verfügbar,Hauptgebäude,"Karlsplatz 13, Stiege 5",AD0309,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=222
 Seminarraum AE U1 - 1,24,,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13,",AEU103,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AEU103
@@ -234,7 +234,6 @@ Seminarraum O221-2,25,,Zentral,Verfügbar,Objekt 221,"Franz-Grill-Straße 2-4,",
 Seminarraum OD 01 - 1,23,E249-01,Lokal,Verfügbar,Arsenal OD,"Lilienthalgasse 21,",OD0122,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=OD0122
 Seminarraum Techn. Informatik,30,E193,Lokal,Verfügbar,Institutsgebäude,"Treitlstraße 3, ZUGANG ÜBER OPERNGASSE 9, Erdgeschoß",DEEG39,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SETI
 Seminarraum ZE 01 - 1,30,,Zentral,Verfügbar,Stadionallee 2 Neubau,"Stadionallee 2,",ZE0105,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ZE0105
-Seminarraum ZE 03 - 1,10,,Zentral,Nicht mehr Verfügbar,Stadionallee 2 Neubau,"Stadionallee 2,",ZE0305,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ZE0305
 Studentenlabor,7,,Lokal,Verfügbar,Kulissendepot,"Getreidemarkt 9,",BF02C23,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BF02C23
 TILab Raum 1,9,E199,Nicht buchbar,Verfügbar,Institutsgebäude,"Treitlstraße 3,",DEZE24,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=DE+ZE+24
 TILab Raum 2,9,E199,Nicht buchbar,Verfügbar,Institutsgebäude,"Treitlstraße 3,",DEZE32,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=DE+ZE+32
