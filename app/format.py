@@ -281,18 +281,14 @@ def read_rooms() -> dict[str, tuple[str, str, str, str]]:
             name = fields[0]
             address = fields[6].split(",")[0].strip()
 
-            # If there are 3 fields it's the third, but sometimes its the second
-            if len(fields[6].split(",")) == 3:
-                floor = fields[6].split(",")[2].strip()
-            elif len(fields[6].split(",")) == 2:
-                keywords = ["OG", "EG", "Stock", "geschoß", "geschoss"]
-                possible_floor = fields[6].split(",")[1].strip()
-                if any([kw in possible_floor for kw in keywords]):
-                    floor = possible_floor
-                else:
-                    floor = ""
-            else:
-                floor = ""
+            # The floor information is in any of the address fields but never
+            # the first one
+            floor_fields = fields[6].split(",")[1:]
+            keywords = ["OG", "EG", "Stock", "geschoß", "geschoss"]
+            floor_fields = [
+                field for field in floor_fields if any([kw in field for kw in keywords])
+            ]
+            floor = floor_fields[0] if floor_fields != [] else ""
 
             code = fields[7].strip()
             url = fields[8].strip()
