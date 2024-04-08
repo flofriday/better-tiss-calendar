@@ -280,11 +280,20 @@ def read_rooms() -> dict[str, tuple[str, str, str, str]]:
         for fields in reader:
             name = fields[0]
             address = fields[6].split(",")[0].strip()
-            floor = (
-                fields[6].split(",")[2].strip()
-                if len(fields[6].split(",")) >= 3
-                else ""
-            )
+
+            # If there are 3 fields it's the third, but sometimes its the second
+            if len(fields[6].split(",")) == 3:
+                floor = fields[6].split(",")[2].strip()
+            elif len(fields[6].split(",")) == 2:
+                keywords = ["OG", "EG", "stock", "geschoß", "geschoss"]
+                possible_floor = fields[6].split(",")[1].strip()
+                if any([kw in possible_floor for kw in keywords]):
+                    floor = possible_floor
+                else:
+                    floor = ""
+            else:
+                floor = ""
+
             code = fields[7].strip()
             url = fields[8].strip()
 
