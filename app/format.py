@@ -9,7 +9,7 @@ from icalendar import Calendar
 summary_regex = re.compile("([0-9A-Z]{3}\\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
 
 
-@dataclass(kw_only=True)
+@dataclass(kw_only=True, slots=True)
 class Event:
     name: str = ""
     shorthand: str = ""
@@ -260,7 +260,11 @@ def read_rooms() -> dict[str, tuple[str, str, str, str]]:
         for fields in reader:
             name = fields[0]
             address = fields[6].split(",")[0].strip()
-            floor = fields[6].split(",")[-1].strip()
+            floor = (
+                fields[6].split(",")[2].strip()
+                if len(fields[6].split(",")) >= 3
+                else ""
+            )
             code = fields[7].strip()
             url = fields[8].strip()
 
