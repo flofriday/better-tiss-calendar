@@ -224,11 +224,31 @@ def add_location(event: Event) -> Event:
 
     (address, floor, code, url) = rooms[event.room]
     event.address = address
-    event.floor = floor
+
+    # FIXME: the floor information in the dataset is all over the place.
+    # We should create a better more universal dataset, best even language
+    # agnostic.
+    event.floor = floor if floor != "" else create_floor_fallback(code)
     event.room_code = code
     event.room_url = url
     event.map_url = f"https://tuw-maps.tuwien.ac.at/?q={code}#map"
     return event
+
+
+def create_floor_fallback(room_code: str) -> str:
+    """The floor information is encoded in the room code.
+
+    Format: TTFFRR[R]
+    In that format TT is the trackt, FF the floor and RR the room specific
+    code.
+    """
+
+    if len(room_code) < 6 or len(room_code) > 7:
+        return ""
+
+    # FIXME: Yes I also really hate that there is text in here and in a language
+    # that might not be the users prevered one.
+    return room_code[2:4] + " (evtl. ungenau)"
 
 
 @cache
