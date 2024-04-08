@@ -285,7 +285,7 @@ def read_rooms() -> dict[str, tuple[str, str, str, str]]:
             if len(fields[6].split(",")) == 3:
                 floor = fields[6].split(",")[2].strip()
             elif len(fields[6].split(",")) == 2:
-                keywords = ["OG", "EG", "stock", "geschoß", "geschoss"]
+                keywords = ["OG", "EG", "Stock", "geschoß", "geschoss"]
                 possible_floor = fields[6].split(",")[1].strip()
                 if any([kw in possible_floor for kw in keywords]):
                     floor = possible_floor
