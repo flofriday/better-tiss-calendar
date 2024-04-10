@@ -3,10 +3,19 @@ import html
 import re
 from dataclasses import dataclass
 from functools import cache
+from typing import Optional
 
 from icalendar import Calendar
 
 summary_regex = re.compile("([0-9A-Z]{3}\\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
+
+
+class MultiLangString:
+    "A string to hold multiple languages"
+
+    def __init__(self, de: str, en: str = None) -> None:
+        self.de = de
+        self.en = en if en is not None else de
 
 
 @dataclass(kw_only=True, slots=True)
@@ -20,7 +29,7 @@ class Event:
     address: str = ""
     room: str = ""
     room_code: str = ""
-    floor: str = ""
+    floor: Optional[MultiLangString] = None
     tiss_url: str = ""
     room_url: str = ""
     map_url: str = ""
@@ -32,8 +41,8 @@ class Event:
             text += f"{self.name}\n"
 
         text += f"Room: {self.room}\n"
-        if self.floor != "":
-            text += f"Floor: {self.floor}\n"
+        if self.floor is not None:
+            text += f"Floor: {self.floor.en}\n"
         text += f"\n{self.description}"
 
         return text
@@ -54,8 +63,8 @@ class Event:
         else:
             text += f"Room: {self.room}<br>"
 
-        if self.floor != "":
-            text += f"Floor: {self.floor}<br>"
+        if self.floor is not None:
+            text += f"Floor: {self.floor.en}<br>"
 
         text += f"<br>{html.escape(self.description)}"
 
@@ -67,8 +76,8 @@ class Event:
         if self.shorthand != "":
             text += f"{self.name}"
         text += f"\nRaum: {self.room}\n"
-        if self.floor != "":
-            text += f"Stock: {self.floor}\n"
+        if self.floor is not None:
+            text += f"Stock: {self.floor.de}\n"
         text += f"\n{self.description}"
 
         return text
@@ -89,8 +98,8 @@ class Event:
         else:
             text += f"Raum: {self.room}<br>"
 
-        if self.floor != "":
-            text += f"Stock: {self.floor}<br>"
+        if self.floor is not None:
+            text += f"Stock: {self.floor.en}<br>"
 
         text += f"<br>{html.escape(self.description)}"
 
@@ -235,7 +244,7 @@ def add_location(event: Event) -> Event:
     return event
 
 
-def create_floor_fallback(room_code: str) -> str:
+def create_floor_fallback(room_code: str) -> MultiLangString:
     """The floor information is encoded in the room code.
 
     Format: TTFFRR[R]
@@ -244,11 +253,22 @@ def create_floor_fallback(room_code: str) -> str:
     """
 
     if len(room_code) < 6 or len(room_code) > 7:
-        return ""
+        return None
 
-    # FIXME: Yes I also really hate that there is text in here and in a language
-    # that might not be the users prevered one.
-    return room_code[2:4] + " (evtl. ungenau)"
+    floor_code = room_code[2:4]
+
+    if floor_code.isnumeric():
+        floor = int(floor_code)
+        return MultiLangString(f"{floor}. Stock", f"{floor}. Floor")
+    elif floor_code == "EG":
+        return MultiLangString("Erdgeschoß", "Ground Floor")
+    elif floor_code == "DG":
+        return MultiLangString("Dachgeschoß", "Roof Floor")
+    elif floor_code[0] == "U" and floor_code[1].isnumeric():
+        floor = int(floor_code[1])
+        return MultiLangString(f"{floor}. Untergeschoß", f"{floor}. Underground Floor")
+    else:
+        return MultiLangString(floor_code)
 
 
 @cache
@@ -272,7 +292,7 @@ def read_shorthands() -> dict[str, str]:
 
 
 @cache
-def read_rooms() -> dict[str, tuple[str, str, str, str]]:
+def read_rooms() -> dict[str, tuple[str, MultiLangString, str, str]]:
     with open("app/resources/rooms.csv") as f:
         reader = csv.reader(f)
 
@@ -288,7 +308,11 @@ def read_rooms() -> dict[str, tuple[str, str, str, str]]:
             floor_fields = [
                 field for field in floor_fields if any([kw in field for kw in keywords])
             ]
-            floor = floor_fields[0] if floor_fields != [] else ""
+            floor = None
+            if floor_fields != []:
+                raw_floor = floor_fields[0]
+                # FIXME: Some parsing for localization
+                floor = MultiLangString(raw_floor) if floor_fields != [] else None
 
             code = fields[7].strip()
             url = fields[8].strip()
