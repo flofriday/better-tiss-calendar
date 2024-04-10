@@ -235,16 +235,15 @@ def add_location(event: Event) -> Event:
     event.address = address
 
     # FIXME: the floor information in the dataset is all over the place.
-    # We should create a better more universal dataset, best even language
-    # agnostic.
-    event.floor = floor if floor != "" else create_floor_fallback(code)
+    # We should create a better more universal dataset
+    event.floor = floor if floor is not None else create_floor_fallback(code)
     event.room_code = code
     event.room_url = url
     event.map_url = f"https://tuw-maps.tuwien.ac.at/?q={code}#map"
     return event
 
 
-def create_floor_fallback(room_code: str) -> MultiLangString:
+def create_floor_fallback(room_code: str) -> Optional[MultiLangString]:
     """The floor information is encoded in the room code.
 
     Format: TTFFRR[R]
