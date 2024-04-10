@@ -284,7 +284,7 @@ def read_rooms() -> dict[str, tuple[str, str, str, str]]:
             # The floor information is in any of the address fields but never
             # the first one
             floor_fields = fields[6].split(",")[1:]
-            keywords = ["OG", "EG", "Stock", "geschoß", "geschoss"]
+            keywords = ["OG", "UG", "EG", "Stock", "geschoß", "geschoss"]
             floor_fields = [
                 field for field in floor_fields if any([kw in field for kw in keywords])
             ]
