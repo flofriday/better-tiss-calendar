@@ -162,8 +162,7 @@ def improve_calendar(
         else:
             component.add("description", plain_description)
             component.add("url", event.map_url)
-
-        component.add("x-alt-desc;fmttype=text/html", html_description)
+            component.add("x-alt-desc;fmttype=text/html", html_description)
 
     # Set some metadata
     cal.pop("prodid")
@@ -292,6 +291,10 @@ def read_shorthands() -> dict[str, str]:
 
 @cache
 def read_rooms() -> dict[str, tuple[str, MultiLangString, str, str]]:
+    upper_floor_patttern = re.compile(r"(\d). ?(Stock|Obergescho(ss|ß)|OG)")
+    ground_floor_patttern = re.compile(r"(EG|Erdgescho(ss|ß))")
+    roof_floor_patttern = re.compile(r"(DG|Erdgescho(ss|ß))")
+
     with open("app/resources/rooms.csv") as f:
         reader = csv.reader(f)
 
@@ -303,15 +306,25 @@ def read_rooms() -> dict[str, tuple[str, MultiLangString, str, str]]:
             # The floor information is in any of the address fields but never
             # the first one
             floor_fields = fields[6].split(",")[1:]
-            keywords = ["OG", "UG", "EG", "Stock", "geschoß", "geschoss"]
+            keywords = ["OG", "UG", "DG", "EG", "Stock", "geschoß", "geschoss"]
             floor_fields = [
                 field for field in floor_fields if any([kw in field for kw in keywords])
             ]
+
+            # Parsing the floor description for localization
             floor = None
             if floor_fields != []:
-                raw_floor = floor_fields[0]
-                # FIXME: Some parsing for localization
-                floor = MultiLangString(raw_floor) if floor_fields != [] else None
+                floor_description = floor_fields[0].strip()
+
+                if (match := upper_floor_patttern.match(floor_description)) is not None:
+                    number = int(match.group(1))
+                    floor = MultiLangString(f"{number}. Stock", f"{number}. Floor")
+                elif ground_floor_patttern.match(floor_description) is not None:
+                    floor = MultiLangString("Erdgeschoß", "Ground Floor")
+                elif roof_floor_patttern.match(floor_description) is not None:
+                    floor = MultiLangString("Dachgeschoß", "Roof Floor")
+                else:
+                    floor = MultiLangString(floor_description)
 
             code = fields[7].strip()
             url = fields[8].strip()
