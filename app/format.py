@@ -99,7 +99,7 @@ class Event:
             text += f"Raum: {self.room}<br>"
 
         if self.floor is not None:
-            text += f"Stock: {self.floor.en}<br>"
+            text += f"Stock: {self.floor.de}<br>"
 
         text += f"<br>{html.escape(self.description)}"
 
@@ -311,7 +311,7 @@ def read_rooms() -> dict[str, tuple[str, MultiLangString, str, str]]:
                 field for field in floor_fields if any([kw in field for kw in keywords])
             ]
 
-            # Parsing the floor description for localization
+            # Parsing the floor description for localization and consistency
             floor = None
             if floor_fields != []:
                 floor_description = floor_fields[0].strip()

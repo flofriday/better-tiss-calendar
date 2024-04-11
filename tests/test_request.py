@@ -82,6 +82,9 @@ def test_icalendar_de_success(client: FlaskClient, mocker):
     assert any(["Stock:" in d for d in descriptions])
     assert not any(["Floor:" in d for d in descriptions])
 
+    assert not any(["Floor" in d for d in descriptions])
+    assert not any(["floor" in d for d in descriptions])
+
     # No HTML
     assert not any(["<b>" in d for d in descriptions])
 
@@ -121,6 +124,10 @@ def test_icalendar_en_success(client: FlaskClient, mocker):
     assert not all(["Raum:" in d for d in descriptions])
     assert any(["Floor:" in d for d in descriptions])
     assert not any(["Stock:" in d for d in descriptions])
+
+    assert not any(["Stock" in d for d in descriptions])
+    assert not any(["geschoss" in d for d in descriptions])
+    assert not any(["geschoß" in d for d in descriptions])
 
     # No HTML
     assert not any(["<b>" in d for d in descriptions])
@@ -162,6 +169,9 @@ def test_icalendar_forgoogle_de_success(client: FlaskClient, mocker):
     assert any(["Stock:" in d for d in descriptions])
     assert not any(["Floor:" in d for d in descriptions])
 
+    assert not any(["Floor" in d for d in descriptions])
+    assert not any(["floor" in d for d in descriptions])
+
     # HTML in description
     assert any(["<b>" in d for d in descriptions])
 
@@ -201,6 +211,10 @@ def test_icalendar_forgoogle_en_success(client: FlaskClient, mocker):
     assert not all(["Raum:" in d for d in descriptions])
     assert any(["Floor:" in d for d in descriptions])
     assert not any(["Stock:" in d for d in descriptions])
+
+    assert not any(["Stock" in d for d in descriptions])
+    assert not any(["geschoss" in d for d in descriptions])
+    assert not any(["geschoß" in d for d in descriptions])
 
     # HTML in description
     assert any(["<b>" in d for d in descriptions])
@@ -243,6 +257,9 @@ def test_icalendar_noshorthands_de_success(client: FlaskClient, mocker):
     assert not any(["Room:" in d for d in descriptions])
     assert any(["Stock:" in d for d in descriptions])
     assert not any(["Floor:" in d for d in descriptions])
+
+    assert not any(["Floor" in d for d in descriptions])
+    assert not any(["floor" in d for d in descriptions])
 
     # No HTML
     assert not any(["<b>" in d for d in descriptions])
