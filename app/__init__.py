@@ -24,13 +24,12 @@ def get_db():
 
         db.cursor().executescript(
             """
-            CREATE TABLE IF NOT EXISTS statistics (
+            CREATE TABLE IF NOT EXISTS statistics_daily (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
-                date TEXT DEFAULT (DATETIME('now')),
-                token_hash TEXT NOT NULL
+                date TEXT DEFAULT (DATE('now')),
+                token_hash TEXT NOT NULL,
+                UNIQUE(date, token_hash)
             );
-
-            CREATE INDEX IF NOT EXISTS idx_date ON statistics (date);
             """
         )
         db.commit()
