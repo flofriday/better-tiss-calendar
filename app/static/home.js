@@ -29,7 +29,7 @@ urlText.onkeydown = () => {
 };
 
 verifyBtn.onclick = async () => {
-  await verify(urlText.value.trim());
+  await verify();
 };
 
 googleCheck.onchange = () => {
@@ -39,9 +39,9 @@ googleCheck.onchange = () => {
 
 noShorthandCheck.onchange = () => {
   if (noShorthandCheck.checked) {
-    previewTitle.innerText = "Technische Grundlagen der Informatik VU";
+    previewTitle.innerText = "Einführung in die Programmierung 1 VU";
   } else {
-    previewTitle.innerText = "TGI VU";
+    previewTitle.innerText = "EP1 VU";
   }
   previewLectureName.hidden = noShorthandCheck.checked;
 
@@ -62,6 +62,12 @@ copyBtn.onclick = () => {
 };
 
 async function verify(url) {
+  url = urlText.value
+    .trim()
+    .replace(/Download$/, "")
+    .trim();
+
+  urlText.value = url;
   currentUrl = url;
   try {
     const response = await fetch(`/verify?url=${encodeURIComponent(url)}`);
@@ -100,7 +106,6 @@ function setBetterUrl(originalUrl) {
   betterText.classList.remove("hidden");
   betterTextPlaceholder.classList.add("hidden");
   importTip.classList.remove("invisible");
-  console.log(importTip);
   copyBtn.disabled = false;
 
   const tmpurl = new URL(originalUrl);
