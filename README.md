@@ -31,6 +31,8 @@ or not in a long time, here are some guides:
 
 ## How it works
 
+![Architecture Diagramm](architecture.png)
+
 Calendar clients download subscribed calendars periodically (some even let you
 set the polling rate). Instead so when a request comes in for a calendar this
 server downloads the original calendar from tiss and formats all events and
