@@ -1,5 +1,6 @@
 import json
 import sqlite3
+from urllib.parse import urlparse
 
 import requests
 from flask import Flask, g, render_template, request, send_from_directory
@@ -66,17 +67,25 @@ def static_asset(path):
 def verify():
     url = request.args.get("url").strip()
     if url is None or url == "":
-        return "No url provided", 400
+        return "Empty links don't work *surprised picatchu meme*", 400
 
     # A better error message if the submitted url is not of the icalendar but
     # of the html page itself.
     if url.startswith("https://tiss.tuwien.ac.at/events/personSchedule.xhtml"):
         return "Almost, the url we need is at the bottom of the page you submitted", 400
 
-    # FIXME: Propper url parsing, this could maybe lead to an attack by adding an
-    # @ and using it as a username.
-    if not url.startswith("https://tiss.tuwien.ac.at/events/rest/calendar/personal"):
+    # Inspecting the url
+    scheme, loc, path, _, query, _ = urlparse(
+        "https://tiss.tuwien.ac.at/events/rest/calendar/personal?locale=de&token=af64650a-674d-4aaf-bdc3-23d8965f40f5"
+    )
+    if not (
+        scheme == "https"
+        and loc == "tiss.tuwien.ac.at"
+        and path == "/events/rest/calendar/personal"
+    ):
         return "The url must point to the TISS calendar", 400
+    if "token=" not in query:
+        return "The complete calendar url must be submitted, including the token.", 400
 
     try:
         tiss.get_calendar(url)

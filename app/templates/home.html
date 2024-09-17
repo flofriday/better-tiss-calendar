@@ -26,7 +26,8 @@
 <body class="h-screen">
     <div class="h-full flex flex-col justify-between">
         <main class="container w-full max-w-[32rem] mx-auto px-4 text-center">
-            <h1 class="text-6xl font-bold pt-12 pb-6 leading-snug"> Better TISS Calendar </h1>
+            <h1 class="text-6xl font-bold pt-12  leading-snug"> Better TISS Calendar </h1>
+            <div class="text-sm text-slate-400 pb-12">Readable titles, room locations <a class="text-sky-400 visited:text-sky-400" href="https://github.com/flofriday/better-tiss-calendar?tab=readme-ov-file#features">and much more...</a></div>
             <div class="flex flex-row justify-around mb-12">
                 <div class="my-auto w-[12rem] h-full border border-[color:#666] rounded-2xl text-start p-3">
                     <div lang="de" class="text-lg font-bold">185.A91 Einführung in die Programmierung 1</div>
@@ -75,10 +76,10 @@
                     </label>
                     <div class="w-full flex flex-row space-x-3">
                         <input type="text" id="original_url"
-                            class="bg-neutral-950 border border-[color:#333] rounded-lg focus:outline-none focus:border-white focus:ring-white  w-full p-2.5"
+                            class="bg-slate-950 border border-[color:#333] rounded-lg focus:outline-none focus:border-white focus:ring-white  w-full p-2.5"
                             placeholder="https://tiss.tuwien.ac.at/even..." required>
                         <button id="verify"
-                            class="bg-neutral-950 border border-[color:#333] rounded-lg px-3 hover:bg-white hover:text-black transition-all ease-in-out duration-300">Create</button>
+                            class="bg-slate-950 border border-[color:#333] rounded-lg px-3 hover:bg-white hover:text-black transition-all ease-in-out duration-300">Create</button>
                     </div>
                     <div id="error_message" class="p-2 text-red-300 invisible">🔥???</div>
                 </div>
@@ -90,11 +91,11 @@
                 </div>
 
                 <input type="checkbox" name="Google" id="is_google">
-                <label for="is_google" class="text-neutral-400">for Google Calendar</label>
+                <label for="is_google" class="text-slate-400">for Google Calendar</label>
                 <br>
 
                 <input type="checkbox" name="Shorthand" id="no_shorthand">
-                <label for="no_shorthand" class="text-neutral-400">disable shorthands</label>
+                <label for="no_shorthand" class="text-slate-400">disable shorthands</label>
             </div>
 
             <!--Better URL-->
@@ -111,8 +112,8 @@
                     <div>
                         <div class="w-full flex flex-row space-x-3">
                             <div id="new_url"
-                                class="flex-1 overflow-hidden bg-neutral-950 border border-[color:#333] rounded-lg p-2.5">
-                                <div id="better_url_placeholder" class="text-neutral-600 italic">enter tiss url above
+                                class="flex-1 overflow-hidden bg-slate-950 border border-[color:#333] rounded-lg p-2.5">
+                                <div id="better_url_placeholder" class="text-slate-600 italic">enter tiss url above
                                 </div>
                                 <div id="better_url"
                                     class="w-full whitespace-nowrap overflow-y-scroll no-scrollbar hidden"></div>
@@ -122,7 +123,7 @@
                             <button disabled id="copy"
                                 class="group bg-[color:#333] enabled:bg-gradient-to-r enabled:from-cyan-500 enabled:to-blue-500 p-[1px] rounded-lg">
                                 <div
-                                    class="bg-neutral-950  group-disabled:border-[color:#333] group-disabled:text-neutral-600 align-middle px-3 h-full flex flex-col justify-center rounded-lg group-enabled:hover:bg-opacity-0 transition ease-in-out duration-500">
+                                    class="bg-slate-950  group-disabled:border-[color:#333] group-disabled:text-slate-600 align-middle px-3 h-full flex flex-col justify-center rounded-lg group-enabled:hover:bg-opacity-0 transition ease-in-out duration-500">
                                     Copy</div>
                             </button>
 
@@ -130,10 +131,8 @@
                         </div>
                         <div id="import-tip" class="text-sm mt-3 invisible">
                             <p>
-                                <a
-                                    href="https://github.com/flofriday/better-tiss-calendar?tab=readme-ov-file#importing-the-calendar">
-                                    How to subscribe the calendar 📅
-                                </a>
+                                Tip: Don't just open the url and download the file, it won't stayed synced, instead <strong><a
+                                    href="https://github.com/flofriday/better-tiss-calendar?tab=readme-ov-file#importing-the-calendar">subscribe to the calendar 📅</a></strong></p>
                             </p>
                             <p class="pt-2">
                                 Having problems? <a href="mailto:flohacksfriday@gmail.com?subject=BetterCal%20Problem">Contact the developer</a>
@@ -143,7 +142,7 @@
                     </div>
                 </div>
         </main>
-        <footer class="bg-neutral-900 border-t-2 border-t-[color:#333] p-4 text-sm text-neutral-400 mt-16">
+        <footer class="bg-slate-900 border-t-2 border-t-[color:#333] p-4 text-sm text-slate-400 mt-16">
             <div class="container w-full max-w-lg mx-auto">
                 <div class="flex flex-row justify-between">
                     <div>Made with ❤️ by <a href="https://github.com/flofriday">flofriday</a></div>
