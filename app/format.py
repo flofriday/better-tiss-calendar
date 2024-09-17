@@ -219,10 +219,10 @@ def create_shorthand_fallback(name: str) -> str:
     shorthand = "".join(iter)
 
     # The generated shorthand can be somewhat bad so lets add some checks:
-    if len(shorthand) >= 2:
-        return shorthand
+    if len(shorthand) < 2:
+        return name
 
-    return name
+    return shorthand
 
 
 def add_location(event: Event) -> Event:
