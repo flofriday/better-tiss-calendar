@@ -75,9 +75,7 @@ def verify():
         return "Almost, the url we need is at the bottom of the page you submitted", 400
 
     # Inspecting the url
-    scheme, loc, path, _, query, _ = urlparse(
-        "https://tiss.tuwien.ac.at/events/rest/calendar/personal?locale=de&token=af64650a-674d-4aaf-bdc3-23d8965f40f5"
-    )
+    scheme, loc, path, _, query, _ = urlparse(url)
     if not (
         scheme == "https"
         and loc == "tiss.tuwien.ac.at"

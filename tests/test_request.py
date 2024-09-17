@@ -49,7 +49,7 @@ def test_verify_success(client: FlaskClient, mocker):
     mocker.patch("app.tiss.get_calendar", return_value=get_test_calendar())
 
     response = client.get(
-        "/verify?url=https://tiss.tuwien.ac.at/events/rest/calendar/personal?locale=en&token=justATestingTokenObviouslyNotReal"
+        "/verify?url=https://tiss.tuwien.ac.at/events/rest/calendar/personal?locale=de%26token=justATestingTokenObviouslyNotReal"
     )
     assert response.status_code == 200
 
