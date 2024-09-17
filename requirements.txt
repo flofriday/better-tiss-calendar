@@ -6,7 +6,7 @@ flake8==7.1.1
 Flask==3.0.3
 gunicorn==23.0.0
 icalendar==5.0.13
-idna==3.8
+idna==3.10
 iniconfig==2.0.0
 itsdangerous==2.2.0
 Jinja2==3.1.4
@@ -21,7 +21,7 @@ pytest-mock==3.14.0
 python-dateutil==2.9.0.post0
 pytz==2024.2
 requests==2.32.3
-ruff==0.6.4
+ruff==0.6.5
 six==1.16.0
-urllib3==2.2.2
+urllib3==2.2.3
 Werkzeug==3.0.4
