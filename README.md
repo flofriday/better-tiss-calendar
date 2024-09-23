@@ -13,7 +13,7 @@ events and enriching them with useful information.
 - Use shorthands instead of the long name (optional)
 - Correct address in the location field, not just the room
 - Floor information
-- Links to TISS and TUW-Maps on HTML enabled clients
+- Links to TUW-Maps (and TISS on HTML enabled clients)
 - Drop in replacement
 - Easy setup: no login, no account and no rage inducing captchas
 - Self-hosting friendly
@@ -34,7 +34,7 @@ or not in a long time, here are some guides:
 ![Architecture Diagramm](architecture.png)
 
 Calendar clients download subscribed calendars periodically (some even let you
-set the polling rate). Instead so when a request comes in for a calendar this
+set the polling rate). Now with bettercal when a request comes in for a calendar this
 server downloads the original calendar from tiss and formats all events and
 enriches them with more information before returning it to the client.
 
