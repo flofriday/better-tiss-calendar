@@ -40,7 +40,7 @@ enriches them with more information before returning it to the client.
 
 ## Build it yourself
 
-You first need to install python3.12 and node.
+You first need to install python3.13 and node.
 
 ```bash
 npm install
