@@ -41,11 +41,16 @@
             <li>Montly active users: {{statistic.monthly_users}}</li>
             <li>Total users: {{statistic.total_users}}</li>
           </ul>
-        </div>
 
-        <div class="pt-8 w-full mx-auto md:max-w-[75vw]">
+               <div class="pt-8 w-full mx-auto md:max-w-[75vw]">
           <canvas id="dailyChart"></canvas>
         </div>
+
+        <div class="pt-4">
+            <input type="checkbox" name="Last Month" id="last-month">
+            <label for="last-month" class="text-slate-400">Only show last month</label>
+        </div>
+
       </main>
       <footer
         class="max-x-[40rem] w-full bg-slate-900 border-t-2 border-t-[color:#333] p-4 text-sm text-slate-400 mt-16"
@@ -70,7 +75,8 @@
     <script>
         let chart_data = {{ chart_data | safe }};
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.5/dist/chart.umd.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/static/statistics.js"></script>
   </body>
 </html>

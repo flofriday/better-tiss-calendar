@@ -238,7 +238,7 @@ def add_location(event: Event) -> Event:
     event.floor = floor if floor is not None else create_floor_fallback(code)
     event.room_code = code
     event.room_url = url
-    event.map_url = f"https://tuw-maps.tuwien.ac.at/?q={code}#map"
+    event.map_url = f"https://maps.tuwien.ac.at/?q={code}#map"
     return event
 
 
