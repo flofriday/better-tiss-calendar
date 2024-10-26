@@ -24,4 +24,4 @@ requests==2.32.3
 ruff==0.6.5
 six==1.16.0
 urllib3==2.2.3
-Werkzeug==3.0.4
+Werkzeug==3.0.6
