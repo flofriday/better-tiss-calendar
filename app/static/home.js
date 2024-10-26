@@ -18,6 +18,10 @@ let currentUrl = "";
 
 window.onload = () => {
   copyBtn.disabled = true;
+
+  if (!urlText.value && localStorage.getItem("originalUrl")) {
+    urlText.value = localStorage.getItem("originalUrl");
+  }
 };
 
 urlText.onchange = () => {
@@ -72,8 +76,10 @@ async function verify(url) {
   try {
     const response = await fetch(`/verify?url=${encodeURIComponent(url)}`);
     if (response.ok) {
+      localStorage.setItem("originalUrl", url);
       setBetterUrl(url);
     } else {
+      localStorage.setItem("originalUrl", "");
       let message = await response.text();
       if (message.trim().length > 0) {
         setErrorMessage(message);
