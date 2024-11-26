@@ -1,3 +1,4 @@
+from datetime import date
 import hashlib
 from dataclasses import dataclass
 from sqlite3 import Connection
@@ -24,7 +25,7 @@ def get_statistics(db: Connection) -> statistic:
     # Get daily active users
     cursor = db.cursor()
     cursor.execute(
-        """SELECT COUNT(*) 
+        """SELECT COUNT(*)
         FROM statistics_daily
         WHERE date == DATE('now');"""
     )
@@ -48,7 +49,30 @@ def get_statistics(db: Connection) -> statistic:
     return statistic(daily_users, monthly_users, total_users)
 
 
-def get_chart_data(db: Connection) -> list[Tuple[str, int]]:
+# Only the usage for today will change, so we can cache all past days.
+chart_cache: list[Tuple[str, int, int, int]] = []
+
+def get_chart_data(db: Connection) -> list[Tuple[str, int, int, int]]:
+    global chart_cache
+    since = chart_cache[-1][0] if len(chart_cache) > 0 else None
+
+    # Fetch the newest data
+    new_data = get_chart_data_since(db, since)
+    result = chart_cache + new_data
+
+    # Update the cache (never store the last day because we don't trust it)
+    # Well the day is not over so it will probably change.
+    chart_cache += new_data[:-1]
+
+    return result
+
+
+def get_chart_data_since(db: Connection, since: str|None = None) -> list[Tuple[str, int, int, int]]:
+    if since is None:
+        # This is just any day far in the past but, the exact day is just the day before
+        # it went into production.
+        since = "2023-07-16"
+
     # Get daily active users
     cursor = db.cursor()
     cursor.execute(
@@ -57,7 +81,7 @@ def get_chart_data(db: Connection) -> list[Tuple[str, int]]:
                     COUNT(*) AS 'daily',
                     (SELECT COUNT(DISTINCT token_hash)
                     FROM statistics_daily s2
-                    WHERE s2.date <= s.date 
+                    WHERE s2.date <= s.date
                     AND s2.date >= DATE( s.date, '-30 days')
                 ) AS 'monbthly',
                 (SELECT COUNT(DISTINCT token_hash)
@@ -65,9 +89,10 @@ def get_chart_data(db: Connection) -> list[Tuple[str, int]]:
                     WHERE s3.date <=  s.date
                 ) AS 'total'
             FROM statistics_daily s
+            WHERE day > ?
             GROUP BY day
-            ORDER BY day 
-        """
+            ORDER BY day
+        """, (since,)
     )
     rows = cursor.fetchall()
     return rows
