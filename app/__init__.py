@@ -14,26 +14,32 @@ app = Flask(__name__)
 DATABASE = "bettercal.db"
 
 
-def get_db():
+def create_db() -> sqlite3.Connection:
+    if app.config["TESTING"]:
+        db = sqlite3.connect(":memory:")
+    else:
+        db = sqlite3.connect(DATABASE)
+        db.execute("PRAGMA journal_mode=WAL;")
+
+    db.cursor().executescript(
+        """
+        CREATE TABLE IF NOT EXISTS statistics_daily (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            date TEXT DEFAULT (DATE('now')),
+            token_hash TEXT NOT NULL,
+            UNIQUE(date, token_hash)
+        );
+        """
+    )
+    db.commit()
+    return db
+
+
+
+def get_db() -> sqlite3.Connection:
     db = getattr(g, "_database", None)
     if db is None:
-        if app.config["TESTING"]:
-            db = g._database = sqlite3.connect(":memory:")
-        else:
-            db = g._database = sqlite3.connect(DATABASE)
-            db.execute("PRAGMA journal_mode=WAL;")
-
-        db.cursor().executescript(
-            """
-            CREATE TABLE IF NOT EXISTS statistics_daily (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                date TEXT DEFAULT (DATE('now')),
-                token_hash TEXT NOT NULL,
-                UNIQUE(date, token_hash)
-            );
-            """
-        )
-        db.commit()
+        db = g._database = create_db()
     return db
 
 
@@ -43,6 +49,8 @@ def close_connection(exception):
     if db is not None:
         db.close()
 
+# Preheat the statistics cache
+get_chart_data(create_db())
 
 @app.route("/")
 def home():
