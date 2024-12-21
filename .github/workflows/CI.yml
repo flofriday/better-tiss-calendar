@@ -41,7 +41,6 @@ jobs:
             git pull
             npm install
             npx tailwindcss --minify -i app/templates/template.css -o app/static/style.css
-            echo "Running uv as $USER"
-            which uv
+            echo "Running uv as $USER" > ci.txt
             uv sync
             systemctl --user restart bettercal.service
