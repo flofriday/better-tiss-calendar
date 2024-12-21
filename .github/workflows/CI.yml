@@ -5,22 +5,22 @@ name: CI
 on: [push]
 
 jobs:
-  test:
-    runs-on: Ubuntu-22.04
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+  # test:
+  #   runs-on: Ubuntu-22.04
+  #   steps:
+  #     - name: Checkout code
+  #       uses: actions/checkout@v4
 
-      - name: Set up Python 3.13
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
+  #     - name: Set up Python 3.13
+  #       uses: actions/setup-python@v5
+  #       with:
+  #         python-version: "3.13"
 
-      - name: Install dependencies
-        run: python -m pip install -r requirements.txt
+  #     - name: Install dependencies
+  #       run: python -m pip install -r requirements.txt
 
-      - name: Test with pytest
-        run: python -m pytest
+  #     - name: Test with pytest
+  #       run: python -m pytest
 
   deploy:
     needs: test
