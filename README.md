@@ -40,7 +40,7 @@ enriches them with more information before returning it to the client.
 
 ## Build it yourself
 
-You first need to install node and uv.
+You first need to install [node](https://nodejs.org/en) and [uv](https://github.com/astral-sh/uv).
 
 ```bash
 npm install
