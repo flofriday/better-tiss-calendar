@@ -40,15 +40,12 @@ enriches them with more information before returning it to the client.
 
 ## Build it yourself
 
-You first need to install python3.13 and node.
+You first need to install node and uv.
 
 ```bash
 npm install
 npx tailwindcss -i app/templates/template.css -o app/static/style.css
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-flask --app app run --debug
+uv run -- flask app run --debug
 ```
 
 The server should now start at http://localhost:5000
@@ -62,7 +59,7 @@ for development comfort.
 You can run all tests with:
 
 ```bash
-python -m pytest
+uv run pytest
 ```
 
 ## Build with Docker

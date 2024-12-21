@@ -4,9 +4,11 @@ COPY . .
 RUN npm install
 RUN npx tailwindcss -i app/templates/template.css -o app/static/style.css
 
-FROM python:3.13 as pythonbuild
+FROM python:3.12-slim-bookworm
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+
 WORKDIR /app
 COPY --from=tailwindbuild /app .
-RUN pip install -r requirements.txt
+RUN uv sync
 
-ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
+ENTRYPOINT ["uv", "run", "--", "gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
