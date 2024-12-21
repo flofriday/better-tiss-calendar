@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 WorkingDirectory=/home/bettercal/better-tiss-calendar/
-ExecStart=uv run -- gunicorn -w 5 --bind localhost:5003 app:app
+ExecStart=/bin/bash -c 'uv run -- gunicorn -w 5 --bind localhost:5003 app:app'
 Restart=always
 
 [Install]
