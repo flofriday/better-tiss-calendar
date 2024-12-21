@@ -41,5 +41,5 @@ jobs:
             git pull
             npm install
             npx tailwindcss --minify -i app/templates/template.css -o app/static/style.css
-            /home/bettercal/.local/bin/uv run
+            /home/bettercal/.local/bin/uv sync
             systemctl --user restart bettercal.service
