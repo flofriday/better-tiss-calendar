@@ -19,7 +19,7 @@ Büro Schnürch,5,,Nicht buchbar,Verfügbar,Loschmitdt Trakt,"Getreidemarkt 9,",
 Büro Stanetty,3,,Nicht buchbar,Verfügbar,Loschmitdt Trakt,"Getreidemarkt 9,",BI02H08,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BI02H08
 CAD-Labor Saal 1 und 2,60,E307,Lokal,Verfügbar,Hoftrakt,"Lehargasse 6,",BD07B33,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BD+07+D32
 CAD-Labor Saal 3,30,E307,Lokal,Verfügbar,Hoftrakt,"Lehargasse 6,",BD06B33,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BD+06+B33
-CAD1,13,E104-04,Nicht buchbar,Verfügbar,Freihausgebäude,"Wiedner Hauptstraße 8-10,",DA08G10,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=DA08G10
+CAD1,13,E104-04,Nicht buchbar,Verfügbar,Freihausgebäude,"Wiedner Hauptstraße 8-10,",DA08G12,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=DA08G10
 CAD2,15,E104-04,Nicht buchbar,Verfügbar,Freihausgebäude,"Wiedner Hauptstraße 8-10,",DA07E10,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=DA07E10
 CEE EDV-Lehrraum,30,E249,Nicht buchbar,Verfügbar,Hauptgebäude,"Karlsplatz 13,",AE0138,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AE0138
 CEE Sitzungszimmer,20,E249,Nicht buchbar,Verfügbar,Hauptgebäude,"Karlsplatz 13,",AE0144,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AE0144
@@ -68,7 +68,7 @@ GM 3 Vortmann Hörsaal - VT,102,,Zentral,Verfügbar,Plus Energie Büro Hochhaus,
 GM 4 Knoller Hörsaal - VT,104,,Zentral,Verfügbar,Hoftrakt,"Lehargasse 6, Bauteil BD Hoftrakt, 2.OG",BD02D32,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=KNOL
 GM 5 Praktikum HS- TCH,232,,Zentral,Verfügbar,Plus Energie Büro Hochhaus,"Getreidemarkt 9, Bauteil BA Hochhaus, 2.UG",BAU276A,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BA_PRAKT
 GM 7 Kleiner Schiffbau,30,,Zentral,Verfügbar,Hoftrakt,"Lehargasse 6, Bauteil BD Hoftrakt, 1.OG",BD01B41,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=KSCH
-GM 8/9 - Hörsaal des Internationalen Wiener Motorensymposiums,96,,Zentral,Verfügbar,Hoftrakt,"Lehargasse 6, Bauteil BD Hoftrakt, 2.OG",BD02B33,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BAU1_ZID
+GM 8/9 - Hörsaal des Internationalen Wiener Motorensymposiums,72,,Zentral,Verfügbar,Hoftrakt,"Lehargasse 6, Bauteil BD Hoftrakt, 2.OG",BD02B33,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BAU1_ZID
 HS 13 Ernst Melan - RPL,160,,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13, Stiege 7",AE0239,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H13
 HS 14A Günther Feuerstein,102,,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13, Stiege 3, 3. Stock",AB0306,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H14A
 HS 17 Friedrich Hartmann - ARCH,211,,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13, Stiege 7, 3. Stock",AE0341,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H17
@@ -117,10 +117,11 @@ Laborraum BB01C19,3,E150,Nicht buchbar,Verfügbar,Eckbau,"Getreidemarkt 9,",BB01
 Laborraum BB01C23,3,E150,Nicht buchbar,Verfügbar,Eckbau,"Getreidemarkt 9,",BB01C23,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BB01C23
 Laborraum BB02G02,3,E150,Nicht buchbar,Verfügbar,Eckbau,"Getreidemarkt 9,",BB02G02,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BB02G02
 Lernraum Altes GZ,70,E915,Nicht buchbar,Verfügbar,Freihausgebäude,"Wiedner Hauptstraße 8-10,",DCEGD03,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=DCEGD03
+Lernraum BD01A29,12,,Nicht buchbar,Verfügbar,Hoftrakt,"Lehargasse 6, Getreidemarkt, BD 1. Stock",BD01A29,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BD01A29
 Lernraum DEZE11,17,E060-04-1,Nicht buchbar,Verfügbar,Institutsgebäude,"Treitlstraße 3,",DEZE11,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=DEZE11
 Lernraum Gußhaus CD0312,16,E060-04-1,Nicht buchbar,Verfügbar,Gußhausstr. 27-29 - Neu El,"Gußhausstraße 25-29,",CD0312,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=CD0312
 Lernraum Karlsplatz AHZE03,20,,Nicht buchbar,Verfügbar,Hauptgebäude,"Karlsplatz 13, Stiege 7, ZE",AHZE03,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AHZE03
-Luftpavillon,10,,Lokal,Verfügbar,Hauptgebäude,"Karlsplatz 13,",AIEG01A,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AIEG01A
+Luftpavillon,10,,Nicht buchbar,Verfügbar,Hauptgebäude,"Karlsplatz 13,",AIEG01A,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AIEG01A
 Messtechnik Labor,18,,Nicht buchbar,Verfügbar,Gußhausstr. 27-29 - Neu El,"Gußhausstraße 25-29,",CA0406,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=CA0406
 Ofenraum,7,,Lokal,Verfügbar,Institutsgebäude,"Getreidemarkt 9,",BF02G10,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BF02G10
 PC1,29,E299-02,Nicht buchbar,Verfügbar,Hauptgebäude,"Karlsplatz 13,",AF0106,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AF0106
@@ -183,6 +184,7 @@ Seminarraum AC 02 - 1 - UIW,36,E629,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz
 Seminarraum AC 02 - 2,36,E629,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13, Karlsplatz 13, 2. Stock, Stiege 5",AC0240,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AC0240
 Seminarraum AC 03 - 1,29,E060-04-1,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13,",AC0340,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AC0340
 Seminarraum AC0440,50,E264,Lokal,Verfügbar,Hauptgebäude,"Karlsplatz 13, 4. OG",AC0440,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AC0440
+Seminarraum ACEG01 Executive Learning Space,34,E017,Nicht buchbar,Verfügbar,Hauptgebäude,"Karlsplatz 13,",ACEG01,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ACEG01
 Seminarraum AD 03 - 1,46,E222,Lokal,Verfügbar,Hauptgebäude,"Karlsplatz 13, Stiege 5",AD0309,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=222
 Seminarraum AE U1 - 1,24,,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13,",AEU103,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AEU103
 Seminarraum AE U1 - 2,26,,Zentral,Verfügbar,Hauptgebäude,"Karlsplatz 13,",AEU107,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AEU107
@@ -234,7 +236,7 @@ Seminarraum O221-2,25,,Zentral,Verfügbar,Objekt 221,"Franz-Grill-Straße 2-4,",
 Seminarraum OD 01 - 1,23,E249-01,Lokal,Verfügbar,Arsenal OD,"Lilienthalgasse 21,",OD0122,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=OD0122
 Seminarraum Techn. Informatik,30,E193,Lokal,Verfügbar,Institutsgebäude,"Treitlstraße 3, ZUGANG ÜBER OPERNGASSE 9, Erdgeschoß",DEEG39,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SETI
 Seminarraum ZE 01 - 1,30,,Zentral,Verfügbar,Stadionallee 2 Neubau,"Stadionallee 2,",ZE0105,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ZE0105
-Studentenlabor,7,,Lokal,Verfügbar,Institutsgebäude,"Getreidemarkt 9,",BF02C23,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BF02C23
+Studierendenlabor,7,,Lokal,Verfügbar,Institutsgebäude,"Getreidemarkt 9,",BF02C23,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BF02C23
 TILab Raum 1,9,E199,Nicht buchbar,Verfügbar,Institutsgebäude,"Treitlstraße 3,",DEZE24,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=DE+ZE+24
 TILab Raum 2,9,E199,Nicht buchbar,Verfügbar,Institutsgebäude,"Treitlstraße 3,",DEZE32,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=DE+ZE+32
 TILab Raum 3,9,E199,Nicht buchbar,Verfügbar,Institutsgebäude,"Treitlstraße 3,",DEZE40,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=DE+ZE+40

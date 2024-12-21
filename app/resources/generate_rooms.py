@@ -20,7 +20,7 @@ def main():
     NAVIGATION_BUTTON_SELECTOR = ".ui-paginator-pages > *"
     TABLE_ROW_SELECTOR = "#tableForm\\:roomTbl_data > *"
 
-    data = []
+    data: list[list[str]] = []
 
     with webdriver.Firefox() as driver:
         driver.get(TISS_ROOM_LINK)
