@@ -45,7 +45,7 @@ You first need to install [node](https://nodejs.org/en) and [uv](https://github.
 ```bash
 npm install
 npx tailwindcss -i app/templates/template.css -o app/static/style.css
-uv run -- flask app run --debug
+uv run flask run --debug
 ```
 
 The server should now start at http://localhost:5000
