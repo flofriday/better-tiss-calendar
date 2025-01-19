@@ -35,7 +35,6 @@ def create_db() -> sqlite3.Connection:
     return db
 
 
-
 def get_db() -> sqlite3.Connection:
     db = getattr(g, "_database", None)
     if db is None:
@@ -49,8 +48,10 @@ def close_connection(exception):
     if db is not None:
         db.close()
 
+
 # Preheat the statistics cache
 get_chart_data(create_db())
+
 
 @app.route("/")
 def home():

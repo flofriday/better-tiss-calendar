@@ -52,6 +52,7 @@ def get_statistics(db: Connection) -> statistic:
 # Only the usage for today will change, so we can cache all past days.
 chart_cache: list[Tuple[str, int, int, int]] = []
 
+
 def get_chart_data(db: Connection) -> list[Tuple[str, int, int, int]]:
     global chart_cache
     since = chart_cache[-1][0] if len(chart_cache) > 0 else None
@@ -67,7 +68,9 @@ def get_chart_data(db: Connection) -> list[Tuple[str, int, int, int]]:
     return result
 
 
-def get_chart_data_since(db: Connection, since: str|None = None) -> list[Tuple[str, int, int, int]]:
+def get_chart_data_since(
+    db: Connection, since: str | None = None
+) -> list[Tuple[str, int, int, int]]:
     if since is None:
         # This is just any day far in the past but, the exact day is just the day before
         # it went into production.
@@ -92,7 +95,8 @@ def get_chart_data_since(db: Connection, since: str|None = None) -> list[Tuple[s
             WHERE day > ?
             GROUP BY day
             ORDER BY day
-        """, (since,)
+        """,
+        (since,),
     )
     rows = cursor.fetchall()
     return rows
