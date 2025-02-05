@@ -3,7 +3,6 @@ import html
 import re
 from dataclasses import dataclass
 from functools import cache
-from typing import Optional
 
 from icalendar import Calendar
 
@@ -29,7 +28,7 @@ class Event:
     address: str = ""
     room: str = ""
     room_code: str = ""
-    floor: Optional[MultiLangString] = None
+    floor: MultiLangString | None = None
     tiss_url: str = ""
     room_url: str = ""
     map_url: str = ""
@@ -242,7 +241,7 @@ def add_location(event: Event) -> Event:
     return event
 
 
-def create_floor_fallback(room_code: str) -> Optional[MultiLangString]:
+def create_floor_fallback(room_code: str) -> MultiLangString | None:
     """The floor information is encoded in the room code.
 
     Format: TTFFRR[R]

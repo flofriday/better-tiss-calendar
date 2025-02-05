@@ -1,8 +1,6 @@
-from datetime import date
 import hashlib
 from dataclasses import dataclass
 from sqlite3 import Connection
-from typing import Tuple
 
 
 def add_usage(db: Connection, token: str):
@@ -50,10 +48,10 @@ def get_statistics(db: Connection) -> statistic:
 
 
 # Only the usage for today will change, so we can cache all past days.
-chart_cache: list[Tuple[str, int, int, int]] = []
+chart_cache: list[tuple[str, int, int, int]] = []
 
 
-def get_chart_data(db: Connection) -> list[Tuple[str, int, int, int]]:
+def get_chart_data(db: Connection) -> list[tuple[str, int, int, int]]:
     global chart_cache
     since = chart_cache[-1][0] if len(chart_cache) > 0 else None
 
@@ -70,7 +68,7 @@ def get_chart_data(db: Connection) -> list[Tuple[str, int, int, int]]:
 
 def get_chart_data_since(
     db: Connection, since: str | None = None
-) -> list[Tuple[str, int, int, int]]:
+) -> list[tuple[str, int, int, int]]:
     if since is None:
         # This is just any day far in the past but, the exact day is just the day before
         # it went into production.
