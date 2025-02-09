@@ -2,9 +2,9 @@ FROM node:22 as tailwindbuild
 WORKDIR /app
 COPY . .
 RUN npm install
-RUN npx tailwindcss -i app/templates/template.css -o app/static/style.css
+RUN npx @tailwindcss/cli -i app/templates/template.css -o app/static/style.css
 
-FROM python:3.12-slim-bookworm
+FROM python:3.13-slim-bookworm
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 WORKDIR /app

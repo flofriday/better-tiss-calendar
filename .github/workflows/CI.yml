@@ -40,6 +40,6 @@ jobs:
             cd better-tiss-calendar
             git pull
             npm install
-            npx tailwindcss --minify -i app/templates/template.css -o app/static/style.css
+            npx @tailwindcss/cli --minify -i app/templates/template.css -o app/static/style.css
             /home/bettercal/.local/bin/uv sync
             systemctl --user restart bettercal.service

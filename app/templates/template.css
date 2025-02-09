@@ -1,49 +1,56 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-  --text-color: #fff;
-  --secondary-color: rgb(136, 136, 136);
-  --background-color: #000;
-}
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
 
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: "Inter", sans-serif;
-}
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
 
-a {
-  @apply text-blue-400 visited:text-purple-400 hover:underline;
-}
+@utility no-scrollbar {
+    @layer utilities {
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        &::-webkit-scrollbar {
+            display: none;
+        }
 
-@keyframes flyaway {
-  0% {
-    transform: translateY(30px);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-35px);
-    opacity: 0;
-  }
-}
-
-.flyaway {
-  animation: 1.5s ease-out 0s 1 flyaway;
+        /* Hide scrollbar for IE, Edge and Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
 }
 
 @layer utilities {
-  @variants responsive {
-    /* Hide scrollbar for Chrome, Safari and Opera */
-    .no-scrollbar::-webkit-scrollbar {
-      display: none;
+    :root {
+        --text-color: #fff;
+        --secondary-color: rgb(136, 136, 136);
+        --background-color: #000;
     }
 
-    /* Hide scrollbar for IE, Edge and Firefox */
-    .no-scrollbar {
-      -ms-overflow-style: none; /* IE and Edge */
-      scrollbar-width: none; /* Firefox */
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+        font-family: "Inter", sans-serif;
     }
-  }
+
+    a {
+        @apply text-blue-400 visited:text-purple-400 hover:underline;
+    }
+
+    @keyframes flyaway {
+        0% {
+            transform: translateY(30px);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(-35px);
+            opacity: 0;
+        }
+    }
+
+    .flyaway {
+        animation: 1.5s ease-out 0s 1 flyaway;
+    }
 }

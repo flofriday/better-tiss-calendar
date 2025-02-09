@@ -44,7 +44,7 @@ You first need to install [node](https://nodejs.org/en) and [uv](https://github.
 
 ```bash
 npm install
-npx tailwindcss -i app/templates/template.css -o app/static/style.css
+npx @tailwindcss/cli -i app/templates/template.css -o app/static/style.css
 uv run flask run --debug
 ```
 

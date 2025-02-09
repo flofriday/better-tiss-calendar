@@ -38,7 +38,7 @@
                 <span aria-hidden="true" class="my-auto text-5xl px-2 whitespace-nowrap">➔</span>
 
                 <div
-                    class="w-[12rem] w-min-[12rem] h-full rounded-2xl p-[1px] bg-gradient-to-r from-pink-500 to-yellow-500">
+                    class="w-[12rem] w-min-[12rem] h-full rounded-2xl p-[1px] bg-linear-to-r from-cyan-500 to-blue-500 shadow-lg shadow-cyan-500/50">
                     <div class="w-full h-full bg-black rounded-2xl text-start p-3">
                         <div lang="de" id="preview-title" class="text-lg font-bold">EP1 VU</div>
                         <div lang="de" class="my-2 text-sm">📌 Getreidemarkt 9</div>
@@ -68,7 +68,7 @@
             <div class="w-full text-start">
                 <div class="w-full">
                     <label for="original_url" class="block mb-2">
-                        <h2 class="font-medium">
+                        <h2 class="text-lg font-medium">
                             Original calendar url (from
                             <a href="https://tiss.tuwien.ac.at/events/personSchedule.xhtml" target="_blank"
                                 rel="noopener noreferrer">here</a>):
@@ -76,7 +76,7 @@
                     </label>
                     <div class="w-full flex flex-row space-x-3">
                         <input type="text" id="original_url"
-                            class="bg-slate-950 border border-[color:#333] rounded-lg focus:outline-none focus:border-white focus:ring-white  w-full p-2.5"
+                            class="bg-slate-950 border border-[color:#333] rounded-lg focus:outline-hidden focus:border-white focus:ring-white  w-full p-2.5"
                             placeholder="https://tiss.tuwien.ac.at/even..." required>
                         <button id="verify"
                             class="bg-slate-950 border border-[color:#333] rounded-lg px-3 hover:bg-white hover:text-black transition-all ease-in-out duration-300">Create</button>
@@ -87,7 +87,7 @@
 
             <div class="w-full text-start pb-8">
                 <div>
-                    <h2 class="font-medium">Options:</h2>
+                    <h2 class="text-lg font-medium">Options:</h2>
                 </div>
 
                 <input type="checkbox" name="Google" id="is_google">
@@ -103,7 +103,8 @@
                 <div class="w-full">
                     <div class="flex flex-row justify-between">
                         <label for="new_url" class="block mb-2">
-                            <h2 class="font-medium">Better calendar url:</h2>
+                            <h2 class="text-lg font-medium">Better calendar url:</h2>
+                            <span class="text-slate-400">For your calendar app</span>
                         </label>
                         <div id="copy_feedback"
                             class="text-teal-300 font-bold text-end text-sm opacity-0 pr-2 select-none">Copied!
@@ -121,20 +122,40 @@
 
 
                             <button disabled id="copy"
-                                class="group bg-[color:#333] enabled:bg-gradient-to-r enabled:from-cyan-500 enabled:to-blue-500 p-[1px] rounded-lg">
+                                class="group bg-[color:#333] enabled:bg-linear-to-r enabled:from-cyan-500 enabled:to-blue-500 p-[1px] rounded-lg hover:enabled:shadow-lg shadow-cyan-500/50 transition ease-in-out duration-500">
                                 <div
-                                    class="bg-slate-950  group-disabled:border-[color:#333] group-disabled:text-slate-600 align-middle px-3 h-full flex flex-col justify-center rounded-lg group-enabled:hover:bg-opacity-0 transition ease-in-out duration-500">
-                                    Copy</div>
+                                    class="group-enabled:group-hover:bg-black/0  bg-black group-disabled:border-[color:#333] group-disabled:text-slate-600 align-middle px-3 h-full flex flex-col justify-center rounded-lg  transition ease-in-out duration-500">
+                                    Copy
+                                    </div>
                             </button>
 
 
                         </div>
-                        <div id="import-tip" class="text-sm mt-3 invisible">
-                            <p>
-                                Tip: Don't just open the url and download the file, it won't stayed synced, instead <strong><a
-                                    href="https://github.com/flofriday/better-tiss-calendar?tab=readme-ov-file#importing-the-calendar">subscribe to the calendar 📅</a></strong></p>
-                            </p>
-                            <p class="pt-2">
+                        <div id="import-tip" class="mt-12 opacity-0 transition-all duration-500">
+                            <div class="border border-[color:#333] p-2 rounded-lg">
+                                <h2 class="text-lg mb-2">How to subscribe:</h2>
+                                <div class="text-sm">
+
+                                    <p class="mb-2">
+                                    Subscribing to bettercal works just like the orignial TISS one.
+                                    </p>
+
+                                    <strong class="font-medium mb-1">iPhone/iPad/Mac</strong>
+                                    <ol class="list-decimal list-inside space-y-1 text-slate-400 mb-2 ml-2">
+                                        <li>Open Calendar app</li>
+                                        <li>Go to File → New Calendar Subscription (Mac) or tap Add Calendar → Add Subscription Calendar (iOS)</li>
+                                        <li>Pate the url from above</li>
+                                    </ol>
+
+                                    <strong class="font-medium mb-1">Google Calendar</strong>
+                                    <ol class="list-decimal list-inside space-y-1 text-slate-400 ml-2">
+                                        <li>Open Google Calendar (in the Web)</li>
+                                        <li>Click the + next to "Other calendars"</li>
+                                        <li>Paste the url form above</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <p class="pt-2 text-sm">
                                 Having problems? <a href="mailto:flohacksfriday@gmail.com?subject=BetterCal%20Problem">Contact the developer</a>
                             </p>
                         </div>

@@ -98,6 +98,7 @@ function disableBetterUrl() {
   betterText.classList.add("hidden");
   betterTextPlaceholder.classList.remove("hidden");
   importTip.classList.add("invisible");
+  importTip.classList.add("opacity-0");
   copyBtn.disabled = true;
 }
 
@@ -112,6 +113,7 @@ function setBetterUrl(originalUrl) {
   betterText.classList.remove("hidden");
   betterTextPlaceholder.classList.add("hidden");
   importTip.classList.remove("invisible");
+  importTip.classList.remove("opacity-0");
   copyBtn.disabled = false;
 
   const tmpurl = new URL(originalUrl);
