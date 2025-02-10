@@ -111,9 +111,9 @@ def verify():
 @app.route("/personal.ics")
 def icalendar():
     # If accessed from a browser render fallback
-    if 'text/html' in request.headers.get('Accept', ''):
+    if "text/html" in request.headers.get("Accept", ""):
         # The calendar shouldn't be opend in the but subscribed in your app
-        return render_template('nobrowser.html')
+        return render_template("nobrowser.html")
 
     token = request.args.get("token")
     if token is None:
