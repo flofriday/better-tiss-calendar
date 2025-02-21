@@ -20,6 +20,9 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: Typecheck
+        run: uv tool run pyright
+
       - name: Test with pytest
         run: uv run pytest
 

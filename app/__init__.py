@@ -74,7 +74,7 @@ def static_asset(path):
 
 @app.route("/verify")
 def verify():
-    url = request.args.get("url").strip()
+    url = request.args.get("url", "").strip()
     if url is None or url == "":
         return "Empty links don't work *surprised picatchu meme*", 400
 

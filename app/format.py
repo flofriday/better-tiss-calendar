@@ -1,10 +1,11 @@
 import csv
 import html
 import re
+from re import Match
 from dataclasses import dataclass
 from functools import cache
 
-from icalendar import Calendar
+from icalendar import Calendar, Component
 
 summary_regex = re.compile("([0-9A-Z]{3}\\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
 
@@ -12,7 +13,7 @@ summary_regex = re.compile("([0-9A-Z]{3}\\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
 class MultiLangString:
     "A string to hold multiple languages"
 
-    def __init__(self, de: str, en: str = None) -> None:
+    def __init__(self, de: str, en: str | None = None) -> None:
         self.de = de
         self.en = en if en is not None else de
 
@@ -106,11 +107,11 @@ class Event:
 
 
 def improve_calendar(
-    cal: Calendar,
+    cal: Component,
     use_shorthand: bool = True,
     google_cal: bool = False,
-    locale: str = None,
-) -> Calendar:
+    locale: str|None = None,
+) -> Component:
     if locale is None:
         locale = "de"
 
@@ -176,7 +177,7 @@ def event_from_ical(component) -> Event:
     summary = component.get("summary")
     match = summary_regex.match(summary)
 
-    [number, lecture_type, name] = match.groups()
+    [number, lecture_type, name] = match.groups() # type: ignore
     additional = ""
     if " - " in name:
         [name, additional] = name.rsplit(" - ", 1)

@@ -1,7 +1,7 @@
 import re
 
 from flask.testing import FlaskClient
-from icalendar import Calendar
+from icalendar import Calendar, Component
 
 
 def get_test_calendar(lang: str = "de"):
@@ -12,15 +12,15 @@ def get_test_calendar(lang: str = "de"):
     return cal
 
 
-def calendar_event_cnt(cal: Calendar) -> int:
+def calendar_event_cnt(cal: Component) -> int:
     return sum([1 for c in cal.walk() if c.name == "VEVENT"])
 
 
-def calendar_summaries(cal: Calendar) -> [str]:
+def calendar_summaries(cal: Component) -> list[str]:
     return [c.get("summary") for c in cal.walk() if c.name == "VEVENT"]
 
 
-def calendar_descriptions(cal: Calendar) -> [str]:
+def calendar_descriptions(cal: Component) -> list[str]:
     descriptions = [c.get("description") for c in cal.walk() if c.name == "VEVENT"]
     return [d for d in descriptions if d is not None]
 
@@ -91,7 +91,7 @@ def test_icalendar_de_success(client: FlaskClient, mocker):
     # No left template strings
     assert not any(
         [
-            re.fullmatch(".*\\{.*\\}.*", d) is not None in d
+            re.fullmatch(".*\\{.*\\}.*", d) is not None
             for d in calendar_descriptions(cal)
         ]
     )
@@ -135,7 +135,7 @@ def test_icalendar_en_success(client: FlaskClient, mocker):
     # No left template strings
     assert not any(
         [
-            re.fullmatch(".*\\{.*\\}.*", d) is not None in d
+            re.fullmatch(".*\\{.*\\}.*", d) is not None
             for d in calendar_descriptions(cal)
         ]
     )
@@ -178,7 +178,7 @@ def test_icalendar_forgoogle_de_success(client: FlaskClient, mocker):
     # No left template strings
     assert not any(
         [
-            re.fullmatch(".*\\{.*\\}.*", d) is not None in d
+            re.fullmatch(".*\\{.*\\}.*", d) is not None
             for d in calendar_descriptions(cal)
         ]
     )
@@ -222,7 +222,7 @@ def test_icalendar_forgoogle_en_success(client: FlaskClient, mocker):
     # No left template strings
     assert not any(
         [
-            re.fullmatch(".*\\{.*\\}.*", d) is not None in d
+            re.fullmatch(".*\\{.*\\}.*", d) is not None
             for d in calendar_descriptions(cal)
         ]
     )
@@ -267,7 +267,7 @@ def test_icalendar_noshorthands_de_success(client: FlaskClient, mocker):
     # No left template strings
     assert not any(
         [
-            re.fullmatch(".*\\{.*\\}.*", d) is not None in d
+            re.fullmatch(".*\\{.*\\}.*", d) is not None
             for d in calendar_descriptions(cal)
         ]
     )
