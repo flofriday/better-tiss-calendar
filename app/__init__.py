@@ -113,7 +113,7 @@ def icalendar():
     # If accessed from a browser render fallback
     if "text/html" in request.headers.get("Accept", ""):
         # The calendar shouldn't be opend in the but subscribed in your app
-        return render_template("nobrowser.html")
+        return render_template("nobrowser.html"), 406
 
     token = request.args.get("token")
     if token is None:
