@@ -1,5 +1,5 @@
 import requests
-from icalendar import Component, Calendar
+from icalendar import Calendar, Component
 
 
 def get_calendar(url: str) -> Component:
