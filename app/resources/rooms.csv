@@ -8,8 +8,8 @@ Besprechungsraum 01,5,,Lokal,Verfügbar,Lehartrakt,"Lehargasse 4,",BC01A04,https
 Besprechungsraum 01,10,E199-01,Nicht buchbar,Verfügbar,Erzherzog-Johann-Pl. 1,"Erzherzog-Johann-Platz 1,",FB0411,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FB0411
 Besprechungsraum 02,10,E199-01,Nicht buchbar,Verfügbar,Erzherzog-Johann-Pl. 1,"Erzherzog-Johann-Platz 1,",FB0402,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FB0402
 Besprechungsraum 362 - 2,12,E362,Nicht buchbar,Verfügbar,ZMNS,"Gußhausstraße 25-25a,",CH0205B,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=CH0205B
-Besprechungsraum Galerie,14,E629,Zentral,Verfügbar,Institutsgebäude,"Argentinierstraße 8, Argentinierstrasse 8, 1. Stock",EAZE04,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BRG
-Besprechungsraum Kuppel,8,E629,Zentral,Verfügbar,Institutsgebäude,"Argentinierstraße 8, Argentienerstraße 8, EG",EAEG05A,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BRK
+Besprechungsraum Galerie,12,E629,Zentral,Verfügbar,Institutsgebäude,"Argentinierstraße 8, Argentinierstrasse 8, 1. Stock",EAZE04,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BRG
+Besprechungsraum Kuppel,6,E629,Zentral,Verfügbar,Institutsgebäude,"Argentinierstraße 8, Argentienerstraße 8, EG",EAEG05A,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BRK
 Bibliothek E354,20,,Nicht buchbar,Verfügbar,Haupttrakt,"Gußhausstraße 25-25a, Gußhausstraße 25",CF0117,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=CF0117
 Bibliothek E363,20,E363,Lokal,Verfügbar,Gußhausstr. 27-29 - Neu El,"Gußhausstraße 25-29,",CB0115,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=CB0115
 Büro Birner-Grünberger,3,,Nicht buchbar,Verfügbar,Geniegebäude,"Getreidemarkt 9,",BZ0101,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BZ0101
@@ -25,9 +25,7 @@ CEE EDV-Lehrraum,30,E249,Nicht buchbar,Verfügbar,Hauptgebäude,"Karlsplatz 13,"
 CEE Sitzungszimmer,20,E249,Nicht buchbar,Verfügbar,Hauptgebäude,"Karlsplatz 13,",AE0144,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AE0144
 CPS Bibliothek,11,E191-50,Lokal,Verfügbar,Institutsgebäude,"Treitlstraße 3,",DE0328,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=DE0328
 CPS Labor,10,,Lokal,Verfügbar,Institutsgebäude,"Treitlstraße 3,",DE0302,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=DE0302
-Computerlabor CA 0514,6,E360-01,Nicht buchbar,Verfügbar,Gußhausstr. 27-29 - Neu El,"Gußhausstraße 25-29,",CA0514,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=CA+0514
-Computerlabor CA 0518,3,E360-01,Nicht buchbar,Verfügbar,Gußhausstr. 27-29 - Neu El,"Gußhausstraße 25-29,",CA0518,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=CA+0518
-Computerlabor CA0510,6,E360-01,Nicht buchbar,Verfügbar,Gußhausstr. 27-29 - Neu El,"Gußhausstraße 25-29,",CA0510,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=CA0510
+CPS Robotik-Labor,25,E191-01,Lokal,Verfügbar,Lab.f.Fert.Technik,"Engerthstr. 119,",PCEG13,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=PCEG13
 Computerlabor CH0217,18,E362,Nicht buchbar,Verfügbar,ZMNS,"Gußhausstraße 25-25a,",CH0217,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=Ch0217
 DSLab,24,E194,Nicht buchbar,Verfügbar,Institutsgebäude,"Argentinierstraße 8,",EAU120B,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=EA+U1+20B
 EDV Praktikum Physik,32,E134,Lokal,Verfügbar,Freihausgebäude,"Wiedner Hauptstraße 8-10, Turm A, grüner Bereich, 1. OG",DB01E09,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=EDVP
