@@ -6,7 +6,7 @@ on: [push]
 
 jobs:
   test:
-    runs-on: Ubuntu-22.04
+    runs-on: Ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -21,13 +21,13 @@ jobs:
         run: uv sync
 
       - name: Linting
-        run: uv tool run ruff check
+        run: uv run ruff check
 
       - name: Formatting
-        run: uv tool run ruff format --check
+        run: uv run ruff format --check
 
       - name: Typecheck
-        run: uv tool run pyright
+        run: uv run pyright
 
       - name: Test with pytest
         run: uv run pytest
