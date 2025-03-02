@@ -20,6 +20,12 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: Linting
+        run: uv tool run ruff check
+
+      - name: Formatting
+        run: uv tool run ruff format --check
+
       - name: Typecheck
         run: uv tool run pyright
 
