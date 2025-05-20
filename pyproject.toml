@@ -2,9 +2,9 @@
 name = "better-tiss-calendar"
 version = "0.0.1"
 dependencies = [
-    "flask>=3.1.0",
+    "flask>=3.1.1",
     "gunicorn>=23.0.0",
-    "icalendar>=6.2.0",
+    "icalendar>=6.3.1",
     "requests>=2.32.3",
 ]
 requires-python = ">=3.13"
@@ -34,5 +34,6 @@ dev = [
     "pytest-mock>=3.14.0",
     "pytest>=8.3.5",
     "pyright>=1.1.400",
-    "ruff>=0.11.9",
+    "ruff>=0.11.10",
+    "ty>=0.0.1a5 ",
 ]
