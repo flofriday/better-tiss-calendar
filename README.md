@@ -95,4 +95,5 @@ For formatting and linting we use `ruff` and for typechecking `pyright`
 uv run ruff format
 uv run ruff check --fix
 uv run pyright
+uv run ty check # Still pre-release
 ```

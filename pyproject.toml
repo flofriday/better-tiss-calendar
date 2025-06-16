@@ -24,6 +24,12 @@ source = ["app"]
 [tool.ruff.lint]
 select = ["E", "F", "UP", "B", "SIM", "I"]
 
+[tool.ty.environment]
+python = ".venv"
+
+[tool.ty.src]
+exclude = ["venv", ".venv", "**/resources"]
+
 [tool.pyright]
 venvPath = "."
 venv = ".venv"
@@ -35,5 +41,5 @@ dev = [
     "pytest>=8.4.0",
     "pyright>=1.1.402",
     "ruff>=0.11.13",
-    "ty>=0.0.1a5 ",
+    "ty>=0.0.1a10 ",
 ]

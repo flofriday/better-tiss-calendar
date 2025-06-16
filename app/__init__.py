@@ -96,9 +96,9 @@ def verify():
 
     try:
         tiss.get_calendar(url)
-    except requests.exceptions.HTTPError:
+    except requests.HTTPError:
         return "TISS rejected this url. Maybe the token is invalid?", 400
-    except requests.exceptions.ConnectionError:
+    except ConnectionError:
         return "Could not contact TISS. Maybe TISS is down?", 400
     except ValueError:
         return "TISS didn't return an ical file, did you paste the correct url?", 400
