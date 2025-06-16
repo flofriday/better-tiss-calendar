@@ -8,8 +8,8 @@ Besprechungsraum 01,5,,Lokal,Verfügbar,Lehartrakt,"Lehargasse 4,",BC01A04,https
 Besprechungsraum 01,10,E199-01,Nicht buchbar,Verfügbar,Erzherzog-Johann-Pl. 1,"Erzherzog-Johann-Platz 1,",FB0411,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FB0411
 Besprechungsraum 02,10,E199-01,Nicht buchbar,Verfügbar,Erzherzog-Johann-Pl. 1,"Erzherzog-Johann-Platz 1,",FB0402,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FB0402
 Besprechungsraum 362 - 2,12,E362,Nicht buchbar,Verfügbar,ZMNS,"Gußhausstraße 25-25a,",CH0205B,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=CH0205B
-Besprechungsraum Galerie,12,E629,Zentral,Verfügbar,Institutsgebäude,"Argentinierstraße 8, Argentinierstrasse 8, 1. Stock",EAZE04,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BRG
-Besprechungsraum Kuppel,6,E629,Zentral,Verfügbar,Institutsgebäude,"Argentinierstraße 8, Argentienerstraße 8, EG",EAEG05A,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BRK
+Besprechungsraum Galerie,12,,Zentral,Verfügbar,Institutsgebäude,"Argentinierstraße 8, Argentinierstrasse 8, 1. Stock",EAZE04,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BRG
+Besprechungsraum Kuppel,6,,Zentral,Verfügbar,Institutsgebäude,"Argentinierstraße 8, Argentienerstraße 8, EG",EAEG05A,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BRK
 Bibliothek E354,20,,Nicht buchbar,Verfügbar,Haupttrakt,"Gußhausstraße 25-25a, Gußhausstraße 25",CF0117,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=CF0117
 Bibliothek E363,20,E363,Lokal,Verfügbar,Gußhausstr. 27-29 - Neu El,"Gußhausstraße 25-29,",CB0115,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=CB0115
 Büro Birner-Grünberger,3,,Nicht buchbar,Verfügbar,Geniegebäude,"Getreidemarkt 9,",BZ0101,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BZ0101
@@ -223,6 +223,7 @@ Seminarraum FAV 01 A (Seminarraum 183/2),22,,Zentral,Verfügbar,Institutsgebäud
 Seminarraum FAV 01 B (Seminarraum 187/2),26,,Zentral,Verfügbar,Institutsgebäude,"Favoritenstraße 9-11, 1. Obergeschoß",HF0109,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=1872
 Seminarraum FAV 01 C (Seminarraum 188/2),30,,Zentral,Verfügbar,Institutsgebäude,"Favoritenstraße 9-11, 1. Obergeschoß",HE0108,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=1882
 Seminarraum FAV 05 (Seminarraum 186),36,E193,Lokal & zentral,Verfügbar,Institutsgebäude,"Favoritenstraße 9-11, 5. Obergeschoß",HA0503,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=186
+Seminarraum FAV EG A,30,,Zentral,Verfügbar,Institutsgebäude,"Favoritenstraße 9-11,",HAEG02,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=HAEG02
 Seminarraum FAV EG B (Seminarraum von Neumann),25,E192,Lokal & zentral,Verfügbar,Institutsgebäude,"Favoritenstraße 9-11, Erdgeschoß",HBEG16,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMN
 Seminarraum FAV EG C (Seminarraum Gödel),30,E192,Lokal & zentral,Verfügbar,Institutsgebäude,"Favoritenstraße 9-11, Erdgeschoß",HBEG10,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMG
 Seminarraum Lehar 01,20,E165,Lokal & zentral,Verfügbar,Lehartrakt,"Lehargasse 4, Bauteil BC Lehartrakt, 1.OG",BC01A46,https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=Lehar+01
