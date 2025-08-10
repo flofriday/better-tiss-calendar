@@ -94,6 +94,6 @@ For formatting and linting we use `ruff` and for typechecking `pyright`
 ```bash
 uv run ruff format
 uv run ruff check --fix
-uv run pyright
 uv run ty check # Still pre-release
+# uv run pyright # Fallback for ty
 ```

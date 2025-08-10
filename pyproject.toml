@@ -39,7 +39,7 @@ exclude = ["venv", ".venv", "**/resources"]
 dev = [
     "pytest-mock>=3.14.1",
     "pytest>=8.4.1",
-    "pyright>=1.1.402",
-    "ruff>=0.11.13",
-    "ty>=0.0.1a11 ",
+    "pyright>=1.1.403",
+    "ruff>=0.12.8",
+    "ty>=0.0.1a17 ",
 ]
