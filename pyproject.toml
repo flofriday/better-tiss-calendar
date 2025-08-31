@@ -2,10 +2,10 @@
 name = "better-tiss-calendar"
 version = "0.0.1"
 dependencies = [
-    "flask>=3.1.1",
+    "flask>=3.1.2",
     "gunicorn>=23.0.0",
     "icalendar>=6.3.1",
-    "requests>=2.32.4",
+    "requests>=2.32.5",
 ]
 requires-python = ">=3.13"
 authors = [{ name = "flofriday" }]
@@ -39,7 +39,7 @@ exclude = ["venv", ".venv", "**/resources"]
 dev = [
     "pytest-mock>=3.14.1",
     "pytest>=8.4.1",
-    "pyright>=1.1.403",
-    "ruff>=0.12.8",
-    "ty>=0.0.1a17 ",
+    "pyright>=1.1.404",
+    "ruff>=0.12.10",
+    "ty>=0.0.1a19 ",
 ]

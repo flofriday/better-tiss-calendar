@@ -89,7 +89,7 @@ Contributions are quite welcome, you are awesome. 😊🎉
 If you want to add a shorthand for a lecture, the file you need to edit is
 `ressources/shorthands.csv`.
 
-For formatting and linting we use `ruff` and for typechecking `pyright`
+For formatting and linting we use `ruff` and for typechecking `ty`
 
 ```bash
 uv run ruff format
