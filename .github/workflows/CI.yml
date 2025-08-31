@@ -47,7 +47,8 @@ jobs:
           script_stop: true
           script: |
             cd better-tiss-calendar
-            git pull
+            git fetch --all
+            git reset --hard origin/main
             npm install
             npx @tailwindcss/cli --minify -i app/templates/template.css -o app/static/style.css
             /home/bettercal/.local/bin/uv sync
