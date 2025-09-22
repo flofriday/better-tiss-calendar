@@ -1,12 +1,16 @@
 import csv
 import html
 import re
+import string
 from dataclasses import dataclass
 from functools import cache
 
 from icalendar import Component
 
 summary_regex = re.compile("([0-9A-Z]{3}\\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
+word_split_regex = re.compile(
+    re.escape(string.punctuation) + re.escape(string.whitespace)
+)
 
 
 class MultiLangString:
@@ -211,17 +215,40 @@ def create_shorthand(name: str) -> str:
 
 
 def create_shorthand_fallback(name: str) -> str:
+    # Shorthands are all the uppercase letters
+    iter = filter(lambda c: c.isupper(), name)
+    shorthand = "".join(iter)
+    if is_valid_shorthand(shorthand):
+        return shorthand
+
     # Shorthands are the first letters of all capitalized words.
-    iter = re.split(" |-", name)
+    iter = word_split_regex.split(name)
     iter = filter(lambda w: len(w) > 1 and w[0].isupper(), iter)
     iter = map(lambda w: w[0], iter)
     shorthand = "".join(iter)
 
     # The generated shorthand can be somewhat bad so lets add some checks:
-    if len(shorthand) < 2:
-        return name
+    if is_valid_shorthand(shorthand):
+        return shorthand
 
-    return shorthand
+    # Couldn't generate a shorthand, default to original
+    return name
+
+
+def is_valid_shorthand(shorthand: str) -> bool:
+    """The generated shorthand has to be meaning full without beeing offending.
+
+    Requirements:
+        - At least 2 Symbols
+        - At most 6
+        - No offending words
+    """
+
+    if len(shorthand) < 2 or len(shorthand) > 6:
+        return False
+
+    forbidden = ["SS", "NAZI"]
+    return shorthand not in forbidden
 
 
 def add_location(event: Event) -> Event:
