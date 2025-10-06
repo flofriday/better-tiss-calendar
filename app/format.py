@@ -34,6 +34,7 @@ class Event:
     room_code: str = ""
     floor: MultiLangString | None = None
     tiss_url: str = ""
+    tuwel_url: str = ""
     room_url: str = ""
     map_url: str = ""
 
@@ -57,6 +58,8 @@ class Event:
             text += f"<b>{html.escape(self.name)}</b><br>"
 
         text += f'Details: <a href="{self.tiss_url}">Lecture</a>'
+        if self.tuwel_url != "":
+            text += f', <a href="{self.tuwel_url}">TUWEL</a>'
         if self.room_url != "":
             text += f', <a href="{self.room_url}">Room-Schedule</a>'
         text += "<br>"
@@ -92,6 +95,8 @@ class Event:
             text += f"<b>{html.escape(self.name)}</b><br>"
 
         text += f'Details: <a href="{self.tiss_url}">LVA</a>'
+        if self.tuwel_url != "":
+            text += f', <a href="{self.tuwel_url}">TUWEL</a>'
         if self.room_url != "":
             text += f', <a href="{self.room_url}">Raum Reservierung</a>'
         text += "<br>"
@@ -138,6 +143,9 @@ def improve_calendar(
             summary += " - " + event.additional
         component.pop("summary")
         component.add("summary", summary)
+
+        # Add tuwel
+        event.tuwel_url = read_tuwel_urls().get(event.number, "")
 
         # Serialize the address
         if event.address != "":
@@ -293,6 +301,22 @@ def create_floor_fallback(room_code: str) -> MultiLangString | None:
         return MultiLangString(f"{floor}. Untergeschoß", f"{floor}. Underground Floor")
     else:
         return MultiLangString(floor_code)
+
+
+@cache
+def read_tuwel_urls() -> dict[str, str]:
+    with open("app/resources/courses.csv") as f:
+        # The first line is a header
+        lines = f.readlines()[1:]
+
+    id_to_url = {}
+    for line in lines:
+        id, name, url = line.strip().split(",")
+        if id is None or url is None:
+            continue
+        id_to_url[id] = url
+
+    return id_to_url
 
 
 @cache
