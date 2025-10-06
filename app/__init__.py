@@ -123,6 +123,8 @@ def icalendar():
     if locale is None:
         return "No locale provided", 400
 
+    # FIXME: Maybe we can autodetect if google is the client and remove this
+    # option
     is_google = "google" in request.args
     use_shorthand = "noshorthand" not in request.args
 
