@@ -5,30 +5,13 @@
 # ///
 
 
+import csv
 import random
 import re
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
-import csv
 
 import requests
-
-
-headers = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-    "Accept-Language": "nl-NL,nl;q=0.9,en-AT;q=0.8,en-US;q=0.7,en;q=0.6",
-    "Cache-Control": "no-cache",
-    "Connection": "keep-alive",
-    "Pragma": "no-cache",
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "same-origin",
-    "Upgrade-Insecure-Requests": "1",
-    "sec-ch-ua": '"Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"',
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": '"macOS"',
-}
 
 req_id = str(random.randint(0, 999))
 window_id = str(random.randint(1000, 9999))
@@ -47,7 +30,6 @@ class CustomSession(requests.Session):
 
 
 session = CustomSession()
-session.headers.update(headers)
 session.cookies.set(f"dsrwid-{req_id}", f"{window_id}", domain="tiss.tuwien.ac.at")
 session.cookies.set("TISS_LANG", "en", domain="tiss.tuwien.ac.at")
 session.cookies.set(f"dsrwid-{req_id}", f"{window_id}", domain="tiss.tuwien.ac.at")
