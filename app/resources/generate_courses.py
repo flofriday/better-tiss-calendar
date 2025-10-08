@@ -5,11 +5,13 @@
 # ///
 
 
+import argparse
 import csv
 import random
 import re
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
+from datetime import datetime
 
 import requests
 
@@ -35,8 +37,15 @@ session.cookies.set("TISS_LANG", "en", domain="tiss.tuwien.ac.at")
 session.cookies.set(f"dsrwid-{req_id}", f"{window_id}", domain="tiss.tuwien.ac.at")
 session.cookies.set("TISS_LANG", "en", domain="tiss.tuwien.ac.at")
 
+total_programs = 0
+counter_programs = 0
+
 
 def fetch_program_courses(program_url):
+    global counter_programs
+    counter_programs += 1
+    print(f"\t[{counter_programs}/{total_programs}] {program_url}")
+
     html = session.get(program_url).text
     courses = re.findall(r"/course/courseDetails\.xhtml\?courseNr=\d+", html)
     return set(courses)
@@ -45,23 +54,70 @@ def fetch_program_courses(program_url):
 @dataclass(frozen=True)
 class Course:
     id: str | None
+    name: str | None
     tiss_url: str
     tuwel_url: str | None
+    registration_start: datetime | None
+    registration_end: datetime | None
+    deregistration_end: datetime | None
+
+
+total_courses = 0
+counter_courses = 0
 
 
 def fetch_course_info(course_url):
+    global counter_courses
+    counter_courses += 1
+    print(f"\t[{counter_courses}/{total_courses}] {course_url}")
+
     html = session.get(course_url).text
-    course_match = re.search(r'<span class="light">([\d\.]+)', html)
-    course_number = course_match.group(1) if course_match else "unknown"
+    course_match = re.search(r'<span class="light">([\d\.]+)\s*</span>([^<]+)<', html)
+    course_number = None
+    name = None
+    if course_match:
+        course_number = course_match.group(1)
+        name = course_match.group(2).strip()
+
     tuwel_match = re.search(
         r"https://tuwel\.tuwien\.ac\.at/course/view\.php\?id=\d+",
         html,
     )
     tuwel_url = tuwel_match.group(0) if tuwel_match else None
-    return Course(id=course_number, tiss_url=course_url, tuwel_url=tuwel_url)
+
+    registration_table_match = re.search(
+        r"<h2>Course registration</h2>(.*?)</table>", html
+    )
+    if registration_table_match:
+        # FIXME: This doesn't work yet
+        table_html = registration_table_match.group(1)
+        matches = re.findall("<td>(.*?)</td>", table_html)
+        print(matches)
+
+    return Course(
+        id=course_number,
+        name=name,
+        tiss_url=course_url,
+        tuwel_url=tuwel_url,
+        registration_start=None,
+        registration_end=None,
+        deregistration_end=None,
+    )
 
 
 def main():
+    parser = argparse.ArgumentParser(
+        prog="generate_courses.py",
+        description="Gather information about all courses from TISS.",
+    )
+    parser.add_argument(
+        "--debug-small",
+        action="store_true",
+        help="Only download a small set for debuggin purposes, since the full"
+        + " set can take minutes.",
+    )
+    args = parser.parse_args()
+
     # 1) Download programs list
     print("Downloading program list ...")
     programs_url = "https://tiss.tuwien.ac.at/curriculum/studyCodes.xhtml"
@@ -71,9 +127,15 @@ def main():
         r"/curriculum/public/curriculum\.xhtml\?key=\d+", programs_html
     )
     programs = ["https://tiss.tuwien.ac.at" + p for p in set(programs)]
+
+    if args.debug_small:
+        programs = programs[:10]
+
     print(f"Found {len(programs)} programs")
 
     # 2) Download all courses
+    global total_programs
+    total_programs = len(programs)
     print("Downloading courses list ...")
     with ThreadPoolExecutor(max_workers=100) as executor:
         # Map fetch_program_courses over all programs
@@ -83,20 +145,55 @@ def main():
         courses = set().union(*results)
     courses = ["https://tiss.tuwien.ac.at" + c for c in set(courses)]
 
+    if args.debug_small:
+        courses = courses[:100]
+
     print(f"Found {len(courses)} courses")
 
     # 3) Download all the course info
-    course_infos = set()
+    global total_courses
+    total_courses = len(courses)
+    course_infos: set[Course] = set()
     with ThreadPoolExecutor(max_workers=100) as executor:
         # Map fetch_program_courses over all programs
         results = executor.map(fetch_course_info, courses)
         # Combine all course sets
         course_infos.update(results)
 
+    print("Writing to file courses.csv")
     with open("courses.csv", "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
+        writer.writerow(
+            [
+                "Number",
+                "Name",
+                "TISS",
+                "TUWEL",
+                "Registration Start",
+                "Registration End",
+                "Deregistration End",
+            ]
+        )
         for course in course_infos:
-            writer.writerow([course.id, course.tiss_url, course.tuwel_url])
+            writer.writerow(
+                [
+                    course.id,
+                    course.name,
+                    course.tiss_url,
+                    course.tuwel_url,
+                    course.registration_start.isoformat()
+                    if course.registration_start
+                    else None,
+                    course.registration_end.isoformat()
+                    if course.registration_end
+                    else None,
+                    course.deregistration_end.isoformat()
+                    if course.deregistration_end
+                    else None,
+                ]
+            )
+
+    print("Done ✨")
 
 
 main()
