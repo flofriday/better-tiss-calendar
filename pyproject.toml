@@ -7,7 +7,7 @@ dependencies = [
     "icalendar>=6.3.1",
     "requests>=2.32.5",
 ]
-requires-python = ">=3.13"
+requires-python = "==3.14.*"
 authors = [{ name = "flofriday" }]
 description = "A better TISS calendar"
 readme = "README.md"
@@ -39,7 +39,7 @@ exclude = ["venv", ".venv", "**/resources"]
 dev = [
     "pytest-mock>=3.15.1",
     "pytest>=8.4.2",
-    "pyright>=1.1.405",
-    "ruff>=0.13.1",
+    "pyright>=1.1.406",
+    "ruff>=0.14.0",
     "ty>=0.0.1a21 ",
 ]
