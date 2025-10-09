@@ -1,5 +1,6 @@
 # /// script
 # dependencies = [
+#   "beautifulsoup4==4.14.2",
 #   "requests==2.32.5",
 # ]
 # ///
@@ -14,6 +15,7 @@ from dataclasses import dataclass
 from datetime import datetime
 
 import requests
+from bs4 import BeautifulSoup
 
 req_id = str(random.randint(0, 999))
 window_id = str(random.randint(1000, 9999))
@@ -32,8 +34,6 @@ class CustomSession(requests.Session):
 
 
 session = CustomSession()
-session.cookies.set(f"dsrwid-{req_id}", f"{window_id}", domain="tiss.tuwien.ac.at")
-session.cookies.set("TISS_LANG", "en", domain="tiss.tuwien.ac.at")
 session.cookies.set(f"dsrwid-{req_id}", f"{window_id}", domain="tiss.tuwien.ac.at")
 session.cookies.set("TISS_LANG", "en", domain="tiss.tuwien.ac.at")
 
@@ -72,12 +72,15 @@ def fetch_course_info(course_url):
     print(f"\t[{counter_courses}/{total_courses}] {course_url}")
 
     html = session.get(course_url).text
-    course_match = re.search(r'<span class="light">([\d\.]+)\s*</span>([^<]+)<', html)
-    course_number = None
-    name = None
-    if course_match:
-        course_number = course_match.group(1)
-        name = course_match.group(2).strip()
+    soup = BeautifulSoup(html, "html.parser")
+
+    course_soup = soup.find("span", class_="light")
+    course_number = course_soup.get_text().strip() if course_soup else None
+
+    h1_soup = soup.select_one("#contentInner > h1:nth-child(1)")
+    name = (
+        h1_soup.find_all(string=True, recursive=False)[1].strip() if h1_soup else None
+    )
 
     tuwel_match = re.search(
         r"https://tuwel\.tuwien\.ac\.at/course/view\.php\?id=\d+",
@@ -85,23 +88,33 @@ def fetch_course_info(course_url):
     )
     tuwel_url = tuwel_match.group(0) if tuwel_match else None
 
-    registration_table_match = re.search(
-        r"<h2>Course registration</h2>(.*?)</table>", html
-    )
-    if registration_table_match:
-        # FIXME: This doesn't work yet
-        table_html = registration_table_match.group(1)
-        matches = re.findall("<td>(.*?)</td>", table_html)
-        print(matches)
+    registration_tables = [
+        t for t in soup.find_all("table") if "Deregistration end" in t.get_text()
+    ]
+
+    registration_start, registration_end, deregistration_end = [None] * 3
+    if registration_tables != []:
+        table = registration_tables[0]
+        date_texts = [f.get_text().strip() for f in table.find_all("td")]
+
+        def safe_parse_date(date_str, fmt="%d.%m.%Y %H:%M"):
+            try:
+                return datetime.strptime(date_str, fmt)
+            except ValueError:
+                return None
+
+        registration_start, registration_end, deregistration_end = [
+            safe_parse_date(t) for t in date_texts
+        ]
 
     return Course(
         id=course_number,
         name=name,
         tiss_url=course_url,
         tuwel_url=tuwel_url,
-        registration_start=None,
-        registration_end=None,
-        deregistration_end=None,
+        registration_start=registration_start,
+        registration_end=registration_end,
+        deregistration_end=deregistration_end,
     )
 
 
@@ -161,6 +174,7 @@ def main():
         course_infos.update(results)
 
     print("Writing to file courses.csv")
+    course_infos = sorted(course_infos, key=lambda c: c.tiss_url)
     with open("courses.csv", "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(

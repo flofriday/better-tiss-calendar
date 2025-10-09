@@ -305,16 +305,29 @@ def create_floor_fallback(room_code: str) -> MultiLangString | None:
 
 @cache
 def read_tuwel_urls() -> dict[str, str]:
+    id_to_url = {}
+
+    # FIXME: Probably refactor into something that can be reused to also process
+    # all the other informations.
     with open("app/resources/courses.csv") as f:
         # The first line is a header
-        lines = f.readlines()[1:]
+        reader = csv.reader(f)
+        next(reader)
+        for row in reader:
+            (
+                id,
+                name,
+                tiss,
+                tuwel,
+                registration_start,
+                registration_end,
+                deregistration_end,
+            ) = row
 
-    id_to_url = {}
-    for line in lines:
-        id, name, url = line.strip().split(",")
-        if id is None or url is None:
-            continue
-        id_to_url[id] = url
+            if id is None or tuwel is None:
+                continue
+
+            id_to_url[id] = tuwel
 
     return id_to_url
 
