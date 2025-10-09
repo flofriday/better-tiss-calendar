@@ -13,6 +13,7 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from datetime import datetime
+from typing import Iterable
 
 import requests
 from bs4 import BeautifulSoup
@@ -24,6 +25,8 @@ window_id = str(random.randint(1000, 9999))
 class CustomSession(requests.Session):
     def __init__(self):
         super().__init__()
+        self.cookies.set(f"dsrwid-{req_id}", f"{window_id}", domain="tiss.tuwien.ac.at")
+        self.cookies.set("TISS_LANG", "en", domain="tiss.tuwien.ac.at")
 
     def get(self, url, **kwargs):
         new_url = url + (
@@ -34,8 +37,6 @@ class CustomSession(requests.Session):
 
 
 session = CustomSession()
-session.cookies.set(f"dsrwid-{req_id}", f"{window_id}", domain="tiss.tuwien.ac.at")
-session.cookies.set("TISS_LANG", "en", domain="tiss.tuwien.ac.at")
 
 total_programs = 0
 counter_programs = 0
@@ -166,7 +167,7 @@ def main():
     # 3) Download all the course info
     global total_courses
     total_courses = len(courses)
-    course_infos: set[Course] = set()
+    course_infos: Iterable[Course] = set()
     with ThreadPoolExecutor(max_workers=100) as executor:
         # Map fetch_program_courses over all programs
         results = executor.map(fetch_course_info, courses)
