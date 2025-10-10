@@ -1,32 +1,34 @@
 # /// script
 # dependencies = [
 #   "beautifulsoup4==4.14.2",
-#   "requests==2.32.5",
+#   "httpx==0.28.1",
+#   "aiohttp==3.13.0",
 # ]
 # ///
 
 
 import argparse
+import asyncio
 import csv
 import random
 import re
-from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Iterable
 
-import requests
+import aiohttp
 from bs4 import BeautifulSoup
 
 req_id = str(random.randint(0, 999))
 window_id = str(random.randint(1000, 9999))
 
 
-class CustomSession(requests.Session):
+class CustomSession(aiohttp.ClientSession):
     def __init__(self):
-        super().__init__()
-        self.cookies.set(f"dsrwid-{req_id}", f"{window_id}", domain="tiss.tuwien.ac.at")
-        self.cookies.set("TISS_LANG", "en", domain="tiss.tuwien.ac.at")
+        super().__init__(
+            connector=aiohttp.TCPConnector(limit=0, limit_per_host=200),
+            cookies={f"dsrwid-{req_id}": f"{window_id}", "TISS_LANG": "en"},
+        )
 
     def get(self, url, **kwargs):
         new_url = url + (
@@ -36,18 +38,19 @@ class CustomSession(requests.Session):
         return super().get(new_url, **kwargs)
 
 
-session = CustomSession()
+session: None | CustomSession = None
 
 total_programs = 0
 counter_programs = 0
 
 
-def fetch_program_courses(program_url):
+async def fetch_program_courses(program_url) -> set[str]:
+    html = await (await session.get(program_url)).text()
+
     global counter_programs
     counter_programs += 1
-    print(f"\t[{counter_programs}/{total_programs}] {program_url}")
+    print(f"\t[{counter_programs}/{total_programs}] Downloaded {program_url}")
 
-    html = session.get(program_url).text
     courses = re.findall(r"/course/courseDetails\.xhtml\?courseNr=\d+", html)
     return set(courses)
 
@@ -67,12 +70,13 @@ total_courses = 0
 counter_courses = 0
 
 
-def fetch_course_info(course_url):
+async def fetch_course_info(course_url) -> Course:
+    html = await (await session.get(course_url)).text()
+
     global counter_courses
     counter_courses += 1
-    print(f"\t[{counter_courses}/{total_courses}] {course_url}")
+    print(f"\t[{counter_courses}/{total_courses}] Downloaded {course_url}")
 
-    html = session.get(course_url).text
     soup = BeautifulSoup(html, "html.parser")
 
     course_soup = soup.find("span", class_="light")
@@ -80,7 +84,9 @@ def fetch_course_info(course_url):
 
     h1_soup = soup.select_one("#contentInner > h1:nth-child(1)")
     name = (
-        h1_soup.find_all(string=True, recursive=False)[1].strip() if h1_soup else None
+        h1_soup.find_all(string=True, recursive=False)[1].strip()
+        if h1_soup and len(h1_soup.find_all(string=True, recursive=False)) >= 2
+        else None
     )
 
     tuwel_match = re.search(
@@ -119,7 +125,7 @@ def fetch_course_info(course_url):
     )
 
 
-def main():
+async def main():
     parser = argparse.ArgumentParser(
         prog="generate_courses.py",
         description="Gather information about all courses from TISS.",
@@ -132,11 +138,15 @@ def main():
     )
     args = parser.parse_args()
 
+    # setup the session
+    global session
+    session = CustomSession()
+
     # 1) Download programs list
     print("Downloading program list ...")
     programs_url = "https://tiss.tuwien.ac.at/curriculum/studyCodes.xhtml"
 
-    programs_html = session.get(programs_url).text
+    programs_html = await (await session.get(programs_url)).text()
     programs = re.findall(
         r"/curriculum/public/curriculum\.xhtml\?key=\d+", programs_html
     )
@@ -151,12 +161,9 @@ def main():
     global total_programs
     total_programs = len(programs)
     print("Downloading courses list ...")
-    with ThreadPoolExecutor(max_workers=100) as executor:
-        # Map fetch_program_courses over all programs
-        results = executor.map(fetch_program_courses, programs)
-
-        # Combine all course sets
-        courses = set().union(*results)
+    courses = set().union(
+        *await asyncio.gather(*[fetch_program_courses(p) for p in programs])
+    )
     courses = ["https://tiss.tuwien.ac.at" + c for c in set(courses)]
 
     if args.debug_small:
@@ -167,12 +174,9 @@ def main():
     # 3) Download all the course info
     global total_courses
     total_courses = len(courses)
-    course_infos: Iterable[Course] = set()
-    with ThreadPoolExecutor(max_workers=100) as executor:
-        # Map fetch_program_courses over all programs
-        results = executor.map(fetch_course_info, courses)
-        # Combine all course sets
-        course_infos.update(results)
+    course_infos: Iterable[Course] = await asyncio.gather(
+        *[fetch_course_info(c) for c in courses]
+    )
 
     print("Writing to file courses.csv")
     course_infos = sorted(course_infos, key=lambda c: c.tiss_url)
@@ -208,7 +212,8 @@ def main():
                 ]
             )
 
+    await session.close()
     print("Done ✨")
 
 
-main()
+asyncio.run(main())
