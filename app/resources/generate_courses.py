@@ -14,7 +14,6 @@ import random
 import re
 from dataclasses import dataclass
 from datetime import datetime
-from typing import Iterable
 
 import aiohttp
 from bs4 import BeautifulSoup
@@ -174,7 +173,7 @@ async def main():
     # 3) Download all the course info
     global total_courses
     total_courses = len(courses)
-    course_infos: Iterable[Course] = await asyncio.gather(
+    course_infos: list[Course] = await asyncio.gather(
         *[fetch_course_info(c) for c in courses]
     )
 
