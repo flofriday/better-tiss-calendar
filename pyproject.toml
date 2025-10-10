@@ -6,6 +6,7 @@ dependencies = [
     "gunicorn>=23.0.0",
     "icalendar>=6.3.1",
     "requests>=2.32.5",
+    "syrupy>=5.0.0",
 ]
 requires-python = "==3.14.*"
 authors = [{ name = "flofriday" }]
