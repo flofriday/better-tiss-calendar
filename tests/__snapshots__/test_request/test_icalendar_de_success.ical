@@ -1469,13 +1469,14 @@ UID:20240303T172819Z-10572@tiss.tuwien.ac.at
 CATEGORIES:HOLIDAY
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Anmeldung Low-Level Programming
-DTSTART:20250901T000000
-DTEND:20250901T003000
-DESCRIPTION:Registrations for Low-Level Programming are now open.
-URL:https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194190
+SUMMARY:Anmeldung Developing a career - coping with obstacles
+DTSTART:20251007T080000
+DTEND:20251007T083000
+DESCRIPTION:Registrations for Developing a career - coping with obstacles 
+ are now open.
+URL:https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<a href="https://tiss.tuwien.ac.at/course/cou
- rseDetails.xhtml?courseNr=194190">Register on Tiss</a>
+ rseDetails.xhtml?courseNr=187250">Register on Tiss</a>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Anmeldung Cryptocurrencies
@@ -1485,6 +1486,15 @@ DESCRIPTION:Registrations for Cryptocurrencies are now open.
 URL:https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<a href="https://tiss.tuwien.ac.at/course/cou
  rseDetails.xhtml?courseNr=192065">Register on Tiss</a>
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anmeldung Low-Level Programming
+DTSTART:20250901T000000
+DTEND:20250901T003000
+DESCRIPTION:Registrations for Low-Level Programming are now open.
+URL:https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194190
+X-ALT-DESC;FMTTYPE=TEXT/HTML:<a href="https://tiss.tuwien.ac.at/course/cou
+ rseDetails.xhtml?courseNr=194190">Register on Tiss</a>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Anmeldung AI Programming
@@ -1503,15 +1513,5 @@ DESCRIPTION:Registrations for Generative AI are now open.
 URL:https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<a href="https://tiss.tuwien.ac.at/course/cou
  rseDetails.xhtml?courseNr=194207">Register on Tiss</a>
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Anmeldung Developing a career - coping with obstacles
-DTSTART:20251007T080000
-DTEND:20251007T083000
-DESCRIPTION:Registrations for Developing a career - coping with obstacles 
- are now open.
-URL:https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250
-X-ALT-DESC;FMTTYPE=TEXT/HTML:<a href="https://tiss.tuwien.ac.at/course/cou
- rseDetails.xhtml?courseNr=187250">Register on Tiss</a>
 END:VEVENT
 END:VCALENDAR

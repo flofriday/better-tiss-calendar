@@ -182,7 +182,7 @@ def improve_calendar(
             component.add("x-alt-desc;fmttype=text/html", html_description)
 
     # Insert signup dates
-    for lecture in seen_lecture_numbers:
+    for lecture in sorted(seen_lecture_numbers):
         course = read_courses().get(lecture, None)
         if course is None:
             continue
