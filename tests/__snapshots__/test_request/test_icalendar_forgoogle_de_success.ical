@@ -1248,4 +1248,39 @@ DTSTAMP:20230824T192206Z
 UID:20240303T172819Z-10572@tiss.tuwien.ac.at
 CATEGORIES:HOLIDAY
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anmeldung Low-Level Programming
+DTSTART:20250901T000000
+DTEND:20250901T003000
+DESCRIPTION:Registrations for Low-Level Programming are now open.\n<a href
+ ="{course.tiss_url}">Register on Tiss</a>
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anmeldung Cryptocurrencies
+DTSTART:20250831T100000
+DTEND:20250831T103000
+DESCRIPTION:Registrations for Cryptocurrencies are now open.\n<a href="{co
+ urse.tiss_url}">Register on Tiss</a>
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anmeldung AI Programming
+DTSTART:20250929T000500
+DTEND:20250929T003500
+DESCRIPTION:Registrations for AI Programming are now open.\n<a href="{cour
+ se.tiss_url}">Register on Tiss</a>
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anmeldung Generative AI
+DTSTART:20250922T000000
+DTEND:20250922T003000
+DESCRIPTION:Registrations for Generative AI are now open.\n<a href="{cours
+ e.tiss_url}">Register on Tiss</a>
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anmeldung Developing a career - coping with obstacles
+DTSTART:20251007T080000
+DTEND:20251007T083000
+DESCRIPTION:Registrations for Developing a career - coping with obstacles 
+ are now open.\n<a href="{course.tiss_url}">Register on Tiss</a>
+END:VEVENT
 END:VCALENDAR

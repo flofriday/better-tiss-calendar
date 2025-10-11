@@ -3,10 +3,11 @@ import html
 import re
 import string
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timedelta
 from functools import cache
 
 from icalendar import Component
+import icalendar
 
 summary_regex = re.compile("([0-9A-Z]{3}\\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
 word_split_regex = re.compile(
@@ -181,6 +182,45 @@ def improve_calendar(
             component.add("x-alt-desc;fmttype=text/html", html_description)
 
     # Insert signup dates
+    for lecture in seen_lecture_numbers:
+        course = read_courses().get(lecture, None)
+        if course is None:
+            continue
+
+        # FIXME:
+        # We cannot insert the url directly to the singup, because it requries
+        # the semester and we don't know for which semester you are signed up for
+        # (we could invent some heuristic though).
+        # So for now just insert the default url to TISS, the user will figure
+        # it out.
+
+        name = course.name
+
+        if course.registration_start is not None:
+            signup = icalendar.Event()
+            signup.add(
+                "summary",
+                f"Anmeldung {name}" if locale == "de" else f"Signup {name}",
+            )
+            signup.add("dtstart", course.registration_start)
+            signup.add("dtend", course.registration_start + timedelta(minutes=30))
+
+            description = f"Registrations for {name} are now open."
+            description_html = (
+                f"Registrations for {name} are now open.\n"
+                '<a href="{course.tiss_url}">Register on Tiss</a>'
+            )
+            if google_cal:
+                signup.add("description", description_html)
+            else:
+                signup.add("description", description)
+                signup.add("url", course.tiss_url)
+                signup.add(
+                    "x-alt-desc;fmttype=text/html",
+                    f'<a href="{course.tiss_url}">Register on Tiss</a>',
+                )
+
+            cal.add_component(signup)
 
     # Set some metadata
     cal.pop("prodid")
