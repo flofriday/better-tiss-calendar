@@ -203,7 +203,15 @@ def improve_calendar(
                 f"Anmeldung {name}" if locale == "de" else f"Signup {name}",
             )
             signup.add("dtstart", course.registration_start)
-            signup.add("dtend", course.registration_start + timedelta(minutes=30))
+            end = course.registration_start + timedelta(minutes=30)
+
+            # Some signups start at midnight but are easy to oversee so lets
+            # stretch them.
+            if end.hour < 8:
+                end = end.replace(hour=8, minute=0)
+
+            signup.add("dtend", end)
+            signup.add("categories", "COURSE")
 
             description = f"Registrations for {name} are now open."
             description_html = (
