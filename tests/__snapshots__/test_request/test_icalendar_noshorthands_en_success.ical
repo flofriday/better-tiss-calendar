@@ -205,6 +205,1080 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
  ibrary<br><br>project presentation
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20251001T160000
+DTEND;TZID=Europe/Vienna:20251001T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004521Z-5268788@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Programming VU
+DTSTART;TZID=Europe/Vienna:20251002T110000
+DTEND;TZID=Europe/Vienna:20251002T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004522Z-5297642@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: FAV Hörsaal 1 Helmut Veith - INF\nFloor: Ground Floor\n
+ \nKick-off
+LOCATION:Favoritenstraße 9-11
+URL:https://maps.tuwien.ac.at/?q=HEEG02#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194193">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV1">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=HEEG02#map">FAV Hörsaal
+  1 Helmut Veith - INF</a><br>Floor: Ground Floor<br><br>Kick-off
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI VU
+DTSTART;TZID=Europe/Vienna:20251008T150000
+DTEND;TZID=Europe/Vienna:20251008T160000
+DTSTAMP:20251011T114444Z
+UID:20251025T004523Z-5342139@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: https://tuwien.zoom.us/j/68659854514?pwd=rGPyiiUGa2FPP9K
+ yDiQaVIcHuWtn8o.1\n\nPreliminary Meeting
+LOCATION:https://tuwien.zoom.us/j/68659854514?pwd=rGPyiiUGa2FPP9KyDiQaVIcH
+ uWtn8o.1
+URL:
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194207">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a><br>Room: https://tu
+ wien.zoom.us/j/68659854514?pwd=rGPyiiUGa2FPP9KyDiQaVIcHuWtn8o.1<br><br>Pre
+ liminary Meeting
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20251008T160000
+DTEND;TZID=Europe/Vienna:20251008T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004524Z-5268789@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Programming VU
+DTSTART;TZID=Europe/Vienna:20251009T100000
+DTEND;TZID=Europe/Vienna:20251009T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004525Z-5297571@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: FAV Hörsaal 2\nFloor: Ground Floor\n\nLecture
+LOCATION:Favoritenstraße 9-11
+URL:https://maps.tuwien.ac.at/?q=HEEG03#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194193">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal
+  2</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Developing a career VO - coping with obstacles
+DTSTART;TZID=Europe/Vienna:20251010T140000
+DTEND;TZID=Europe/Vienna:20251010T160000
+DTSTAMP:20251011T114444Z
+UID:20251025T004526Z-5317900@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: HS 18 Czuber - MB\nFloor: 2. Floor\n\nIntroduction and o
+ rganisation
+LOCATION:Karlsplatz 13
+URL:https://maps.tuwien.ac.at/?q=AE0238#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=187250">Lecture</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18">Room-Schedule</a
+ ><br>Room: <a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber 
+ - MB</a><br>Floor: 2. Floor<br><br>Introduction and organisation
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20251015T100000
+DTEND;TZID=Europe/Vienna:20251015T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004527Z-5297619@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies (first lecture)
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies (fir
+ st lecture)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI VU
+DTSTART;TZID=Europe/Vienna:20251015T150000
+DTEND;TZID=Europe/Vienna:20251015T170000
+DTSTAMP:20251011T114444Z
+UID:20251025T004528Z-5340287@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Informatikhörsaal - ARCH-INF\nFloor: Ground Floor\n\nLe
+ cture
+LOCATION:Treitlstraße 3
+URL:https://maps.tuwien.ac.at/?q=DEU116#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194207">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikh
+ örsaal - ARCH-INF</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20251015T160000
+DTEND;TZID=Europe/Vienna:20251015T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004529Z-5268790@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Programming VU
+DTSTART;TZID=Europe/Vienna:20251016T100000
+DTEND;TZID=Europe/Vienna:20251016T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004530Z-5297572@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: FAV Hörsaal 2\nFloor: Ground Floor\n\nLecture
+LOCATION:Favoritenstraße 9-11
+URL:https://maps.tuwien.ac.at/?q=HEEG03#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194193">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal
+  2</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20251022T100000
+DTEND;TZID=Europe/Vienna:20251022T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004531Z-5297660@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI VU
+DTSTART;TZID=Europe/Vienna:20251022T150000
+DTEND;TZID=Europe/Vienna:20251022T170000
+DTSTAMP:20251011T114444Z
+UID:20251025T004532Z-5340288@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Informatikhörsaal - ARCH-INF\nFloor: Ground Floor\n\nLe
+ cture
+LOCATION:Treitlstraße 3
+URL:https://maps.tuwien.ac.at/?q=DEU116#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194207">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikh
+ örsaal - ARCH-INF</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20251022T160000
+DTEND;TZID=Europe/Vienna:20251022T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004533Z-5268791@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Programming VU
+DTSTART;TZID=Europe/Vienna:20251023T100000
+DTEND;TZID=Europe/Vienna:20251023T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004534Z-5297573@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: FAV Hörsaal 2\nFloor: Ground Floor\n\nLecture
+LOCATION:Favoritenstraße 9-11
+URL:https://maps.tuwien.ac.at/?q=HEEG03#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194193">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal
+  2</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20251029T100000
+DTEND;TZID=Europe/Vienna:20251029T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004535Z-5297661@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI VU
+DTSTART;TZID=Europe/Vienna:20251029T150000
+DTEND;TZID=Europe/Vienna:20251029T170000
+DTSTAMP:20251011T114444Z
+UID:20251025T004536Z-5340289@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Informatikhörsaal - ARCH-INF\nFloor: Ground Floor\n\nLe
+ cture
+LOCATION:Treitlstraße 3
+URL:https://maps.tuwien.ac.at/?q=DEU116#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194207">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikh
+ örsaal - ARCH-INF</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20251029T160000
+DTEND;TZID=Europe/Vienna:20251029T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004537Z-5268792@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Programming VU
+DTSTART;TZID=Europe/Vienna:20251030T100000
+DTEND;TZID=Europe/Vienna:20251030T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004538Z-5297574@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: FAV Hörsaal 2\nFloor: Ground Floor\n\nLecture
+LOCATION:Favoritenstraße 9-11
+URL:https://maps.tuwien.ac.at/?q=HEEG03#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194193">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal
+  2</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20251105T100000
+DTEND;TZID=Europe/Vienna:20251105T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004539Z-5297662@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI VU
+DTSTART;TZID=Europe/Vienna:20251105T150000
+DTEND;TZID=Europe/Vienna:20251105T170000
+DTSTAMP:20251011T114444Z
+UID:20251025T004540Z-5340290@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Informatikhörsaal - ARCH-INF\nFloor: Ground Floor\n\nLe
+ cture
+LOCATION:Treitlstraße 3
+URL:https://maps.tuwien.ac.at/?q=DEU116#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194207">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikh
+ örsaal - ARCH-INF</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20251105T160000
+DTEND;TZID=Europe/Vienna:20251105T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004541Z-5268793@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Programming VU
+DTSTART;TZID=Europe/Vienna:20251106T100000
+DTEND;TZID=Europe/Vienna:20251106T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004542Z-5297575@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: FAV Hörsaal 2\nFloor: Ground Floor\n\nLecture
+LOCATION:Favoritenstraße 9-11
+URL:https://maps.tuwien.ac.at/?q=HEEG03#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194193">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal
+  2</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Developing a career VO - coping with obstacles
+DTSTART;TZID=Europe/Vienna:20251107T120000
+DTEND;TZID=Europe/Vienna:20251107T150000
+DTSTAMP:20251011T114444Z
+UID:20251025T004543Z-5317901@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: HS 18 Czuber - MB\nFloor: 2. Floor\n\n2nd lecture
+LOCATION:Karlsplatz 13
+URL:https://maps.tuwien.ac.at/?q=AE0238#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=187250">Lecture</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18">Room-Schedule</a
+ ><br>Room: <a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber 
+ - MB</a><br>Floor: 2. Floor<br><br>2nd lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20251112T100000
+DTEND;TZID=Europe/Vienna:20251112T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004544Z-5297663@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI VU
+DTSTART;TZID=Europe/Vienna:20251112T150000
+DTEND;TZID=Europe/Vienna:20251112T170000
+DTSTAMP:20251011T114444Z
+UID:20251025T004545Z-5340291@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Informatikhörsaal - ARCH-INF\nFloor: Ground Floor\n\nLe
+ cture
+LOCATION:Treitlstraße 3
+URL:https://maps.tuwien.ac.at/?q=DEU116#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194207">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikh
+ örsaal - ARCH-INF</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20251112T160000
+DTEND;TZID=Europe/Vienna:20251112T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004546Z-5268794@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Programming VU
+DTSTART;TZID=Europe/Vienna:20251113T100000
+DTEND;TZID=Europe/Vienna:20251113T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004547Z-5297576@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: FAV Hörsaal 2\nFloor: Ground Floor\n\nLecture
+LOCATION:Favoritenstraße 9-11
+URL:https://maps.tuwien.ac.at/?q=HEEG03#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194193">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal
+  2</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20251119T100000
+DTEND;TZID=Europe/Vienna:20251119T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004548Z-5297664@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI VU
+DTSTART;TZID=Europe/Vienna:20251119T150000
+DTEND;TZID=Europe/Vienna:20251119T170000
+DTSTAMP:20251011T114444Z
+UID:20251025T004549Z-5340292@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Informatikhörsaal - ARCH-INF\nFloor: Ground Floor\n\nLe
+ cture
+LOCATION:Treitlstraße 3
+URL:https://maps.tuwien.ac.at/?q=DEU116#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194207">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikh
+ örsaal - ARCH-INF</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20251119T160000
+DTEND;TZID=Europe/Vienna:20251119T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004550Z-5268795@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Programming VU
+DTSTART;TZID=Europe/Vienna:20251120T100000
+DTEND;TZID=Europe/Vienna:20251120T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004551Z-5340499@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Zoom\n\nAssignment Discussion Session A1 & A2
+LOCATION:Zoom
+URL:
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194193">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a><br>Room: Zoom<br><b
+ r>Assignment Discussion Session A1 &amp\; A2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Developing a career VO - coping with obstacles
+DTSTART;TZID=Europe/Vienna:20251121T120000
+DTEND;TZID=Europe/Vienna:20251121T150000
+DTSTAMP:20251011T114444Z
+UID:20251025T004552Z-5317902@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: HS 18 Czuber - MB\nFloor: 2. Floor\n\n3rd lecture
+LOCATION:Karlsplatz 13
+URL:https://maps.tuwien.ac.at/?q=AE0238#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=187250">Lecture</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18">Room-Schedule</a
+ ><br>Room: <a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber 
+ - MB</a><br>Floor: 2. Floor<br><br>3rd lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20251126T100000
+DTEND;TZID=Europe/Vienna:20251126T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004553Z-5297665@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI VU
+DTSTART;TZID=Europe/Vienna:20251126T150000
+DTEND;TZID=Europe/Vienna:20251126T170000
+DTSTAMP:20251011T114444Z
+UID:20251025T004554Z-5340293@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Informatikhörsaal - ARCH-INF\nFloor: Ground Floor\n\nLe
+ cture
+LOCATION:Treitlstraße 3
+URL:https://maps.tuwien.ac.at/?q=DEU116#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194207">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikh
+ örsaal - ARCH-INF</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20251126T160000
+DTEND;TZID=Europe/Vienna:20251126T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004555Z-5268796@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Programming VU
+DTSTART;TZID=Europe/Vienna:20251127T100000
+DTEND;TZID=Europe/Vienna:20251127T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004556Z-5297578@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: FAV Hörsaal 2\nFloor: Ground Floor\n\nLecture
+LOCATION:Favoritenstraße 9-11
+URL:https://maps.tuwien.ac.at/?q=HEEG03#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194193">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal
+  2</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20251203T100000
+DTEND;TZID=Europe/Vienna:20251203T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004557Z-5297666@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20251203T160000
+DTEND;TZID=Europe/Vienna:20251203T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004558Z-5268797@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Programming VU
+DTSTART;TZID=Europe/Vienna:20251204T100000
+DTEND;TZID=Europe/Vienna:20251204T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004559Z-5297579@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: FAV Hörsaal 2\nFloor: Ground Floor\n\nLecture
+LOCATION:Favoritenstraße 9-11
+URL:https://maps.tuwien.ac.at/?q=HEEG03#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194193">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal
+  2</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Developing a career VO - coping with obstacles
+DTSTART;TZID=Europe/Vienna:20251205T120000
+DTEND;TZID=Europe/Vienna:20251205T150000
+DTSTAMP:20251011T114444Z
+UID:20251025T004600Z-5317903@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: HS 18 Czuber - MB\nFloor: 2. Floor\n\n4th lecture
+LOCATION:Karlsplatz 13
+URL:https://maps.tuwien.ac.at/?q=AE0238#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=187250">Lecture</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18">Room-Schedule</a
+ ><br>Room: <a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber 
+ - MB</a><br>Floor: 2. Floor<br><br>4th lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20251210T100000
+DTEND;TZID=Europe/Vienna:20251210T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004601Z-5297667@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI VU
+DTSTART;TZID=Europe/Vienna:20251210T150000
+DTEND;TZID=Europe/Vienna:20251210T170000
+DTSTAMP:20251011T114444Z
+UID:20251025T004602Z-5340294@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Informatikhörsaal - ARCH-INF\nFloor: Ground Floor\n\nLe
+ cture
+LOCATION:Treitlstraße 3
+URL:https://maps.tuwien.ac.at/?q=DEU116#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194207">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikh
+ örsaal - ARCH-INF</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20251210T160000
+DTEND;TZID=Europe/Vienna:20251210T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004603Z-5268798@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Programming VU
+DTSTART;TZID=Europe/Vienna:20251211T100000
+DTEND;TZID=Europe/Vienna:20251211T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004604Z-5340800@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Zoom\n\nAssignment Discussion Session A3 & A4
+LOCATION:Zoom
+URL:
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194193">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a><br>Room: Zoom<br><b
+ r>Assignment Discussion Session A3 &amp\; A4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Programming VU
+DTSTART;TZID=Europe/Vienna:20251211T100000
+DTEND;TZID=Europe/Vienna:20251211T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004605Z-5297640@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: FAV Hörsaal 2\nFloor: Ground Floor\n\nLecture
+LOCATION:Favoritenstraße 9-11
+URL:https://maps.tuwien.ac.at/?q=HEEG03#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194193">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal
+  2</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20251217T100000
+DTEND;TZID=Europe/Vienna:20251217T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004606Z-5297668@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI VU
+DTSTART;TZID=Europe/Vienna:20251217T150000
+DTEND;TZID=Europe/Vienna:20251217T170000
+DTSTAMP:20251011T114444Z
+UID:20251025T004607Z-5340295@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Informatikhörsaal - ARCH-INF\nFloor: Ground Floor\n\nLe
+ cture
+LOCATION:Treitlstraße 3
+URL:https://maps.tuwien.ac.at/?q=DEU116#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194207">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikh
+ örsaal - ARCH-INF</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20251217T160000
+DTEND;TZID=Europe/Vienna:20251217T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004608Z-5268799@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Programming VU
+DTSTART;TZID=Europe/Vienna:20251218T100000
+DTEND;TZID=Europe/Vienna:20251218T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004609Z-5297641@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: FAV Hörsaal 2\nFloor: Ground Floor\n\nLecture
+LOCATION:Favoritenstraße 9-11
+URL:https://maps.tuwien.ac.at/?q=HEEG03#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194193">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal
+  2</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20260107T100000
+DTEND;TZID=Europe/Vienna:20260107T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004610Z-5297669@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI VU
+DTSTART;TZID=Europe/Vienna:20260107T150000
+DTEND;TZID=Europe/Vienna:20260107T170000
+DTSTAMP:20251011T114444Z
+UID:20251025T004611Z-5340296@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Informatikhörsaal - ARCH-INF\nFloor: Ground Floor\n\nLe
+ cture
+LOCATION:Treitlstraße 3
+URL:https://maps.tuwien.ac.at/?q=DEU116#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194207">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikh
+ örsaal - ARCH-INF</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20260107T160000
+DTEND;TZID=Europe/Vienna:20260107T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004612Z-5268940@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20260114T100000
+DTEND;TZID=Europe/Vienna:20260114T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004613Z-5297670@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI VU
+DTSTART;TZID=Europe/Vienna:20260114T150000
+DTEND;TZID=Europe/Vienna:20260114T170000
+DTSTAMP:20251011T114444Z
+UID:20251025T004614Z-5340297@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Informatikhörsaal - ARCH-INF\nFloor: Ground Floor\n\nLe
+ cture
+LOCATION:Treitlstraße 3
+URL:https://maps.tuwien.ac.at/?q=DEU116#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194207">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikh
+ örsaal - ARCH-INF</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20260114T160000
+DTEND;TZID=Europe/Vienna:20260114T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004615Z-5268941@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20260121T100000
+DTEND;TZID=Europe/Vienna:20260121T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004616Z-5297671@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20260121T160000
+DTEND;TZID=Europe/Vienna:20260121T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004617Z-5268942@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cryptocurrencies VU
+DTSTART;TZID=Europe/Vienna:20260128T100000
+DTEND;TZID=Europe/Vienna:20260128T120000
+DTSTAMP:20251011T114444Z
+UID:20251025T004618Z-5297672@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 8 Pötzl HS - QUER\nFloor: Ground Floor\n\nVU 192.065
+  Cryptocurrencies
+LOCATION:Gußhausstraße 25-29
+URL:https://maps.tuwien.ac.at/?q=CDEG08#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=192065">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CDEG08#map">EI 8 Pötzl HS
+  - QUER</a><br>Floor: Ground Floor<br><br>VU 192.065 Cryptocurrencies
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI VU
+DTSTART;TZID=Europe/Vienna:20260128T150000
+DTEND;TZID=Europe/Vienna:20260128T170000
+DTSTAMP:20251011T114444Z
+UID:20251025T004619Z-5340298@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: Informatikhörsaal - ARCH-INF\nFloor: Ground Floor\n\nLe
+ cture
+LOCATION:Treitlstraße 3
+URL:https://maps.tuwien.ac.at/?q=DEU116#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194207">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH">Room-Schedule</
+ a><br>Room: <a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikh
+ örsaal - ARCH-INF</a><br>Floor: Ground Floor<br><br>Lecture
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low-Level Programming VU
+DTSTART;TZID=Europe/Vienna:20260128T160000
+DTEND;TZID=Europe/Vienna:20260128T180000
+DTSTAMP:20251011T114444Z
+UID:20251025T004620Z-5268943@tiss.tuwien.ac.at
+CATEGORIES:COURSE
+DESCRIPTION:Room: EI 1 Petritsch HS\nFloor: 2. Floor\n\nLectures and prese
+ ntations of project results
+LOCATION:Gußhausstraße 25-25a
+URL:https://maps.tuwien.ac.at/?q=CF0242#map
+X-ALT-DESC;FMTTYPE=TEXT/HTML:Details: <a href="https://tiss.tuwien.ac.at/c
+ ourse/courseDetails.xhtml?courseNr=194190">Lecture</a>\, <a href="https://
+ tuwel.tuwien.ac.at/course/view.php?id=76902">TUWEL</a>\, <a href="https://
+ tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E1">Room-Schedule</a>
+ <br>Room: <a href="https://maps.tuwien.ac.at/?q=CF0242#map">EI 1 Petritsch
+  HS</a><br>Floor: 2. Floor<br><br>Lectures and presentations of project re
+ sults
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pentecost Holidays\, no lectures
 DTSTART;VALUE=DATE:20230529
 DTEND;VALUE=DATE:20230531
