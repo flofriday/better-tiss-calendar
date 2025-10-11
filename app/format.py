@@ -6,8 +6,8 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta
 from functools import cache
 
-from icalendar import Component
 import icalendar
+from icalendar import Component
 
 summary_regex = re.compile("([0-9A-Z]{3}\\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
 word_split_regex = re.compile(

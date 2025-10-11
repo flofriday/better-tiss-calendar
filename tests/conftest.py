@@ -1,4 +1,5 @@
 from typing import Any
+
 import pytest
 from flask.testing import FlaskClient, FlaskCliRunner
 from syrupy.extensions.single_file import SingleFileSnapshotExtension
