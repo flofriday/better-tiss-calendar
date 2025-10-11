@@ -3,6 +3,7 @@ import html
 import re
 import string
 from dataclasses import dataclass
+from datetime import datetime
 from functools import cache
 
 from icalendar import Component
@@ -123,6 +124,8 @@ def improve_calendar(
     if locale is None:
         locale = "de"
 
+    seen_lecture_numbers: set[str] = set()
+
     for component in cal.walk():
         if component.name != "VEVENT" or not summary_regex.match(
             component.get("summary")
@@ -131,6 +134,7 @@ def improve_calendar(
 
         # Parse the event and enrich it
         event = event_from_ical(component)
+        seen_lecture_numbers.add(event.number)
         if use_shorthand:
             event.shorthand = create_shorthand(event.name)
         event = add_location(event)
@@ -145,7 +149,8 @@ def improve_calendar(
         component.add("summary", summary)
 
         # Add tuwel
-        event.tuwel_url = read_tuwel_urls().get(event.number, "")
+        if course := read_courses().get(event.number, None):
+            event.tuwel_url = course.tuwel_url if course.tuwel_url else ""
 
         # Serialize the address
         if event.address != "":
@@ -174,6 +179,8 @@ def improve_calendar(
             component.add("description", plain_description)
             component.add("url", event.map_url)
             component.add("x-alt-desc;fmttype=text/html", html_description)
+
+    # Insert signup dates
 
     # Set some metadata
     cal.pop("prodid")
@@ -303,9 +310,20 @@ def create_floor_fallback(room_code: str) -> MultiLangString | None:
         return MultiLangString(floor_code)
 
 
+@dataclass(frozen=True)
+class Course:
+    id: str | None
+    name: str | None
+    tiss_url: str
+    tuwel_url: str | None
+    registration_start: datetime | None
+    registration_end: datetime | None
+    deregistration_end: datetime | None
+
+
 @cache
-def read_tuwel_urls() -> dict[str, str]:
-    id_to_url = {}
+def read_courses() -> dict[str, Course]:
+    id_to_course: dict[str, Course] = {}
 
     # FIXME: Probably refactor into something that can be reused to also process
     # all the other informations.
@@ -324,12 +342,26 @@ def read_tuwel_urls() -> dict[str, str]:
                 deregistration_end,
             ) = row
 
-            if id is None or tuwel is None:
+            if id is None:
                 continue
 
-            id_to_url[id] = tuwel
+            course = Course(
+                id,
+                name,
+                tiss,
+                tuwel,
+                datetime.fromisoformat(registration_start)
+                if registration_start
+                else None,
+                datetime.fromisoformat(registration_end) if registration_end else None,
+                datetime.fromisoformat(deregistration_end)
+                if deregistration_end
+                else None,
+            )
 
-    return id_to_url
+            id_to_course[id] = course
+
+    return id_to_course
 
 
 @cache
