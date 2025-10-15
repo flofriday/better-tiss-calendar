@@ -1254,15 +1254,17 @@ DTSTART:20251007T080000
 DTEND:20251007T083000
 CATEGORIES:COURSE
 DESCRIPTION:Registrations for Developing a career - coping with obstacles 
- are now open.\n<a href="{course.tiss_url}">Register on Tiss</a>
+ are now open.\n<a href="https://tiss.tuwien.ac.at/course/courseDetails.xht
+ ml?courseNr=187250">Register on Tiss</a>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Anmeldung Cryptocurrencies
 DTSTART:20250831T100000
 DTEND:20250831T103000
 CATEGORIES:COURSE
-DESCRIPTION:Registrations for Cryptocurrencies are now open.\n<a href="{co
- urse.tiss_url}">Register on Tiss</a>
+DESCRIPTION:Registrations for Cryptocurrencies are now open.\n<a href="htt
+ ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">Registe
+ r on Tiss</a>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Anmeldung Low-Level Programming
@@ -1270,22 +1272,25 @@ DTSTART:20250901T000000
 DTEND:20250901T080000
 CATEGORIES:COURSE
 DESCRIPTION:Registrations for Low-Level Programming are now open.\n<a href
- ="{course.tiss_url}">Register on Tiss</a>
+ ="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194190">Re
+ gister on Tiss</a>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Anmeldung AI Programming
 DTSTART:20250929T000500
 DTEND:20250929T080000
 CATEGORIES:COURSE
-DESCRIPTION:Registrations for AI Programming are now open.\n<a href="{cour
- se.tiss_url}">Register on Tiss</a>
+DESCRIPTION:Registrations for AI Programming are now open.\n<a href="https
+ ://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194193">Register 
+ on Tiss</a>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Anmeldung Generative AI
 DTSTART:20250922T000000
 DTEND:20250922T080000
 CATEGORIES:COURSE
-DESCRIPTION:Registrations for Generative AI are now open.\n<a href="{cours
- e.tiss_url}">Register on Tiss</a>
+DESCRIPTION:Registrations for Generative AI are now open.\n<a href="https:
+ //tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">Register o
+ n Tiss</a>
 END:VEVENT
 END:VCALENDAR

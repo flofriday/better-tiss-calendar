@@ -216,7 +216,7 @@ def improve_calendar(
             description = f"Registrations for {name} are now open."
             description_html = (
                 f"Registrations for {name} are now open.\n"
-                '<a href="{course.tiss_url}">Register on Tiss</a>'
+                f'<a href="{course.tiss_url}">Register on Tiss</a>'
             )
             if google_cal:
                 signup.add("description", description_html)
