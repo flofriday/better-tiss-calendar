@@ -59,11 +59,11 @@ class Event:
         if self.shorthand != "":
             text += f"<b>{html.escape(self.name)}</b><br>"
 
-        text += f'Details: <a href="{self.tiss_url}">Lecture</a>'
+        text += f'Details: <a href="{self.tiss_url}">TISS</a>'
         if self.tuwel_url != "":
             text += f', <a href="{self.tuwel_url}">TUWEL</a>'
         if self.room_url != "":
-            text += f', <a href="{self.room_url}">Room-Schedule</a>'
+            text += f', <a href="{self.room_url}">Room-Info</a>'
         text += "<br>"
 
         if self.map_url != "":
@@ -96,11 +96,11 @@ class Event:
         if self.shorthand != "":
             text += f"<b>{html.escape(self.name)}</b><br>"
 
-        text += f'Details: <a href="{self.tiss_url}">LVA</a>'
+        text += f'Details: <a href="{self.tiss_url}">TISS</a>'
         if self.tuwel_url != "":
             text += f', <a href="{self.tuwel_url}">TUWEL</a>'
         if self.room_url != "":
-            text += f', <a href="{self.room_url}">Raum Reservierung</a>'
+            text += f', <a href="{self.room_url}">Raum-Info</a>'
         text += "<br>"
 
         if self.map_url != "":
