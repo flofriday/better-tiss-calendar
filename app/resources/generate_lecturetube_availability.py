@@ -67,7 +67,7 @@ def main():
             cells = row.find_elements(By.CSS_SELECTOR, "td")
             room_details = [cell.text for cell in cells]
             roomcode = room_details[2]
-            if (room_details[3] == "JA" and verifyHasLectureTubeStreaming(driver, roomcode)):
+            if (room_details[4] == "JA" and verifyHasLectureTubeStreaming(driver, roomcode)):
                 data.append([roomcode])
 
     data.sort(key=lambda i: i[0])
