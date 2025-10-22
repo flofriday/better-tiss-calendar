@@ -39,6 +39,7 @@ class Event:
     tuwel_url: str = ""
     room_url: str = ""
     map_url: str = ""
+    lecturetube_url: str = ""
 
     def plain_description_en(self) -> str:
         text = ""
@@ -64,6 +65,8 @@ class Event:
             text += f', <a href="{self.tuwel_url}">TUWEL</a>'
         if self.room_url != "":
             text += f', <a href="{self.room_url}">Room-Info</a>'
+        if self.lecturetube_url != "":
+            text += f', <a href="{self.lecturetube_url}">LectureTube</a>'
         text += "<br>"
 
         if self.map_url != "":
@@ -101,6 +104,8 @@ class Event:
             text += f', <a href="{self.tuwel_url}">TUWEL</a>'
         if self.room_url != "":
             text += f', <a href="{self.room_url}">Raum-Info</a>'
+        if self.lecturetube_url != "":
+            text += f', <a href="{self.lecturetube_url}">LectureTube</a>'
         text += "<br>"
 
         if self.map_url != "":
@@ -328,6 +333,8 @@ def add_location(event: Event) -> Event:
     event.room_code = code
     event.room_url = url
     event.map_url = f"https://maps.tuwien.ac.at/?q={code}#map"
+    if code in read_lecturetube_available_rooms():
+        event.lecturetube_url = f"https://live.video.tuwien.ac.at/room/{code}/player.html"
     return event
 
 
@@ -475,3 +482,14 @@ def read_rooms() -> dict[str, tuple[str, MultiLangString, str, str]]:
             rooms[name] = (address, floor, code, url)
 
     return rooms
+
+@cache
+def read_lecturetube_available_rooms() -> set[str]:
+    available_rooms = set()
+
+    with open("app/resources/lecturetube_availability.csv") as f:
+        reader = csv.reader(f)
+
+        for fields in reader:
+            available_rooms.add(fields[0])
+    return available_rooms

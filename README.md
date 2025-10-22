@@ -14,6 +14,7 @@ events and enriching them with useful information.
 - Correct address in the location field, not just the room
 - Floor information
 - Links to TUW-Maps (and TISS, TUWEL on HTML enabled clients)
+- Link to LectureTube Live, if available
 - Drop in replacement
 - Easy setup: no login, no account and no rage inducing captchas
 - Self-hosting friendly
