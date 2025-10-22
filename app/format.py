@@ -323,7 +323,6 @@ def add_location(event: Event) -> Event:
     rooms = read_rooms()
     if event.room not in rooms:
         return event
-    lecturetube_available_rooms = read_lecturetube_available_rooms()
 
     (address, floor, code, url) = rooms[event.room]
     event.address = address
@@ -334,7 +333,7 @@ def add_location(event: Event) -> Event:
     event.room_code = code
     event.room_url = url
     event.map_url = f"https://maps.tuwien.ac.at/?q={code}#map"
-    if code in lecturetube_available_rooms:
+    if code in read_lecturetube_available_rooms():
         event.lecturetube_url = f"https://live.video.tuwien.ac.at/room/{code}/player.html"
     return event
 
@@ -485,7 +484,7 @@ def read_rooms() -> dict[str, tuple[str, MultiLangString, str, str]]:
     return rooms
 
 @cache
-def read_lecturetube_available_rooms():
+def read_lecturetube_available_rooms() -> set[str]:
     available_rooms = set()
 
     with open("app/resources/lecturetube_availability.csv") as f:
