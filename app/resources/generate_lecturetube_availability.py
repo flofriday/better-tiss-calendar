@@ -76,7 +76,7 @@ def main():
         csvwriter.writerows(data)
 
 def verifyHasLectureTubeStreaming(driver, room_code):
-    LECTURETUBE_ROOM_LINK = "https://live.video.tuwien.ac.at/room/" + room_code + "/player.html"
+    LECTURETUBE_ROOM_LINK = f"https://live.video.tuwien.ac.at/room/{room_code}/player.html"
     CONTENT_CARD_SELECTOR = "main#content > .card"
 
     previous_window = driver.current_window_handle
