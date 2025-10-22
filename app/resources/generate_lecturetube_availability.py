@@ -34,7 +34,8 @@ import time
 def main():
     COLAB_LECTURETUBE_LINK = "https://colab.tuwien.ac.at/lecturetube/"
     NAVIGATION_ELEMENTS_SELECTOR = "nav.ht-pages-nav > ul.ht-pages-nav-top > li"
-    ANKOR_LECTUREHALL_LIST_IDENTIFIER = "hoersaalliste"
+    ANKOR_LECTUREHALL_LIST_IDENTIFIER_DE = "hoersaalliste"
+    ANKOR_LECTUREHALL_LIST_IDENTIFIER_EN = "lecture-halls"
     LECTURETUBELIST_CONTENT_SELECTOR = "#main-content"
     LECTURETUBELIST_ROW_SELECTOR = "tbody > tr"
 
@@ -51,7 +52,7 @@ def main():
         for listelement in navigation_elements:
             ankor = listelement.find_element(By.TAG_NAME, 'a')
             href = ankor.get_attribute('href')
-            if href and ANKOR_LECTUREHALL_LIST_IDENTIFIER in href:
+            if href and ((ANKOR_LECTUREHALL_LIST_IDENTIFIER in href) or (ANKOR_LECTUREHALL_LIST_IDENTIFIER_EN in href)):
                 ankor.click()
                 break
         
