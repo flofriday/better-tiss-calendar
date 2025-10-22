@@ -334,7 +334,9 @@ def add_location(event: Event) -> Event:
     event.room_url = url
     event.map_url = f"https://maps.tuwien.ac.at/?q={code}#map"
     if code in read_lecturetube_available_rooms():
-        event.lecturetube_url = f"https://live.video.tuwien.ac.at/room/{code}/player.html"
+        event.lecturetube_url = (
+            f"https://live.video.tuwien.ac.at/room/{code}/player.html"
+        )
     return event
 
 
@@ -482,6 +484,7 @@ def read_rooms() -> dict[str, tuple[str, MultiLangString, str, str]]:
             rooms[name] = (address, floor, code, url)
 
     return rooms
+
 
 @cache
 def read_lecturetube_available_rooms() -> set[str]:
