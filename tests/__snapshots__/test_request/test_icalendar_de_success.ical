@@ -108,8 +108,10 @@ URL:https://maps.tuwien.ac.at/?q=CF0229#map
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Programmiersprachen</b><br>Details: <a hre
  f="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185208">T
  ISS</a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roo
- mCode=E5">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CF0
- 229#map">EI 5 Hochenegg HS</a><br>Stock: 2. Stock<br><br>Vorlesung
+ mCode=E5">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CF
+ 0229/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac
+ .at/?q=CF0229#map">EI 5 Hochenegg HS</a><br>Stock: 2. Stock<br><br>Vorlesu
+ ng
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PS VU
@@ -125,8 +127,10 @@ URL:https://maps.tuwien.ac.at/?q=CF0229#map
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Programmiersprachen</b><br>Details: <a hre
  f="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185208">T
  ISS</a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roo
- mCode=E5">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CF0
- 229#map">EI 5 Hochenegg HS</a><br>Stock: 2. Stock<br><br>Vorlesung
+ mCode=E5">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CF
+ 0229/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac
+ .at/?q=CF0229#map">EI 5 Hochenegg HS</a><br>Stock: 2. Stock<br><br>Vorlesu
+ ng
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SEPS SE
@@ -159,8 +163,10 @@ URL:https://maps.tuwien.ac.at/?q=CF0229#map
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Programmiersprachen</b><br>Details: <a hre
  f="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185208">T
  ISS</a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roo
- mCode=E5">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CF0
- 229#map">EI 5 Hochenegg HS</a><br>Stock: 2. Stock<br><br>Vorlesung
+ mCode=E5">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CF
+ 0229/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac
+ .at/?q=CF0229#map">EI 5 Hochenegg HS</a><br>Stock: 2. Stock<br><br>Vorlesu
+ ng
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DST VU - G6
@@ -192,9 +198,10 @@ URL:https://maps.tuwien.ac.at/?q=CDEG13#map
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Distributed Systems Technologies (Prüfung
  )</b><br>Details: <a href="https://tiss.tuwien.ac.at/course/courseDetails.
  xhtml?courseNr=184260">TISS</a>\, <a href="https://tiss.tuwien.ac.at/event
- s/roomSchedule.xhtml?roomCode=E7">Raum-Info</a><br>Raum: <a href="https://
- maps.tuwien.ac.at/?q=CDEG13#map">EI 7 Hörsaal - ETIT</a><br>Stock: Erdges
- choß<br><br>184.260 Distributed Systems Technologies Prüfung
+ s/roomSchedule.xhtml?roomCode=E7">Raum-Info</a>\, <a href="https://live.vi
+ deo.tuwien.ac.at/room/CDEG13/player.html">LectureTube</a><br>Raum: <a href
+ ="https://maps.tuwien.ac.at/?q=CDEG13#map">EI 7 Hörsaal - ETIT</a><br>Sto
+ ck: Erdgeschoß<br><br>184.260 Distributed Systems Technologies Prüfung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -230,9 +237,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming</b><br>Details: <a href="ht
  tps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</
  a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</
  a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode
- =FAV1">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=HEEG02
- #map">FAV Hörsaal 1 Helmut Veith - INF</a><br>Stock: Erdgeschoß<br><br>K
- ick-off
+ =FAV1">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/HEEG0
+ 2/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=HEEG02#map">FAV Hörsaal 1 Helmut Veith - INF</a><br>Stock: Erdgescho
+ ß<br><br>Kick-off
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -303,9 +311,10 @@ URL:https://maps.tuwien.ac.at/?q=AE0238#map
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Zwischen Karriere und Barriere</b><br>Deta
  ils: <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseN
  r=187250">TISS</a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedul
- e.xhtml?roomCode=H18">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.
- ac.at/?q=AE0238#map">HS 18 Czuber - MB</a><br>Stock: 2. Stock<br><br>Inhal
- tliche und organisatorische Einführung
+ e.xhtml?roomCode=H18">Raum-Info</a>\, <a href="https://live.video.tuwien.a
+ c.at/room/AE0238/player.html">LectureTube</a><br>Raum: <a href="https://ma
+ ps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber - MB</a><br>Stock: 2. Stock<br
+ ><br>Inhaltliche und organisatorische Einführung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -322,9 +331,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies (first lecture)
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies (first lecture)
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -341,9 +351,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI</b><br>Details: <a href="htt
  ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a
  >\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a
  >\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=
- INFH">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=DEU116#
- map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br><br>Vorles
- ung
+ INFH">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/DEU116
+ /player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at/
+ ?q=DEU116#map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br>
+ <br>Vorlesung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -397,9 +408,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -416,9 +428,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI</b><br>Details: <a href="htt
  ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a
  >\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a
  >\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=
- INFH">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=DEU116#
- map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br><br>Vorles
- ung
+ INFH">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/DEU116
+ /player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at/
+ ?q=DEU116#map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br>
+ <br>Vorlesung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -472,9 +485,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -491,9 +505,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI</b><br>Details: <a href="htt
  ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a
  >\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a
  >\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=
- INFH">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=DEU116#
- map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br><br>Vorles
- ung
+ INFH">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/DEU116
+ /player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at/
+ ?q=DEU116#map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br>
+ <br>Vorlesung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -547,9 +562,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -566,9 +582,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI</b><br>Details: <a href="htt
  ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a
  >\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a
  >\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=
- INFH">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=DEU116#
- map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br><br>Vorles
- ung
+ INFH">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/DEU116
+ /player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at/
+ ?q=DEU116#map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br>
+ <br>Vorlesung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -621,8 +638,10 @@ URL:https://maps.tuwien.ac.at/?q=AE0238#map
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Zwischen Karriere und Barriere</b><br>Deta
  ils: <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseN
  r=187250">TISS</a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedul
- e.xhtml?roomCode=H18">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.
- ac.at/?q=AE0238#map">HS 18 Czuber - MB</a><br>Stock: 2. Stock<br><br>2. VO
+ e.xhtml?roomCode=H18">Raum-Info</a>\, <a href="https://live.video.tuwien.a
+ c.at/room/AE0238/player.html">LectureTube</a><br>Raum: <a href="https://ma
+ ps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber - MB</a><br>Stock: 2. Stock<br
+ ><br>2. VO
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -639,9 +658,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -658,9 +678,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI</b><br>Details: <a href="htt
  ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a
  >\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a
  >\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=
- INFH">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=DEU116#
- map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br><br>Vorles
- ung
+ INFH">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/DEU116
+ /player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at/
+ ?q=DEU116#map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br>
+ <br>Vorlesung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -714,9 +735,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -733,9 +755,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI</b><br>Details: <a href="htt
  ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a
  >\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a
  >\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=
- INFH">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=DEU116#
- map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br><br>Vorles
- ung
+ INFH">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/DEU116
+ /player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at/
+ ?q=DEU116#map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br>
+ <br>Vorlesung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -786,8 +809,10 @@ URL:https://maps.tuwien.ac.at/?q=AE0238#map
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Zwischen Karriere und Barriere</b><br>Deta
  ils: <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseN
  r=187250">TISS</a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedul
- e.xhtml?roomCode=H18">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.
- ac.at/?q=AE0238#map">HS 18 Czuber - MB</a><br>Stock: 2. Stock<br><br>3. VO
+ e.xhtml?roomCode=H18">Raum-Info</a>\, <a href="https://live.video.tuwien.a
+ c.at/room/AE0238/player.html">LectureTube</a><br>Raum: <a href="https://ma
+ ps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber - MB</a><br>Stock: 2. Stock<br
+ ><br>3. VO
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -804,9 +829,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -823,9 +849,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI</b><br>Details: <a href="htt
  ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a
  >\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a
  >\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=
- INFH">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=DEU116#
- map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br><br>Vorles
- ung
+ INFH">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/DEU116
+ /player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at/
+ ?q=DEU116#map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br>
+ <br>Vorlesung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -879,9 +906,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -934,8 +962,10 @@ URL:https://maps.tuwien.ac.at/?q=AE0238#map
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Zwischen Karriere und Barriere</b><br>Deta
  ils: <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseN
  r=187250">TISS</a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedul
- e.xhtml?roomCode=H18">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.
- ac.at/?q=AE0238#map">HS 18 Czuber - MB</a><br>Stock: 2. Stock<br><br>4. VO
+ e.xhtml?roomCode=H18">Raum-Info</a>\, <a href="https://live.video.tuwien.a
+ c.at/room/AE0238/player.html">LectureTube</a><br>Raum: <a href="https://ma
+ ps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber - MB</a><br>Stock: 2. Stock<br
+ ><br>4. VO
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -952,9 +982,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -971,9 +1002,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI</b><br>Details: <a href="htt
  ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a
  >\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a
  >\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=
- INFH">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=DEU116#
- map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br><br>Vorles
- ung
+ INFH">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/DEU116
+ /player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at/
+ ?q=DEU116#map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br>
+ <br>Vorlesung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -1043,9 +1075,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -1062,9 +1095,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI</b><br>Details: <a href="htt
  ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a
  >\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a
  >\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=
- INFH">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=DEU116#
- map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br><br>Vorles
- ung
+ INFH">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/DEU116
+ /player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at/
+ ?q=DEU116#map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br>
+ <br>Vorlesung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -1118,9 +1152,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -1137,9 +1172,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI</b><br>Details: <a href="htt
  ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a
  >\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a
  >\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=
- INFH">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=DEU116#
- map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br><br>Vorles
- ung
+ INFH">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/DEU116
+ /player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at/
+ ?q=DEU116#map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br>
+ <br>Vorlesung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -1175,9 +1211,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -1194,9 +1231,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI</b><br>Details: <a href="htt
  ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a
  >\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a
  >\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=
- INFH">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=DEU116#
- map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br><br>Vorles
- ung
+ INFH">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/DEU116
+ /player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at/
+ ?q=DEU116#map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br>
+ <br>Vorlesung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -1232,9 +1270,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -1270,9 +1309,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies</b><br>Details: <a href="
  https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065">TISS
  </a>\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=75966">TUWEL
  </a>\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
- de=E8">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=CDEG08
- #map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 192.065 Cr
- yptocurrencies
+ de=E8">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/CDEG0
+ 8/player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at
+ /?q=CDEG08#map">EI 8 Pötzl HS - QUER</a><br>Stock: Erdgeschoß<br><br>VU 
+ 192.065 Cryptocurrencies
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -1289,9 +1329,10 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI</b><br>Details: <a href="htt
  ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a
  >\, <a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a
  >\, <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=
- INFH">Raum-Info</a><br>Raum: <a href="https://maps.tuwien.ac.at/?q=DEU116#
- map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br><br>Vorles
- ung
+ INFH">Raum-Info</a>\, <a href="https://live.video.tuwien.ac.at/room/DEU116
+ /player.html">LectureTube</a><br>Raum: <a href="https://maps.tuwien.ac.at/
+ ?q=DEU116#map">Informatikhörsaal - ARCH-INF</a><br>Stock: Erdgeschoß<br>
+ <br>Vorlesung
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
