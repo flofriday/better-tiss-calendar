@@ -56,10 +56,19 @@ flag to the tailwind command.
 **Warning:** The flask server here cannot be used in production and is optimized
 for development comfort.
 
+### Tests
+
 You can run all tests with:
 
 ```bash
 uv run pytest
+```
+
+In case you update the output of the calendar, you will need to regenerate the
+snapshots (aka. reference output used by some tests), which you can do with:
+
+```bash
+uv run pytest --snapshot-update
 ```
 
 ## Build with Docker
