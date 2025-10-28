@@ -67,7 +67,7 @@ class Event:
         for url, name in filter(lambda d: d[0] is not None, details):
             text += f"{name}:\n{url}\n\n"
 
-        return text
+        return text.strip()
 
     def html_description(self, lang: str) -> str:
         text = ""
