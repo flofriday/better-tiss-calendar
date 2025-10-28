@@ -13,8 +13,7 @@ events and enriching them with useful information.
 - Use shorthands instead of the long name (optional)
 - Correct address in the location field, not just the room
 - Floor information
-- Links to TUW-Maps (and TISS, TUWEL on HTML enabled clients)
-- Link to LectureTube Live, if available
+- Links to [TUW-Maps](https://maps.tuwien.ac.at), [TISS](https://tiss.tuwien.ac.at/), [TUWEL](https://tuwel.tuwien.ac.at/) and [LectureTube](https://live.video.tuwien.ac.at/)
 - Drop in replacement
 - Easy setup: no login, no account and no rage inducing captchas
 - Self-hosting friendly
