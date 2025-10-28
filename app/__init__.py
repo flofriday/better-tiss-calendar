@@ -1,5 +1,6 @@
 import json
 import sqlite3
+import traceback
 from urllib.parse import urlparse
 
 import requests
@@ -130,12 +131,18 @@ def icalendar():
 
     url = f"https://tiss.tuwien.ac.at/events/rest/calendar/personal?token={token}&locale={locale}"
     cal = tiss.get_calendar(url)
-    cal = improve_calendar(
-        cal,
-        google_cal=is_google,
-        use_shorthand=use_shorthand,
-        locale=locale,
-    )
+    try:
+        cal = improve_calendar(
+            cal,
+            google_cal=is_google,
+            use_shorthand=use_shorthand,
+            locale=locale,
+        )
+    except Exception as e:
+        # A error occured during reformatting, print a traceback for loggs but
+        # continue with returning the original calendar.
+        traceback.print_exception(e)
+
     body = cal.to_ical()
 
     add_usage(get_db(), token)

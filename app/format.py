@@ -25,98 +25,87 @@ class MultiLangString:
 
 @dataclass(kw_only=True, slots=True)
 class Event:
-    name: str = ""
-    shorthand: str = ""
-    lecture_type: str = ""
-    additional: str = ""
-    number: str = ""
-    description: str = ""
-    address: str = ""
-    room: str = ""
-    room_code: str = ""
+    name: str
+    shorthand: str | None = None
+    lecture_type: str
+    additional: str | None = None
+    number: str
+    description: str
+    address: str | None = None
+    room: str | None = None
+    room_code: str | None = None
     floor: MultiLangString | None = None
-    tiss_url: str = ""
-    tuwel_url: str = ""
-    room_url: str = ""
-    map_url: str = ""
-    lecturetube_url: str = ""
+    tiss_url: str
+    tuwel_url: str | None = None
+    room_url: str | None = None
+    map_url: str | None = None
+    lecturetube_url: str | None = None
 
-    def plain_description_en(self) -> str:
+    def plain_description(self, lang: str) -> str:
         text = ""
+        if self.shorthand is not None:
+            text += f"{self.name} {self.lecture_type}\n"
+        text += f"{self.description}\n\n"
 
-        if self.shorthand != "":
-            text += f"{self.name}\n"
+        if self.room:
+            text += "Room:\n" if lang == "en" else "Raum:\n"
+            text += self.room
+            if self.floor is not None:
+                text += f", {self.floor.en if lang == 'en' else self.floor.de}"
+            text += "\n"
+            if self.map_url is not None:
+                text += f"{self.map_url}\n"
+            text += "\n"
 
-        text += f"Room: {self.room}\n"
-        if self.floor is not None:
-            text += f"Floor: {self.floor.en}\n"
-        text += f"\n{self.description}"
+        details = [
+            (self.tiss_url, "TISS"),
+            (self.tuwel_url, "TUWEL"),
+            (self.room_url, "Room-Info" if lang == "en" else "Raum-Info"),
+            (self.lecturetube_url, "Lecture Tube"),
+        ]
+
+        for url, name in filter(lambda d: d[0] is not None, details):
+            text += f"{name}:\n{url}\n\n"
 
         return text
 
-    def html_description_en(self) -> str:
+    def html_description(self, lang: str) -> str:
         text = ""
 
-        if self.shorthand != "":
-            text += f"<b>{html.escape(self.name)}</b><br>"
+        if self.shorthand is not None:
+            text += (
+                f"<b>{html.escape(self.name)} {html.escape(self.lecture_type)}</b><br>"
+            )
+        text += f"{html.escape(self.description)}<br><br>"
 
-        text += f'Details: <a href="{self.tiss_url}">TISS</a>'
-        if self.tuwel_url != "":
-            text += f', <a href="{self.tuwel_url}">TUWEL</a>'
-        if self.room_url != "":
-            text += f', <a href="{self.room_url}">Room-Info</a>'
-        if self.lecturetube_url != "":
-            text += f', <a href="{self.lecturetube_url}">LectureTube</a>'
-        text += "<br>"
+        if self.room:
+            text += "Room:<br>" if lang == "en" else "Raum:<br>"
 
-        if self.map_url != "":
-            text += f'Room: <a href="{self.map_url}">{self.room}</a><br>'
-        else:
-            text += f"Room: {self.room}<br>"
+            if self.map_url:
+                text += f'<a href="{self.map_url}">{html.escape(self.room)}</a>'
+            else:
+                text += html.escape(self.room)
 
-        if self.floor is not None:
-            text += f"Floor: {self.floor.en}<br>"
+            if self.floor is not None:
+                text += (
+                    f", {html.escape(self.floor.en if lang == 'en' else self.floor.de)}"
+                )
 
-        text += f"<br>{html.escape(self.description)}"
+            text += "<br><br>"
 
-        return text
+        details = [
+            (self.tiss_url, "TISS"),
+            (self.tuwel_url, "TUWEL"),
+            (self.room_url, "Room-Info" if lang == "en" else "Raum-Info"),
+            (self.lecturetube_url, "Lecture Tube"),
+        ]
+        details = [d for d in details if d[0] is not None]
 
-    def plain_description_de(self) -> str:
-        text = ""
-
-        if self.shorthand != "":
-            text += f"{self.name}"
-        text += f"\nRaum: {self.room}\n"
-        if self.floor is not None:
-            text += f"Stock: {self.floor.de}\n"
-        text += f"\n{self.description}"
-
-        return text
-
-    def html_description_de(self) -> str:
-        text = ""
-
-        if self.shorthand != "":
-            text += f"<b>{html.escape(self.name)}</b><br>"
-
-        text += f'Details: <a href="{self.tiss_url}">TISS</a>'
-        if self.tuwel_url != "":
-            text += f', <a href="{self.tuwel_url}">TUWEL</a>'
-        if self.room_url != "":
-            text += f', <a href="{self.room_url}">Raum-Info</a>'
-        if self.lecturetube_url != "":
-            text += f', <a href="{self.lecturetube_url}">LectureTube</a>'
-        text += "<br>"
-
-        if self.map_url != "":
-            text += f'Raum: <a href="{self.map_url}">{self.room}</a><br>'
-        else:
-            text += f"Raum: {self.room}<br>"
-
-        if self.floor is not None:
-            text += f"Stock: {self.floor.de}<br>"
-
-        text += f"<br>{html.escape(self.description)}"
+        if details != []:
+            text += "Details:<br><ul>"
+            for url, name in details:
+                text += f'<li><a href="{url}">{name}</a></li>'
+            text += "</ul>"
 
         return text
 
@@ -146,30 +135,24 @@ def improve_calendar(
         event = add_location(event)
 
         # Serialize the summary
-        summary = ""
-        summary += event.shorthand if event.shorthand != "" else event.name
+        summary = event.shorthand if event.shorthand is not None else event.name
         summary += f" {event.lecture_type}"
-        if event.additional != "":
+        if event.additional is not None:
             summary += " - " + event.additional
         component.pop("summary")
         component.add("summary", summary)
 
         # Add tuwel
         if course := read_courses().get(event.number, None):
-            event.tuwel_url = course.tuwel_url if course.tuwel_url else ""
-
+            event.tuwel_url = course.tuwel_url
         # Serialize the address
-        if event.address != "":
+        if event.address is not None:
             component.pop("location")
             component.add("location", event.address)
 
         # Serialize the description
-        if locale == "de":
-            plain_description = event.plain_description_de()
-            html_description = event.html_description_de()
-        else:
-            plain_description = event.plain_description_en()
-            html_description = event.html_description_en()
+        plain_description = event.plain_description(locale)
+        html_description = event.html_description(locale)
 
         component.pop("description")
         if google_cal:
@@ -183,7 +166,6 @@ def improve_calendar(
             component.add("description", html_description)
         else:
             component.add("description", plain_description)
-            component.add("url", event.map_url)
             component.add("x-alt-desc;fmttype=text/html", html_description)
 
     # Insert signup dates
@@ -267,8 +249,8 @@ def event_from_ical(component) -> Event:
         name=name,
         number=number,
         lecture_type=lecture_type,
-        additional=additional,
-        room=room,
+        additional=additional if additional.strip() else None,
+        room=room if room.strip() else None,
         description=description,
         tiss_url=tiss_url,
     )

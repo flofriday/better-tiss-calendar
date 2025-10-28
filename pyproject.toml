@@ -6,7 +6,6 @@ dependencies = [
     "gunicorn>=23.0.0",
     "icalendar>=6.3.1",
     "requests>=2.32.5",
-    "syrupy>=5.0.0",
 ]
 requires-python = "==3.14.*"
 authors = [{ name = "flofriday" }]
@@ -40,7 +39,8 @@ exclude = ["venv", ".venv", "**/resources"]
 dev = [
     "pytest-mock>=3.15.1",
     "pytest>=8.4.2",
-    "pyright>=1.1.406",
-    "ruff>=0.14.0",
-    "ty>=0.0.1a21 ",
+    "pyright>=1.1.407",
+    "syrupy>=5.0.0",
+    "ruff>=0.14.2",
+    "ty>=0.0.1a24 ",
 ]
