@@ -381,21 +381,34 @@ def read_courses() -> dict[str, Course]:
                 deregistration_end,
             ) = row
 
-            if id is None:
+            if id is None or id == "":
                 continue
 
+            name = name.strip() if name.strip() != "" else None
+            tuwel = tuwel.strip() if tuwel.strip() != "" else None
+            registration_start = (
+                datetime.fromisoformat(registration_start)
+                if registration_start.strip() != ""
+                else None
+            )
+            registration_end = (
+                datetime.fromisoformat(registration_end)
+                if registration_end.strip() != ""
+                else None
+            )
+            deregistration_end = (
+                datetime.fromisoformat(deregistration_end)
+                if deregistration_end.strip() != ""
+                else None
+            )
             course = Course(
                 id,
                 name,
                 tiss,
                 tuwel,
-                datetime.fromisoformat(registration_start)
-                if registration_start
-                else None,
-                datetime.fromisoformat(registration_end) if registration_end else None,
-                datetime.fromisoformat(deregistration_end)
-                if deregistration_end
-                else None,
+                registration_start,
+                registration_end,
+                deregistration_end,
             )
 
             id_to_course[id] = course
