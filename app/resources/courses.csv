@@ -174,6 +174,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 101.942,"AKNUM, AKOR Numerical optimisation",https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=101942,,,,
 101.944,Scientific Programming for Interdisciplinary Mathematics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=101944,https://tuwel.tuwien.ac.at/course/view.php?id=65978,,,
 101.945,Mathematics II for Surveying and Geoinformation,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=101945,,,,
+101.953,AKNUM Scientific Computing for Finite Element Methods,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=101953,https://tuwel.tuwien.ac.at/course/view.php?id=56059,,,
 101.973,Numerical Computation,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=101973,https://tuwel.tuwien.ac.at/course/view.php?id=76188,,,
 101.990,AKNUM Numerical analysis on quantum ccomputers,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=101990,,,,
 101.991,Computernumerics for TPH,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=101991,https://tuwel.tuwien.ac.at/course/view.php?id=71963,2025-02-14T08:00:00,2025-03-10T23:55:00,2025-03-10T23:55:00
@@ -383,7 +384,6 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 105.654,Applied Operations Research,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=105654,,2025-02-19T00:00:00,2025-02-26T12:00:00,
 105.655,Applied Operations Research,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=105655,,2025-02-19T00:00:00,2025-02-26T12:00:00,
 105.658,AKOR Project in Operations Research,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=105658,,2025-10-06T00:00:00,2026-12-26T23:59:00,2025-12-26T23:59:00
-105.664,Privatissimum for diploma and doctoral students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=105664,,,,
 105.670,Consultations for PhD students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=105670,,,,
 105.673,"AKOEK/AKFVM Selected topics in econometrics, finance and insurance",https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=105673,https://tuwel.tuwien.ac.at/course/view.php?id=77709,2025-06-30T00:00:00,2025-10-12T23:59:00,2025-10-30T23:59:00
 105.674,AKFVM Seminar in Mathematical Finance and Probability,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=105674,,,,
@@ -423,7 +423,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 107.258,Computational Statistics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=107258,https://tuwel.tuwien.ac.at/course/view.php?id=75135,2025-07-21T00:00:00,2025-10-06T23:59:00,2025-10-06T23:59:00
 107.273,Statistics and Probability Theory,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=107273,,2025-01-31T00:00:00,2025-03-31T12:00:00,2025-03-31T12:00:00
 107.329,Methods in Applied Statistics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=107329,https://tuwel.tuwien.ac.at/course/view.php?id=76962,2025-09-09T09:00:00,2025-10-12T14:00:00,2025-10-24T08:00:00
-107.330,Statistical Simulation and Computerintensive Methods,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=107330,https://tuwel.tuwien.ac.at/course/view.php?id=76812,2025-09-01T06:00:00,2025-10-23T23:00:00,2025-10-23T23:00:00
+107.330,Statistical Simulation and Computerintensive Methods,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=107330,https://tuwel.tuwien.ac.at/course/view.php?id=76812,2025-09-01T06:00:00,2025-10-30T23:00:00,2025-10-23T23:00:00
 107.368,Seminar (with Bachelor Thesis),https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=107368,,2025-09-18T12:00:00,2025-10-10T00:00:00,
 107.369,Statistics and Probability Theory,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=107369,https://tuwel.tuwien.ac.at/course/view.php?id=75402,2025-09-01T07:00:00,2025-10-06T23:59:00,2025-10-31T23:59:00
 107.370,Statistics and Probability Theory,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=107370,,,,
@@ -586,7 +586,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 131.041,Privatissimum for Doctor-students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=131041,,,,
 131.042,Discussion with diplomands,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=131042,,,,
 131.047,Strongly Correlated Electron Systems,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=131047,,2025-03-03T08:00:00,2025-07-02T23:58:00,2025-07-02T23:59:00
-131.058,Technical Optics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=131058,,2025-09-08T00:00:00,,
+131.058,Technical Optics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=131058,https://tuwel.tuwien.ac.at/course/view.php?id=60575,2025-09-08T00:00:00,,
 131.060,laboratory course quantum phenomena,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=131060,,,,
 131.061,Project Work: Experimental Solid State Physics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=131061,,,,
 131.062,laboratory course in thermo electrica,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=131062,,,,
@@ -953,6 +953,8 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 163.175,Journal Club - Recent Trends in Macromolecular Chemistry II,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163175,,2025-07-21T00:00:00,2025-10-08T23:59:00,
 163.177,Fundamentals of Chemistry,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163177,https://tuwel.tuwien.ac.at/course/view.php?id=76326,2025-09-08T14:00:00,2025-10-09T23:59:00,
 163.178,Lab-on-a-Chip Technologies,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163178,,2025-09-01T18:00:00,2026-02-01T23:59:00,2026-02-01T23:59:00
+163.179,Organ-on-a-chip Technologies,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163179,https://tuwel.tuwien.ac.at/course/view.php?id=72776,2024-11-29T00:00:00,2025-04-10T00:00:00,
+163.180,Rapid prototyping of microfluidic devices,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163180,https://tuwel.tuwien.ac.at/course/view.php?id=57272,2025-04-11T10:00:00,2025-05-09T12:00:00,2025-05-09T12:00:00
 163.181,Laboratory technology for process engineers,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163181,,2025-10-02T09:00:00,2026-01-28T23:00:00,
 163.182,Mitmachlabor,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163182,,,,
 163.183,Fundamentals of Chemistry,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163183,,2024-12-20T12:00:00,2025-02-16T23:58:00,2025-02-16T23:59:00
@@ -977,6 +979,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 163.214,Synthesis of Biomolecules,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163214,,2025-09-01T09:00:00,2025-11-29T17:00:00,
 163.215,Organic Chemistry 4,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163215,,,,
 163.216,Physical Organic Chemistry,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163216,https://tuwel.tuwien.ac.at/course/view.php?id=74009,,,
+163.217,Organic Chemistry 3,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163217,https://tuwel.tuwien.ac.at/course/view.php?id=72551,2025-03-04T00:00:00,,
 163.218,Chemical Biology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163218,,,,
 163.219,Catalysis in Organic Synthesis,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163219,https://tuwel.tuwien.ac.at/course/view.php?id=74045,,,
 163.220,Medicinal Chemistry I,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=163220,https://tuwel.tuwien.ac.at/course/view.php?id=77004,2025-10-01T00:01:00,2026-02-06T23:59:00,
@@ -994,7 +997,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 164.163,Powder Metallurgy and Sintered Materials,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164163,,,,
 164.164,High Performance Ceramics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164164,,2025-07-29T00:00:00,2026-09-30T00:00:00,
 164.167,Technology of Nanostructured Materials,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164167,,2025-01-09T00:00:00,2025-06-18T00:00:00,2025-06-18T00:00:00
-164.169,Quality Assurance and GLP/GMP,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164169,,2025-10-07T00:00:00,2025-11-22T23:59:00,2025-11-22T23:59:00
+164.169,Quality Assurance and GLP/GMP,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164169,,2025-10-07T00:00:00,2026-01-31T23:59:00,2026-01-31T23:59:00
 164.170,Powder Metallurgy and Sintered Materials II,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164170,,2024-10-05T09:00:00,2025-02-18T00:00:00,
 164.171,Chemical Nanoscopy,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164171,https://tuwel.tuwien.ac.at/course/view.php?id=76164,2025-09-27T00:00:00,2026-01-30T00:00:00,
 164.172,Physical and Analytical Chemistry,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164172,https://tuwel.tuwien.ac.at/course/view.php?id=76884,2025-07-21T00:00:00,2026-09-26T00:00:00,
@@ -1069,7 +1072,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 164.353,"Journal Club of the Austrian Proteomics and Metabolomics Association Recent developments in Proteomics, Metabolomics and Bioinformatics",https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164353,,2025-10-13T14:00:00,2026-03-01T23:00:00,
 164.355,Proteomics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164355,,2025-07-29T14:00:00,2025-10-28T00:00:00,2025-11-27T00:00:00
 164.356,Metabolomics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164356,,2025-09-24T09:00:00,2025-10-22T18:00:00,
-164.357,Spatial Omics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164357,,2025-07-27T12:00:00,2025-10-10T12:00:00,
+164.357,Spatial Omics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164357,https://tuwel.tuwien.ac.at/course/view.php?id=77811,2025-07-27T12:00:00,2025-10-10T12:00:00,
 164.359,Privatissimum for PhD students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164359,,,,
 164.360,Journal Club of the Austrian Proteomics and Metabolomics Association 2,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164360,,,,
 164.362,Provatissimum for PhD students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=164362,,,,
@@ -1148,7 +1151,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 166.176,Seminar accompanying the diploma thesis (biotechnology and bioanalytics),https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166176,https://tuwel.tuwien.ac.at/course/view.php?id=76503,,,
 166.177,Food Chemistry and Food Technology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166177,,2025-09-03T00:00:00,,
 166.184,air pollution control techniques,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166184,https://tuwel.tuwien.ac.at/course/view.php?id=74267,2025-02-03T08:00:00,2025-03-17T08:00:00,2025-03-17T08:00:00
-166.193,microbiology laboratory course,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166193,,2025-10-03T09:00:00,2025-11-02T09:00:00,2025-11-02T09:00:00
+166.193,microbiology laboratory course,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166193,https://tuwel.tuwien.ac.at/course/view.php?id=75942,2025-10-03T09:00:00,2025-11-02T09:00:00,2025-11-02T09:00:00
 166.198,Applied modelling in process engineering and energy technology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166198,https://tuwel.tuwien.ac.at/course/view.php?id=69800,,,
 166.200,Microscopy in Biology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166200,https://tuwel.tuwien.ac.at/course/view.php?id=73916,2025-03-06T09:00:00,2025-05-18T12:00:00,2025-05-05T12:00:00
 166.201,Introduction to Biology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166201,,,,
@@ -1227,7 +1230,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 166.692,Introduction to Microscopy in Biology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166692,https://tuwel.tuwien.ac.at/course/view.php?id=77751,,,
 166.695,Introduction to biochemistry,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166695,,,,
 166.703,Methods of gene technology and molecular biology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166703,,,,
-166.704,Biochemistry II,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166704,,,,
+166.704,Biochemistry II,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166704,https://tuwel.tuwien.ac.at/course/view.php?id=75423,,,
 166.706,Molecular Biology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166706,,2025-11-18T15:00:00,2025-11-20T14:00:00,
 166.708,Environmental Microbiology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166708,https://tuwel.tuwien.ac.at/course/view.php?id=70286,2025-03-04T07:00:00,,
 166.713,Immunology for Chemists,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=166713,https://tuwel.tuwien.ac.at/course/view.php?id=73337,2025-01-28T00:00:00,2025-03-05T23:59:00,
@@ -1294,7 +1297,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 184.723,Seminar for PhD Students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=184723,,,,
 184.739,Seminar for PhD Students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=184739,,,,
 184.741,Program and System Verification,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=184741,https://tuwel.tuwien.ac.at/course/view.php?id=72110,2025-03-01T00:00:00,2025-05-02T23:59:00,2025-05-02T23:59:00
-184.753,Seminar in Theoretical Computer Science,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=184753,,2025-09-15T08:00:00,2025-10-15T23:59:00,2025-11-17T23:59:00
+184.753,Seminar in Theoretical Computer Science,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=184753,https://tuwel.tuwien.ac.at/course/view.php?id=74808,2025-09-15T08:00:00,2025-10-15T23:59:00,2025-11-17T23:59:00
 184.766,Introduction to Logical Methods in Computer Science,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=184766,,2025-12-10T12:00:00,2026-03-04T12:00:00,2026-02-16T12:00:00
 184.767,Research Seminar LogiCS,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=184767,,2025-10-02T01:00:00,2025-10-30T20:00:00,2025-10-31T15:00:00
 184.774,Automated Deduction,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=184774,https://tuwel.tuwien.ac.at/course/view.php?id=76365,2025-08-18T09:00:00,2025-10-09T23:59:00,2025-10-09T23:59:00
@@ -1352,11 +1355,11 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 191.021,Introduction to Computational Sustainability,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=191021,https://tuwel.tuwien.ac.at/course/view.php?id=75546,2025-09-25T08:00:00,2025-10-24T00:00:00,2025-10-26T00:00:00
 191.022,Advanced Multiprocessor Programming,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=191022,https://tuwel.tuwien.ac.at/course/view.php?id=76227,2025-09-15T00:00:00,2025-10-10T23:59:00,2025-10-27T23:59:00
 191.023,Hybrid Quantum - Classical Systems,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=191023,https://tuwel.tuwien.ac.at/course/view.php?id=75789,2025-09-17T00:00:00,2025-10-16T23:59:00,
-191.024,Seminar in Computer Science (Parallel Computing),https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=191024,,2025-09-15T00:00:00,2025-10-15T23:59:00,2025-11-17T23:59:00
+191.024,Seminar in Computer Science (Parallel Computing),https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=191024,https://tuwel.tuwien.ac.at/course/view.php?id=74808,2025-09-15T00:00:00,2025-10-15T23:59:00,2025-11-17T23:59:00
 191.025,Bachelor Thesis Computer Science and Business Informatics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=191025,,,,
 191.027,Seminar for PhD Students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=191027,,,,
 191.028,Seminar in Computer Science (Computational Sustainability),https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=191028,,2025-10-07T09:00:00,2025-10-13T09:00:00,2025-10-23T09:00:00
-191.108,Seminar Computer Engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=191108,,2025-09-15T08:00:00,2025-10-15T23:59:00,2025-11-17T23:59:00
+191.108,Seminar Computer Engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=191108,https://tuwel.tuwien.ac.at/course/view.php?id=74808,2025-09-15T08:00:00,2025-10-15T23:59:00,2025-11-17T23:59:00
 191.125,Scientific Programming with Python,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=191125,https://tuwel.tuwien.ac.at/course/view.php?id=74594,2025-09-15T00:00:00,2025-10-09T23:59:00,2025-10-21T23:59:00
 192.017,Theoretical Computer Science,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192017,https://tuwel.tuwien.ac.at/course/view.php?id=76329,2025-09-22T08:00:00,2025-10-13T23:59:00,2025-10-13T23:59:00
 192.021,Project in Computer Science 1,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192021,,,,
@@ -1457,7 +1460,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 193.174,Responsible Digital Ethics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193174,https://tuwel.tuwien.ac.at/course/view.php?id=75801,2025-09-01T09:00:00,2025-09-30T17:00:00,
 193.176,Video Analysis,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193176,https://tuwel.tuwien.ac.at/course/view.php?id=74381,2025-09-03T12:00:00,2025-10-05T12:00:00,2025-10-05T12:00:00
 193.177,Critical Theory and Design,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193177,https://tuwel.tuwien.ac.at/course/view.php?id=76239,2025-09-04T12:00:00,2025-10-08T12:00:00,2025-10-22T12:00:00
-193.179,Seminar in Visual Computing,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193179,https://tuwel.tuwien.ac.at/course/view.php?id=74495,2025-08-28T12:00:00,2025-10-05T23:59:00,2025-10-05T23:59:00
+193.179,Seminar in Visual Computing (Computer Vision & Applications),https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193179,https://tuwel.tuwien.ac.at/course/view.php?id=74495,2025-08-28T12:00:00,2025-10-05T23:59:00,2025-10-05T23:59:00
 193.180,Computer Graphics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193180,https://tuwel.tuwien.ac.at/course/view.php?id=74706,2025-09-01T00:00:00,2025-10-19T23:59:00,
 193.183,Rendering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193183,,,,
 193.185,Wellbeing Technologies,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193185,,2025-09-30T10:59:00,2025-11-09T23:59:00,
@@ -1470,9 +1473,9 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 193.193,Computer Vision for Cultural Heritage Preservation,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193193,https://tuwel.tuwien.ac.at/course/view.php?id=77184,2025-10-01T00:00:00,2025-10-31T23:59:00,2025-10-31T23:59:00
 193.194,Computer Vision in Industry,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193194,https://tuwel.tuwien.ac.at/course/view.php?id=76923,2025-09-01T23:59:00,2025-10-14T23:59:00,2025-10-31T23:59:00
 193.195,Statistical Pattern Recognition,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193195,https://tuwel.tuwien.ac.at/course/view.php?id=76578,2025-09-25T00:00:00,2025-10-15T12:00:00,
-193.196,Seminar in Visual Computing,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193196,https://tuwel.tuwien.ac.at/course/view.php?id=75054,2025-09-17T09:00:00,2025-10-21T23:59:00,2025-10-27T23:59:00
-193.197,Visual Computing,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193197,,2025-09-01T00:00:00,2025-11-17T23:59:00,2025-11-17T23:59:00
-193.199,Seminar in Visual Computing,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193199,https://tuwel.tuwien.ac.at/course/view.php?id=75327,2025-10-02T00:00:00,,
+193.196,Seminar in Visual Computing (Computer Vision),https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193196,https://tuwel.tuwien.ac.at/course/view.php?id=75054,2025-09-17T09:00:00,2025-10-21T23:59:00,2025-10-27T23:59:00
+193.197,Visual Computing,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193197,https://tuwel.tuwien.ac.at/course/view.php?id=75405,2025-09-01T00:00:00,2025-11-17T23:59:00,2025-11-17T23:59:00
+193.199,Seminar in Visual Computing (Computer Graphics & Visualization),https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193199,https://tuwel.tuwien.ac.at/course/view.php?id=75327,2025-10-02T00:00:00,,
 194.020,Software Engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194020,https://tuwel.tuwien.ac.at/course/view.php?id=75468,2025-09-22T08:00:00,2025-10-12T23:59:00,2025-10-12T23:59:00
 194.023,Programming Paradigms,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194023,https://tuwel.tuwien.ac.at/course/view.php?id=75171,2025-09-15T10:00:00,2025-10-10T10:00:00,2025-10-27T10:00:00
 194.024,Distributed Systems,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194024,https://tuwel.tuwien.ac.at/course/view.php?id=75201,2025-09-26T23:59:00,2025-10-15T23:59:00,2025-10-17T23:59:00
@@ -1543,7 +1546,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 199.029,SMT Solving Internals,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=199029,https://tuwel.tuwien.ac.at/course/view.php?id=74880,2025-08-25T00:00:00,2025-10-12T20:00:00,
 199.030,Advanced Topics in Verification and Synthesis for AI-Enabled Cyber-Physical Systems,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=199030,,2025-09-08T00:00:00,2025-10-10T23:59:00,
 199.031,"Knowledge Representation for Robotics, Automotive, and SmartCities",https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=199031,https://tuwel.tuwien.ac.at/course/view.php?id=77556,2025-09-01T00:00:00,2025-10-26T18:00:00,
-199.032,Weighted Automata and Weighted Logics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=199032,,2025-09-24T00:00:00,2025-10-31T12:00:00,
+199.032,Weighted Automata and Weighted Logics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=199032,https://tuwel.tuwien.ac.at/course/view.php?id=77808,2025-09-24T00:00:00,2025-10-31T12:00:00,
 199.096,From surviving to thriving: crafting your good professional life,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=199096,https://tuwel.tuwien.ac.at/course/view.php?id=74697,2025-08-07T00:00:00,2025-10-03T23:59:00,
 200.267,Specialised relevant practice,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=200267,,,,
 200.271,Introductory to Civil Engineering Study,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=200271,https://tuwel.tuwien.ac.at/course/view.php?id=77475,2025-09-30T09:20:00,2025-10-01T18:00:00,2025-10-01T18:00:00
@@ -1557,7 +1560,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 200.279,Practical exercises in environmental engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=200279,https://tuwel.tuwien.ac.at/course/view.php?id=74354,2025-08-18T08:00:00,2025-10-31T23:59:00,2025-10-31T23:59:00
 201.088,Basics of Physics 1,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=201088,https://tuwel.tuwien.ac.at/course/view.php?id=75222,2025-10-01T09:00:00,2025-11-03T11:00:00,2025-11-19T18:00:00
 201.089,Basics in Mathematics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=201089,https://tuwel.tuwien.ac.at/course/view.php?id=75810,2025-10-01T12:00:00,2025-10-27T12:00:00,2025-12-04T18:00:00
-202.019,Engineering Biochemoporomechanics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=202019,https://tuwel.tuwien.ac.at/course/view.php?id=75507,2025-08-19T08:00:00,2025-11-03T09:00:00,2025-11-03T09:00:00
+202.019,Engineering Biochemoporomechanics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=202019,https://tuwel.tuwien.ac.at/course/view.php?id=75507,2025-08-19T08:00:00,2025-11-07T09:00:00,2025-11-07T09:00:00
 202.024,Engineering Biochemoporomechanics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=202024,,2025-01-21T08:00:00,2025-03-06T08:00:00,2025-03-06T08:00:00
 202.040,Seminar for Diploma Thesis Students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=202040,,,,
 202.044,Experimental Methods for Analysis of Deformations,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=202044,,2025-09-04T08:00:00,2025-11-11T08:00:00,2025-11-11T08:00:00
@@ -1627,7 +1630,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 207.004,Seminar for PhD students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=207004,,,,
 207.009,Seminar for Master students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=207009,,2025-09-03T00:00:00,2025-12-02T00:00:00,2026-01-03T00:00:00
 207.010,Seminar for PhD students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=207010,,2025-09-25T00:00:00,2025-12-02T00:00:00,
-207.011,Building for people,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=207011,,2025-09-15T10:00:00,2026-09-30T10:00:00,2026-09-30T12:00:00
+207.011,Building for people,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=207011,https://tuwel.tuwien.ac.at/course/view.php?id=52741,2025-09-15T10:00:00,2026-09-30T10:00:00,2026-09-30T12:00:00
 207.012,Foundations of Building Science,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=207012,https://tuwel.tuwien.ac.at/course/view.php?id=75705,2025-09-03T00:00:00,2025-11-01T23:00:00,2025-11-01T23:00:00
 207.013,Introduction to Digital Twins for Buildings and Cities,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=207013,https://tuwel.tuwien.ac.at/course/view.php?id=77544,2025-09-03T00:00:00,2025-11-01T11:00:00,2026-02-02T12:00:00
 207.015,Building Materials,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=207015,https://tuwel.tuwien.ac.at/course/view.php?id=75498,2025-10-01T08:00:00,2025-10-10T12:00:00,2025-10-10T23:55:00
@@ -1687,7 +1690,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 220.032,"PA Geotechnical Engineering - Ground Engineering, Soil and Rock Mechanics",https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=220032,,,,
 220.033,Foundation Engineering (incl. Grouting),https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=220033,,2025-10-03T12:00:00,2025-10-30T12:00:00,2025-10-30T12:00:00
 220.035,Ingenieurgeologie,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=220035,,2025-10-01T12:00:00,2025-10-23T09:00:00,2025-10-24T12:00:00
-220.036,Exercises in engineering geology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=220036,,2025-10-01T08:00:00,2025-11-09T23:59:00,2025-11-09T23:59:00
+220.036,Exercises in engineering geology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=220036,https://tuwel.tuwien.ac.at/course/view.php?id=76833,2025-10-01T08:00:00,2025-11-09T23:59:00,2025-11-09T23:59:00
 220.038,Excursion Rock Engineering and Tunneling,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=220038,,,,
 220.043,Geothermal Energy,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=220043,https://tuwel.tuwien.ac.at/course/view.php?id=74979,2025-10-01T11:00:00,2025-10-26T12:00:00,2025-10-26T12:00:00
 221.005,Ground Engineering and Soil Mechanics 2,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=221005,,2025-10-06T15:00:00,2025-10-08T12:00:00,2025-10-08T12:00:00
@@ -1700,7 +1703,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 222.119,Exclusive tutorial for PhD candidates,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=222119,,,,
 222.151,Seminar for diploma students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=222151,,,,
 222.538,Engineering Hydrology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=222538,,,,
-222.539,Engineering Hydrology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=222539,,2025-10-06T08:00:00,2025-11-10T00:00:00,2025-11-16T23:59:00
+222.539,Engineering Hydrology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=222539,https://tuwel.tuwien.ac.at/course/view.php?id=77784,2025-10-06T08:00:00,2025-11-10T00:00:00,2025-11-16T23:59:00
 222.540,Hydraulics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=222540,https://tuwel.tuwien.ac.at/course/view.php?id=76317,2025-09-04T12:00:00,2026-02-03T12:00:00,2026-02-03T12:00:00
 222.563,Fracture Mechanics of Concrete Dams Fracture Mechanics of Concrete Dams,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=222563,,2025-06-30T12:00:00,2025-10-10T12:00:00,2025-10-10T12:00:00
 222.565,Hydraulics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=222565,https://tuwel.tuwien.ac.at/course/view.php?id=76443,2025-09-01T12:00:00,2025-10-07T12:00:00,2025-10-15T23:00:00
@@ -1728,7 +1731,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 226.039,Seminar series water quality management,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226039,,2025-08-13T08:00:00,2025-10-30T07:00:00,2025-11-12T08:00:00
 226.040,Project Work Water and Resources - Water Quality Management,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226040,,,,
 226.041,Projektarbeit Wasser und Ressourcen - Abfallwirtschaft und Ressourcenmanagement,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226041,,,,
-226.043,Wastewater Treatment,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226043,,2025-09-15T08:00:00,2025-11-01T07:00:00,2025-11-01T07:00:00
+226.043,Wastewater Treatment,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226043,https://tuwel.tuwien.ac.at/course/view.php?id=77640,2025-09-15T08:00:00,2025-11-01T07:00:00,2025-11-01T07:00:00
 226.044,Laboratory Tutorial Wastewater Treatment,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226044,,,,
 226.048,Ecology,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226048,https://tuwel.tuwien.ac.at/course/view.php?id=75897,2025-08-29T08:00:00,2025-10-16T23:00:00,2025-10-21T18:00:00
 226.049,Anaerobic Industrial Wastewater and Sludge Treatment,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226049,,2025-09-01T08:00:00,2025-10-28T08:00:00,2025-11-04T08:00:00
@@ -1737,12 +1740,12 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 226.057,Deponietechnik und Altlastensanierung,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226057,,,,
 226.058,Laborübung Ressourcenmanagement und Abfallwirtschaft,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226058,,2025-10-14T09:00:00,2025-11-25T23:59:00,2025-11-25T23:59:00
 226.062,Water Quality Management,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226062,https://tuwel.tuwien.ac.at/course/view.php?id=74321,2025-09-15T00:00:00,2025-10-20T11:59:00,2025-10-28T13:00:00
-226.063,Wastewater Treatment,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226063,,2025-09-15T08:00:00,2025-11-09T08:00:00,2025-11-08T07:00:00
+226.063,Wastewater Treatment,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226063,https://tuwel.tuwien.ac.at/course/view.php?id=77640,2025-09-15T08:00:00,2025-11-09T08:00:00,2025-11-08T07:00:00
 226.066,Material Flow Analysis,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226066,https://tuwel.tuwien.ac.at/course/view.php?id=74240,2025-07-01T00:00:00,2025-09-29T23:59:00,
 226.071,Introductory course to Environmental Engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226071,https://tuwel.tuwien.ac.at/course/view.php?id=74279,2025-08-08T09:00:00,2025-10-01T09:00:00,
 226.073,Toxicology for environmental engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226073,https://tuwel.tuwien.ac.at/course/view.php?id=75594,2025-09-05T09:00:00,2026-03-05T18:00:00,
 226.074,Fundamentals of electrical energy networks for environmental engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=226074,,2025-09-16T00:00:00,2026-01-31T00:00:00,
-230.001,Barrier-free transportation planning in the public space,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=230001,,2025-08-31T00:00:00,2025-11-26T00:00:00,
+230.001,Barrier-free transportation planning in the public space,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=230001,https://tuwel.tuwien.ac.at/course/view.php?id=75849,2025-08-31T00:00:00,2025-11-26T00:00:00,
 230.016,Road operations,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=230016,,2025-08-20T12:00:00,2026-01-02T12:00:00,2026-01-02T12:00:00
 230.018,Road construction excursion,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=230018,,,,
 230.019,seminar for master students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=230019,,2025-09-15T08:00:00,2026-01-23T08:00:00,2026-01-23T08:00:00
@@ -1786,7 +1789,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 232.032,Public transport,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=232032,,2025-10-04T08:00:00,2025-11-10T23:59:00,2025-11-10T23:59:00
 232.035,Diploma thesis seminar for railway engineering and economics of transport,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=232035,,,,
 232.038,Projectseminar Public Transport,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=232038,,2026-02-23T00:00:00,2026-02-23T23:59:00,2026-02-23T23:59:00
-232.518,Railway engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=232518,https://tuwel.tuwien.ac.at/course/view.php?id=74769,2025-10-13T09:00:00,2025-11-09T16:00:00,2025-11-09T16:00:00
+232.518,Railway engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=232518,https://tuwel.tuwien.ac.at/course/view.php?id=74769,2025-10-13T09:00:00,2025-11-03T23:59:00,2025-11-03T23:59:00
 234.012,Cost Planning and Scheduling,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=234012,https://tuwel.tuwien.ac.at/course/view.php?id=77073,,,
 234.074,Tunnelling Construction Methods,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=234074,https://tuwel.tuwien.ac.at/course/view.php?id=76074,2025-08-18T08:00:00,2025-10-03T18:00:00,2025-10-24T19:00:00
 234.089,Safety and environment protection at building sites,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=234089,https://tuwel.tuwien.ac.at/course/view.php?id=76080,2025-09-04T08:00:00,2025-10-23T19:00:00,2025-10-23T19:00:00
@@ -1800,7 +1803,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 234.166,Management for Executives,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=234166,https://tuwel.tuwien.ac.at/course/view.php?id=75375,2025-09-02T14:00:00,2026-01-30T23:59:00,
 234.167,Public law in the construction industry,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=234167,https://tuwel.tuwien.ac.at/course/view.php?id=76545,2025-09-01T08:00:00,2025-09-29T23:59:00,2025-09-29T23:59:00
 234.986,Seminar with field trips to construction sites,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=234986,,2025-08-31T09:00:00,2026-01-22T12:00:00,
-234.992,Developer and real estate industry,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=234992,,2025-10-03T09:00:00,2025-11-06T23:59:00,2025-11-06T23:59:00
+234.992,Developer and real estate industry,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=234992,https://tuwel.tuwien.ac.at/course/view.php?id=75381,2025-10-03T09:00:00,2025-11-06T23:59:00,2025-11-06T23:59:00
 234.994,Construction Economy and Project Management,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=234994,https://tuwel.tuwien.ac.at/course/view.php?id=76500,,,
 235.042,Risk assessment in civil engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=235042,https://tuwel.tuwien.ac.at/course/view.php?id=75795,2025-10-01T08:30:00,2025-10-19T23:59:00,2025-10-21T23:59:00
 235.043,Building Processes and Economics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=235043,https://tuwel.tuwien.ac.at/course/view.php?id=77028,,,
@@ -1926,7 +1929,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 259.051,Scheduling and cost planning,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259051,https://tuwel.tuwien.ac.at/course/view.php?id=76035,2025-09-08T09:00:00,2025-10-05T23:55:00,2025-10-10T23:55:00
 259.054,Modul Data Driven Design for Social Infrastructure,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259054,,,,
 259.074,Project Courese,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259074,,2025-08-31T00:01:00,2025-10-13T15:00:00,2025-10-13T15:00:00
-259.075,Data-integrated Algorithmic Design Processes II,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259075,,2025-10-07T12:00:00,2025-10-16T23:59:00,2025-10-16T23:59:00
+259.075,Data-integrated Algorithmic Design Processes II,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259075,https://tuwel.tuwien.ac.at/course/view.php?id=77823,2025-10-07T12:00:00,2025-10-16T23:59:00,2025-10-16T23:59:00
 259.076,Algorithmic Evolutionary Design and Multi-criteria Evolutionary Optimization II,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259076,https://tuwel.tuwien.ac.at/course/view.php?id=74922,2025-10-07T12:00:00,2025-10-16T23:59:00,2025-10-16T23:59:00
 259.077,Diploma seminar - Structural design and timber engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259077,,,,
 259.078,Building Monitoring and Diagnostics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259078,https://tuwel.tuwien.ac.at/course/view.php?id=75105,2025-09-04T12:00:00,2025-10-05T23:59:00,2025-10-21T12:00:00
@@ -1952,7 +1955,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 259.143,"""re-storeying*20 - interdisziplinärer Entwurf - Konstruktion"" gekoppelt mit 259.144 Entwerfen ""re-storeying*20 - interdisziplinärer Entwurf""",https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259143,https://tuwel.tuwien.ac.at/course/view.php?id=75186,2025-10-06T14:00:00,2025-10-06T14:01:00,2025-10-06T14:02:00
 259.144,Design Studio re-storeying*20 - interdisziplinärer Entwurf gekoppelt mit 259.143 Stegreifentwerfen re-storeying*20 - interdisziplinärer Entwurf - Konstruktion,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259144,https://tuwel.tuwien.ac.at/course/view.php?id=75186,,,
 259.145,built for creativity: architectural approaches for corporate culture,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259145,https://tuwel.tuwien.ac.at/course/view.php?id=75438,,,
-259.146,Guided Reading Building Science,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259146,https://tuwel.tuwien.ac.at/course/view.php?id=74958,2025-10-22T18:00:00,2025-11-04T11:00:00,2025-11-04T11:00:00
+259.146,Guided Reading Building Science,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259146,https://tuwel.tuwien.ac.at/course/view.php?id=74958,2025-10-22T18:00:00,2025-11-11T11:00:00,2025-11-11T11:00:00
 259.147,Sondermodul AI & Architecture: From Foundations to Post-human Speculation,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259147,https://tuwel.tuwien.ac.at/course/view.php?id=77154,,,
 259.154,Inhabiting Virtual Landscapes,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259154,,,,
 259.278,Show,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259278,https://tuwel.tuwien.ac.at/course/view.php?id=77121,2025-09-15T00:00:00,2025-09-26T00:00:00,2025-10-13T00:00:00
@@ -2019,7 +2022,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 260.704,Projektentwicklung - Mittel und Gegenstand der Entwicklungssteuerung,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=260704,,2025-09-10T09:00:00,2025-09-17T09:00:00,2025-11-09T23:59:00
 260.705,Introduction to Real Estate Economics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=260705,https://tuwel.tuwien.ac.at/course/view.php?id=77625,2025-09-15T09:00:00,2025-09-18T13:24:00,
 260.706,Module Real Estate Development and Economics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=260706,,,,
-260.757,Experimental Research on Artificial Intelligence,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=260757,,,,
+260.757,Experimental Research on Artificial Intelligence,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=260757,https://tuwel.tuwien.ac.at/course/view.php?id=77772,,,
 260.760,Bauhütte summerschool Design studio,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=260760,,,,
 260.878,"Design Studio ""Competition of Competitions""",https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=260878,,,,
 260.890,Documenting and presenting architecture Transfer of knowledge - Tirana,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=260890,,2025-10-09T20:22:00,2025-10-16T23:00:00,
@@ -2067,7 +2070,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 264.132,visual strategies in architectural presentation,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264132,,,,
 264.179,open artistic concept and practice - urban matters,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264179,https://tuwel.tuwien.ac.at/course/view.php?id=77313,2025-09-17T00:01:00,2025-10-12T22:59:00,
 264.191,Social Learning in Ongoing Creative Processes,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264191,https://tuwel.tuwien.ac.at/course/view.php?id=76860,2025-09-15T09:00:00,2025-10-01T12:00:00,2025-10-19T23:59:00
-264.212,Space and Gender – Intersectional Feminist Perspectives,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264212,,2025-09-15T08:00:00,2025-10-07T12:00:00,2025-10-20T20:00:00
+264.212,Space and Gender – Intersectional Feminist Perspectives,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264212,https://tuwel.tuwien.ac.at/course/view.php?id=77760,2025-09-15T08:00:00,2025-10-07T12:00:00,2025-10-20T20:00:00
 264.213,Short Design Studio Assembling Lines,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264213,,,,
 264.214,Model - Object,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264214,,,,
 264.218,Three-dimensional design,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264218,https://tuwel.tuwien.ac.at/course/view.php?id=75858,,,
@@ -2077,7 +2080,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 264.225,Special Seminar in Art and Design,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264225,,,,
 264.236,Art as Architectural Concept,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264236,,,,
 264.237,Architectures of the Everyday,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264237,,,,
-264.238,Artistic Project Flexible Mold,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264238,,,,
+264.238,Artistic Project Flexible Mold,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264238,https://tuwel.tuwien.ac.at/course/view.php?id=77775,,,
 264.252,Introduction Prefab-Lab / Workshop License,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264252,https://tuwel.tuwien.ac.at/course/view.php?id=77571,,,
 264.255,Artistic Project M,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264255,,,,
 264.257,artistic project Cultural Collisions,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=264257,https://tuwel.tuwien.ac.at/course/view.php?id=77349,,,
@@ -2422,7 +2425,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 311.181,Seminar for Master and PhD students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=311181,,,,
 311.186,Robotics in Manufacturing,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=311186,https://tuwel.tuwien.ac.at/course/view.php?id=71687,2025-03-04T00:00:00,2025-06-03T00:00:00,2025-06-03T00:00:00
 311.188,Energy and Resource-Efficient Production – Basics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=311188,,2025-08-28T16:00:00,2025-10-18T19:00:00,
-311.189,Programming and Simulation of Machining Systems (CAD/CAM),https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=311189,,2025-10-07T09:00:00,2025-11-06T23:59:00,2025-11-06T23:59:00
+311.189,Programming and Simulation of Machining Systems (CAD/CAM),https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=311189,https://tuwel.tuwien.ac.at/course/view.php?id=77829,2025-10-07T09:00:00,2025-11-06T23:59:00,2025-11-06T23:59:00
 311.394,"Production Metrology, Sensorics",https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=311394,,2025-09-10T08:00:00,2025-10-13T23:00:00,2025-11-21T23:00:00
 311.564,NC Programming,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=311564,https://tuwel.tuwien.ac.at/course/view.php?id=75153,2025-10-01T08:00:00,2025-10-17T12:00:00,2025-10-17T12:00:00
 311.620,Fundamentals of Manufacturing Engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=311620,https://tuwel.tuwien.ac.at/course/view.php?id=75162,2025-09-24T23:59:00,2026-01-01T23:59:00,2026-01-01T23:59:00
@@ -2436,7 +2439,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 315.054,Criteria of future automobiles I,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=315054,,2025-08-30T08:00:00,2025-11-28T17:00:00,2025-11-28T17:00:00
 315.055,Criteria of future automobiles II,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=315055,,2025-01-13T08:00:00,2025-03-14T17:00:00,2025-03-14T17:00:00
 315.059,Future Drive Concepts,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=315059,,2025-01-13T08:00:00,2025-05-09T17:00:00,2025-05-09T17:00:00
-315.061,Fundamentals of Electronics for MB and WIMB,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=315061,,2025-09-08T08:00:00,2025-10-22T23:59:00,2025-10-22T23:59:00
+315.061,Fundamentals of Electronics for MB and WIMB,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=315061,,2025-09-08T08:00:00,2025-11-05T23:59:00,2025-11-05T23:59:00
 315.282,Automotive Engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=315282,,2025-08-25T08:00:00,,
 315.436,Racing engines and racing cars,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=315436,,2025-01-13T08:00:00,2025-04-25T17:00:00,2025-04-25T17:00:00
 315.725,Alternative Powertrains,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=315725,,2025-01-13T08:00:00,2025-06-03T08:00:00,2025-06-03T08:00:00
@@ -2940,7 +2943,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 376.076,Doctoral Thesis Seminar,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=376076,,,,
 376.078,Foundations of Robotics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=376078,https://tuwel.tuwien.ac.at/course/view.php?id=75918,,,
 376.079,Control Systems,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=376079,,2025-09-12T06:00:00,2025-11-03T06:00:00,
-376.080,Control Systems,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=376080,,2025-09-22T00:00:00,2025-10-13T00:00:00,
+376.080,Control Systems,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=376080,https://tuwel.tuwien.ac.at/course/view.php?id=77763,2025-09-22T00:00:00,2025-10-13T00:00:00,
 376.081,Machine Vision,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=376081,https://tuwel.tuwien.ac.at/course/view.php?id=76467,2025-09-04T00:00:00,2025-10-20T23:59:00,
 376.082,Manipulation and Locomotion,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=376082,https://tuwel.tuwien.ac.at/course/view.php?id=71150,,,
 376.083,Automation and Robotics Project,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=376083,,2025-10-06T06:00:00,2025-11-10T23:59:00,2025-10-06T23:59:00
@@ -3020,7 +3023,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 389.157,Wireless Communications 1,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=389157,https://tuwel.tuwien.ac.at/course/view.php?id=70691,,,
 389.158,Communication Networks 1,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=389158,https://tuwel.tuwien.ac.at/course/view.php?id=76677,2025-09-04T00:00:00,2025-12-03T23:59:00,2025-12-03T23:59:00
 389.159,Network Security,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=389159,https://tuwel.tuwien.ac.at/course/view.php?id=72914,2025-02-10T00:00:00,2025-03-31T23:59:00,2025-04-30T23:59:00
-389.160,Network  Security - Advanced Topics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=389160,,2025-09-05T00:00:00,2025-12-08T23:59:00,2025-12-08T23:59:00
+389.160,Network  Security - Advanced Topics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=389160,https://tuwel.tuwien.ac.at/course/view.php?id=74396,2025-09-05T00:00:00,2025-12-08T23:59:00,2025-12-08T23:59:00
 389.161,Communication Networks Seminar,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=389161,https://tuwel.tuwien.ac.at/course/view.php?id=72824,2025-02-10T00:00:00,2025-03-20T23:59:00,2025-04-30T23:59:00
 389.162,Source Coding,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=389162,,,,
 389.165,Communication Networks 2,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=389165,https://tuwel.tuwien.ac.at/course/view.php?id=73670,2025-02-19T09:00:00,2025-03-11T12:00:00,2025-03-11T12:00:00
