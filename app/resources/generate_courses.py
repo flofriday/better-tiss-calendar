@@ -16,28 +16,33 @@ from dataclasses import dataclass
 from datetime import datetime
 
 import aiohttp
+import yarl
 from bs4 import BeautifulSoup
 
-req_id = str(random.randint(0, 999))
-window_id = str(random.randint(1000, 9999))
 
+def TissClient() -> aiohttp.ClientSession:
+    req_id = str(random.randint(0, 999))
+    window_id = str(random.randint(1000, 9999))
 
-class CustomSession(aiohttp.ClientSession):
-    def __init__(self):
-        super().__init__(
-            connector=aiohttp.TCPConnector(limit=0, limit_per_host=200),
-            cookies={f"dsrwid-{req_id}": f"{window_id}", "TISS_LANG": "en"},
+    async def url_rewriter_middleware(
+        req: aiohttp.ClientRequest, handler: aiohttp.ClientHandlerType
+    ) -> aiohttp.ClientResponse:
+        url = str(req.url)
+        req.url = yarl.URL(
+            url + (("&" if "?" in url else "?") + f"dswid={window_id}&dsrid={req_id}")
         )
+        return await handler(req)
 
-    def get(self, url, **kwargs):
-        new_url = url + (
-            ("&" if "?" in url else "?") + f"dswid={window_id}&dsrid={req_id}"
-        )
+    client = aiohttp.ClientSession(
+        connector=aiohttp.TCPConnector(limit=0, limit_per_host=200),
+        cookies={f"dsrwid-{req_id}": f"{window_id}", "TISS_LANG": "en"},
+        middlewares=(url_rewriter_middleware,),
+    )
 
-        return super().get(new_url, **kwargs)
+    return client
 
 
-session: None | CustomSession = None
+session: None | aiohttp.ClientSession = None
 
 total_programs = 0
 counter_programs = 0
@@ -139,7 +144,7 @@ async def main():
 
     # setup the session
     global session
-    session = CustomSession()
+    session = TissClient()
 
     # 1) Download programs list
     print("Downloading program list ...")
