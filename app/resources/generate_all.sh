@@ -1,0 +1,1 @@
+uv run generate_courses.py && uv run generate_lecturetube_availability.py && uv run generate_rooms.py

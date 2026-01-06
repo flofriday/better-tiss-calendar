@@ -780,6 +780,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 136.100,Seminar TU-D,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=136100,,,,
 136.101,Privatissimum for PhD students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=136101,,,,
 136.106,Moderne Physik für Junggebliebene,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=136106,,,,
+136.108,Waves in Complex Media,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=136108,https://tuwel.tuwien.ac.at/course/view.php?id=73382,,,
 136.109,Privatissimum for PhD students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=136109,,,,
 136.110,Privatissimum for PhD students,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=136110,,,,
 136.112,Electrodynamics II - Exercises,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=136112,https://tuwel.tuwien.ac.at/course/view.php?id=76371,2025-09-16T09:00:00,2025-10-10T23:59:00,2025-10-26T23:59:00
@@ -2046,7 +2047,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 259.648,Elective Seminar Universal Seminar,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259648,https://tuwel.tuwien.ac.at/course/view.php?id=75396,,,
 259.650,Wahlseminar Topos in architectural theory,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259650,,,,
 259.659,Building Physics UE - accompaning to 259.606,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259659,,2025-10-01T23:59:00,2026-01-04T23:59:00,2026-01-04T23:59:00
-259.663,Introduction to scientific research - Online VO,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259663,,,,
+259.663,Introduction to scientific research - Online VO,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259663,https://tuwel.tuwien.ac.at/course/view.php?id=78189,,,
 259.671,Wahlseminar Architekturtheorie,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259671,,,,
 259.677,Structural design - Materialspecific structural design with wood-based materials,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259677,,,,
 259.698,Fundamentals of AEC-Knowledge (what every student should know),https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=259698,,,,
@@ -2550,7 +2551,7 @@ Number,Name,TISS,TUWEL,Registration Start,Registration End,Deregistration End
 317.548,Numerical Methods in Lightweight Design,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=317548,https://tuwel.tuwien.ac.at/course/view.php?id=70133,2025-02-14T09:00:00,2025-03-11T08:00:00,2025-04-02T08:00:00
 317.550,Biomechanical Testing of Bone and Orthopedic Implants,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=317550,,2025-01-29T00:00:00,2025-04-06T00:00:00,
 317.551,Stability problems of elastostatics,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=317551,,2025-02-07T15:00:00,2025-03-28T22:55:00,2025-06-27T23:55:00
-317.552,Lightweight Design with Fiber-Reinforced-Polymers,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=317552,,2025-08-26T08:00:00,2025-11-14T08:00:00,2025-11-14T08:00:00
+317.552,Lightweight Design with Fiber-Reinforced-Polymers,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=317552,https://tuwel.tuwien.ac.at/course/view.php?id=78180,2025-08-26T08:00:00,2025-11-14T08:00:00,2025-11-14T08:00:00
 317.553,Design of Composite Structures using Finite Element Methods,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=317553,https://tuwel.tuwien.ac.at/course/view.php?id=72200,2024-09-24T08:00:00,2025-03-14T08:00:00,2025-03-19T08:00:00
 317.554,Composites Engineering,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=317554,https://tuwel.tuwien.ac.at/course/view.php?id=76674,2025-10-01T00:00:00,2025-12-17T00:00:00,2026-01-31T00:00:00
 317.555,Graduate Seminar Biomedical Engineering - Doctoral College MatureTissue,https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=317555,,,,
