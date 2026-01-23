@@ -3,7 +3,7 @@ name = "better-tiss-calendar"
 version = "0.0.1"
 dependencies = [
     "flask>=3.1.2",
-    "gunicorn>=23.0.0",
+    "gunicorn>=24.0.0",
     "icalendar>=6.3.2",
     "requests>=2.32.5",
 ]
@@ -39,8 +39,7 @@ exclude = ["venv", ".venv", "**/resources"]
 dev = [
     "pytest-mock>=3.15.1",
     "pytest>=9.0.2",
-    "pyright>=1.1.407",
     "syrupy>=5.0.0",
-    "ruff>=0.14.10",
-    "ty>=0.0.4 ",
+    "ruff>=0.14.14",
+    "ty>=0.0.13",
 ]
