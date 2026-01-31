@@ -1,8 +1,7 @@
 # /// script
 # dependencies = [
-#   "beautifulsoup4==4.14.2",
-#   "httpx==0.28.1",
-#   "aiohttp==3.13.0",
+#   "beautifulsoup4==4.14.3",
+#   "aiohttp==3.13.3",
 # ]
 # ///
 
@@ -79,14 +78,13 @@ async def fetch_course_info(course_url) -> Course:
 
     global counter_courses
     counter_courses += 1
-    print(f"\t[{counter_courses}/{total_courses}] Downloaded {course_url}")
 
     soup = BeautifulSoup(html, "html.parser")
 
     course_soup = soup.find("span", class_="light")
     course_number = course_soup.get_text().strip() if course_soup else None
 
-    h1_soup = soup.select_one("#contentInner > h1:nth-child(1)")
+    h1_soup = soup.select_one("#contentInner > h1")
     name = (
         h1_soup.find_all(string=True, recursive=False)[1].strip()
         if h1_soup and len(h1_soup.find_all(string=True, recursive=False)) >= 2
@@ -117,6 +115,8 @@ async def fetch_course_info(course_url) -> Course:
         registration_start, registration_end, deregistration_end = [
             safe_parse_date(t) for t in date_texts
         ]
+
+    print(f"\t[{counter_courses}/{total_courses}] Downloaded {course_url} {name}")
 
     return Course(
         id=course_number,
