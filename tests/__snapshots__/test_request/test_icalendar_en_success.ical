@@ -1743,4 +1743,13 @@ URL:https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<a href="https://tiss.tuwien.ac.at/course/cou
  rseDetails.xhtml?courseNr=194207">Register on Tiss</a>
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Call For Maintainers
+DTSTART:20260215T100000
+DTEND:20260215T140000
+CATEGORIES:COURSE
+DESCRIPTION:I'm really sorry to interrupt your calendar this intrusively\,
+  but I'm searching for new maintainers for better-tiss-calendar.\n\nhttps:
+ //github.com/flofriday/better-tiss-calendar/issues/8
+END:VEVENT
 END:VCALENDAR

@@ -217,6 +217,23 @@ def improve_calendar(
 
             cal.add_component(signup)
 
+    # Insert promo event
+    # Note: I really don't like doing this because it sounds intrusive but this
+    # might be important enough
+    # TODO: Delete later
+    promo = icalendar.Event()
+    promo.add("summary", "Call For Maintainers")
+    promo.add("dtstart", datetime(2026, 2, 15, hour=10))
+    promo.add("dtend", datetime(2026, 2, 15, hour=14))
+    promo.add("categories", "COURSE")
+    promo.add(
+        "description",
+        "I'm really sorry to interrupt your calendar this intrusively, but I'm"
+        " searching for new maintainers for better-tiss-calendar.\n\n"
+        "https://github.com/flofriday/better-tiss-calendar/issues/8",
+    )
+    cal.add_component(promo)
+
     # Set some metadata
     cal.pop("prodid")
     cal.add("prodid", "-//flofriday//Better TISS CAL//EN")
