@@ -1694,6 +1694,17 @@ UID:20240303T172819Z-10572@tiss.tuwien.ac.at
 CATEGORIES:HOLIDAY
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Anmeldung Distributed Systems Technologies
+DTSTART:20260218T080000
+DTEND:20260218T083000
+CATEGORIES:COURSE
+DESCRIPTION:Registrations for Distributed Systems Technologies are now ope
+ n.
+URL:https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=184260
+X-ALT-DESC;FMTTYPE=TEXT/HTML:<a href="https://tiss.tuwien.ac.at/course/cou
+ rseDetails.xhtml?courseNr=184260">Register on Tiss</a>
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Anmeldung Developing a career - coping with obstacles
 DTSTART:20251007T080000
 DTEND:20251007T083000
