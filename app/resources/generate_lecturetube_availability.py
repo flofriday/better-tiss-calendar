@@ -19,7 +19,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 def main():
-    COLAB_LECTURETUBE_LINK = "https://colab.tuwien.ac.at/lecturetube/"
+    COLAB_LECTURETUBE_LINK = "https://colab.tuwien.ac.at/spaces/LECTURETUBE/pages/281679622"
     NAVIGATION_ELEMENTS_SELECTOR = "nav.ht-pages-nav > ul.ht-pages-nav-top > li"
     ANKOR_LECTUREHALL_LIST_IDENTIFIER_DE = "hoersaalliste"
     ANKOR_LECTUREHALL_LIST_IDENTIFIER_EN = "lecture-halls"
@@ -30,21 +30,21 @@ def main():
 
     with webdriver.Firefox() as driver:
         driver.get(COLAB_LECTURETUBE_LINK)
-        navigation_elements = WebDriverWait(driver, 10).until(
-            EC.presence_of_all_elements_located(
-                (By.CSS_SELECTOR, NAVIGATION_ELEMENTS_SELECTOR)
-            )
-        )
+        # navigation_elements = WebDriverWait(driver, 10).until(
+        #     EC.presence_of_all_elements_located(
+        #         (By.CSS_SELECTOR, NAVIGATION_ELEMENTS_SELECTOR)
+        #     )
+        # )
 
-        for listelement in navigation_elements:
-            ankor = listelement.find_element(By.TAG_NAME, "a")
-            href = ankor.get_attribute("href")
-            if href and (
-                (ANKOR_LECTUREHALL_LIST_IDENTIFIER_DE in href)
-                or (ANKOR_LECTUREHALL_LIST_IDENTIFIER_EN in href)
-            ):
-                ankor.click()
-                break
+        # for listelement in navigation_elements:
+        #     ankor = listelement.find_element(By.TAG_NAME, "a")
+        #     href = ankor.get_attribute("href")
+        #     if href and (
+        #         (ANKOR_LECTUREHALL_LIST_IDENTIFIER_DE in href)
+        #         or (ANKOR_LECTUREHALL_LIST_IDENTIFIER_EN in href)
+        #     ):
+        #         ankor.click()
+        #         break
 
         main_content = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located(
@@ -55,14 +55,20 @@ def main():
         table_rows = main_content.find_elements(
             By.CSS_SELECTOR, LECTURETUBELIST_ROW_SELECTOR
         )
+
+        print(f"found {len(table_rows)} rooms, checking for lecture tube live stream capability")
+
         for row in table_rows:
             cells = row.find_elements(By.CSS_SELECTOR, "td")
             room_details = [cell.text for cell in cells]
             roomcode = room_details[2]
-            if room_details[4] == "JA" and verifyHasLectureTubeStreaming(
+            if (room_details[4] == "JA" or room_details[4] == "YES") and verifyHasLectureTubeStreaming(
                 driver, roomcode
             ):
                 data.append([roomcode])
+
+        print(f"saved {len(data)} rooms")
+
 
     data.sort(key=lambda i: i[0])
 
