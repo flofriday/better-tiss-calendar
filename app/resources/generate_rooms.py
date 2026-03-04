@@ -40,7 +40,7 @@ def main():
                 )
             )
             navigation_buttons[i].click()
-            table_rows = WebDriverWait(driver, 5).until(
+            table_rows = WebDriverWait(driver, 10).until(
                 EC.presence_of_all_elements_located(
                     (By.CSS_SELECTOR, TABLE_ROW_SELECTOR)
                 )
