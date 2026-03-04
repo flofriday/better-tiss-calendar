@@ -19,10 +19,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 def main():
-    COLAB_LECTURETUBE_LINK = "https://colab.tuwien.ac.at/spaces/LECTURETUBE/pages/281679622"
-    NAVIGATION_ELEMENTS_SELECTOR = "nav.ht-pages-nav > ul.ht-pages-nav-top > li"
-    ANKOR_LECTUREHALL_LIST_IDENTIFIER_DE = "hoersaalliste"
-    ANKOR_LECTUREHALL_LIST_IDENTIFIER_EN = "lecture-halls"
+    COLAB_LECTURETUBE_LINK = (
+        "https://colab.tuwien.ac.at/spaces/LECTURETUBE/pages/281679622"
+    )
     LECTURETUBELIST_CONTENT_SELECTOR = "#main-content"
     LECTURETUBELIST_ROW_SELECTOR = "tbody > tr"
 
@@ -56,19 +55,21 @@ def main():
             By.CSS_SELECTOR, LECTURETUBELIST_ROW_SELECTOR
         )
 
-        print(f"found {len(table_rows)} rooms, checking for lecture tube live stream capability")
+        print(
+            f"""found {len(table_rows)} rooms, 
+                checking for lecture tube live stream capability"""
+        )
 
         for row in table_rows:
             cells = row.find_elements(By.CSS_SELECTOR, "td")
             room_details = [cell.text for cell in cells]
             roomcode = room_details[2]
-            if (room_details[4] == "JA" or room_details[4] == "YES") and verifyHasLectureTubeStreaming(
-                driver, roomcode
-            ):
+            if (
+                room_details[4] == "JA" or room_details[4] == "YES"
+            ) and verifyHasLectureTubeStreaming(driver, roomcode):
                 data.append([roomcode])
 
         print(f"saved {len(data)} rooms")
-
 
     data.sort(key=lambda i: i[0])
 
