@@ -183,11 +183,13 @@ DTSTAMP:20230824T192114Z
 UID:20240303T171554Z-4806598@tiss.tuwien.ac.at
 CATEGORIES:GROUP
 DESCRIPTION:Assignment 3 - Discussion\n\nRoom:\nZoom\n\nTISS:\nhttps://tis
- s.tuwien.ac.at/course/courseDetails.xhtml?courseNr=184260
+ s.tuwien.ac.at/course/courseDetails.xhtml?courseNr=184260\n\nTUWEL:\nhttps
+ ://tuwel.tuwien.ac.at/course/view.php?id=79446
 LOCATION:Zoom
 X-ALT-DESC;FMTTYPE=TEXT/HTML:Assignment 3 - Discussion<br><br>Room:<br>Zoo
  m<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.ac.at/course/cou
- rseDetails.xhtml?courseNr=184260">TISS</a></li></ul>
+ rseDetails.xhtml?courseNr=184260">TISS</a></li><li><a href="https://tuwel.
+ tuwien.ac.at/course/view.php?id=79446">TUWEL</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Distributed Systems Technologies (Exam) VU - Prüfung
@@ -199,17 +201,18 @@ CATEGORIES:EXAM
 DESCRIPTION:184.260 Distributed Systems Technologies Prüfung\n\nRoom:\nEI
   7 Hörsaal - ETIT\, Ground Floor\nhttps://maps.tuwien.ac.at/?q=CDEG13#map
  \n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=1
- 84260\n\nRoom-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?r
- oomCode=E7\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG13/p
- layer.html
+ 84260\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=79446\n\nRo
+ om-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E7\
+ n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG13/player.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:184.260 Distributed Systems Technologies Prü
  fung<br><br>Room:<br><a href="https://maps.tuwien.ac.at/?q=CDEG13#map">EI 
  7 Hörsaal - ETIT</a>\, Ground Floor<br><br>Details:<br><ul><li><a href="h
  ttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=184260">TISS<
- /a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?r
- oomCode=E7">Room-Info</a></li><li><a href="https://live.video.tuwien.ac.at
- /room/CDEG13/player.html">Lecture Tube</a></li></ul>
+ /a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=79446">
+ TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.x
+ html?roomCode=E7">Room-Info</a></li><li><a href="https://live.video.tuwien
+ .ac.at/room/CDEG13/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dynamic Compilation VU
@@ -339,16 +342,14 @@ CATEGORIES:COURSE
 DESCRIPTION:Introduction and organisation\n\nRoom:\nHS 18 Czuber - MB\, 2.
   Floor\nhttps://maps.tuwien.ac.at/?q=AE0238#map\n\nTISS:\nhttps://tiss.tuw
  ien.ac.at/course/courseDetails.xhtml?courseNr=187250\n\nRoom-Info:\nhttps:
- //tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18\n\nLecture Tube
- :\nhttps://live.video.tuwien.ac.at/room/AE0238/player.html
+ //tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:Introduction and organisation<br><br>Room:<br
  ><a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber - MB</a>\,
   2. Floor<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.ac.at/co
  urse/courseDetails.xhtml?courseNr=187250">TISS</a></li><li><a href="https:
  //tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18">Room-Info</a><
- /li><li><a href="https://live.video.tuwien.ac.at/room/AE0238/player.html">
- Lecture Tube</a></li></ul>
+ /li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cryptocurrencies VU
@@ -708,16 +709,13 @@ CATEGORIES:COURSE
 DESCRIPTION:2nd lecture\n\nRoom:\nHS 18 Czuber - MB\, 2. Floor\nhttps://ma
  ps.tuwien.ac.at/?q=AE0238#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/c
  ourseDetails.xhtml?courseNr=187250\n\nRoom-Info:\nhttps://tiss.tuwien.ac.a
- t/events/roomSchedule.xhtml?roomCode=H18\n\nLecture Tube:\nhttps://live.vi
- deo.tuwien.ac.at/room/AE0238/player.html
+ t/events/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:2nd lecture<br><br>Room:<br><a href="https://
  maps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber - MB</a>\, 2. Floor<br><br>D
  etails:<br><ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails
  .xhtml?courseNr=187250">TISS</a></li><li><a href="https://tiss.tuwien.ac.a
- t/events/roomSchedule.xhtml?roomCode=H18">Room-Info</a></li><li><a href="h
- ttps://live.video.tuwien.ac.at/room/AE0238/player.html">Lecture Tube</a></
- li></ul>
+ t/events/roomSchedule.xhtml?roomCode=H18">Room-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cryptocurrencies VU
@@ -900,16 +898,13 @@ CATEGORIES:COURSE
 DESCRIPTION:3rd lecture\n\nRoom:\nHS 18 Czuber - MB\, 2. Floor\nhttps://ma
  ps.tuwien.ac.at/?q=AE0238#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/c
  ourseDetails.xhtml?courseNr=187250\n\nRoom-Info:\nhttps://tiss.tuwien.ac.a
- t/events/roomSchedule.xhtml?roomCode=H18\n\nLecture Tube:\nhttps://live.vi
- deo.tuwien.ac.at/room/AE0238/player.html
+ t/events/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:3rd lecture<br><br>Room:<br><a href="https://
  maps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber - MB</a>\, 2. Floor<br><br>D
  etails:<br><ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails
  .xhtml?courseNr=187250">TISS</a></li><li><a href="https://tiss.tuwien.ac.a
- t/events/roomSchedule.xhtml?roomCode=H18">Room-Info</a></li><li><a href="h
- ttps://live.video.tuwien.ac.at/room/AE0238/player.html">Lecture Tube</a></
- li></ul>
+ t/events/roomSchedule.xhtml?roomCode=H18">Room-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cryptocurrencies VU
@@ -1072,16 +1067,13 @@ CATEGORIES:COURSE
 DESCRIPTION:4th lecture\n\nRoom:\nHS 18 Czuber - MB\, 2. Floor\nhttps://ma
  ps.tuwien.ac.at/?q=AE0238#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/c
  ourseDetails.xhtml?courseNr=187250\n\nRoom-Info:\nhttps://tiss.tuwien.ac.a
- t/events/roomSchedule.xhtml?roomCode=H18\n\nLecture Tube:\nhttps://live.vi
- deo.tuwien.ac.at/room/AE0238/player.html
+ t/events/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:4th lecture<br><br>Room:<br><a href="https://
  maps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber - MB</a>\, 2. Floor<br><br>D
  etails:<br><ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails
  .xhtml?courseNr=187250">TISS</a></li><li><a href="https://tiss.tuwien.ac.a
- t/events/roomSchedule.xhtml?roomCode=H18">Room-Info</a></li><li><a href="h
- ttps://live.video.tuwien.ac.at/room/AE0238/player.html">Lecture Tube</a></
- li></ul>
+ t/events/roomSchedule.xhtml?roomCode=H18">Room-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cryptocurrencies VU

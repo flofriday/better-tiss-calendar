@@ -185,12 +185,14 @@ UID:20240303T171554Z-4806598@tiss.tuwien.ac.at
 CATEGORIES:GROUP
 DESCRIPTION:Distributed Systems Technologies VU\nAssignment 3 - Discussion
  \n\nRoom:\nZoom\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.x
- html?courseNr=184260
+ html?courseNr=184260\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php
+ ?id=79446
 LOCATION:Zoom
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Distributed Systems Technologies VU</b><br
  >Assignment 3 - Discussion<br><br>Room:<br>Zoom<br><br>Details:<br><ul><li
  ><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=18
- 4260">TISS</a></li></ul>
+ 4260">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php
+ ?id=79446">TUWEL</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DSTE VU - Prüfung
@@ -202,18 +204,20 @@ CATEGORIES:EXAM
 DESCRIPTION:Distributed Systems Technologies (Exam) VU\n184.260 Distribute
  d Systems Technologies Prüfung\n\nRoom:\nEI 7 Hörsaal - ETIT\, Ground Fl
  oor\nhttps://maps.tuwien.ac.at/?q=CDEG13#map\n\nTISS:\nhttps://tiss.tuwien
- .ac.at/course/courseDetails.xhtml?courseNr=184260\n\nRoom-Info:\nhttps://t
- iss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E7\n\nLecture Tube:\nh
- ttps://live.video.tuwien.ac.at/room/CDEG13/player.html
+ .ac.at/course/courseDetails.xhtml?courseNr=184260\n\nTUWEL:\nhttps://tuwel
+ .tuwien.ac.at/course/view.php?id=79446\n\nRoom-Info:\nhttps://tiss.tuwien.
+ ac.at/events/roomSchedule.xhtml?roomCode=E7\n\nLecture Tube:\nhttps://live
+ .video.tuwien.ac.at/room/CDEG13/player.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Distributed Systems Technologies (Exam) VU
  </b><br>184.260 Distributed Systems Technologies Prüfung<br><br>Room:<br>
  <a href="https://maps.tuwien.ac.at/?q=CDEG13#map">EI 7 Hörsaal - ETIT</a>
  \, Ground Floor<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.ac
  .at/course/courseDetails.xhtml?courseNr=184260">TISS</a></li><li><a href="
- https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E7">Room-Info
- </a></li><li><a href="https://live.video.tuwien.ac.at/room/CDEG13/player.h
- tml">Lecture Tube</a></li></ul>
+ https://tuwel.tuwien.ac.at/course/view.php?id=79446">TUWEL</a></li><li><a 
+ href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E7">Roo
+ m-Info</a></li><li><a href="https://live.video.tuwien.ac.at/room/CDEG13/pl
+ ayer.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DYNC VU
@@ -349,16 +353,14 @@ DESCRIPTION:Developing a career VO\nIntroduction and organisation\n\nRoom:
  \nHS 18 Czuber - MB\, 2. Floor\nhttps://maps.tuwien.ac.at/?q=AE0238#map\n\
  nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=1872
  50\n\nRoom-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=H18\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/AE0238/pla
- yer.html
+ Code=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Developing a career VO</b><br>Introduction
   and organisation<br><br>Room:<br><a href="https://maps.tuwien.ac.at/?q=AE
  0238#map">HS 18 Czuber - MB</a>\, 2. Floor<br><br>Details:<br><ul><li><a h
  ref="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250"
  >TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.x
- html?roomCode=H18">Room-Info</a></li><li><a href="https://live.video.tuwie
- n.ac.at/room/AE0238/player.html">Lecture Tube</a></li></ul>
+ html?roomCode=H18">Room-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -728,16 +730,14 @@ CATEGORIES:COURSE
 DESCRIPTION:Developing a career VO\n2nd lecture\n\nRoom:\nHS 18 Czuber - M
  B\, 2. Floor\nhttps://maps.tuwien.ac.at/?q=AE0238#map\n\nTISS:\nhttps://ti
  ss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250\n\nRoom-Info:\n
- https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18\n\nLectur
- e Tube:\nhttps://live.video.tuwien.ac.at/room/AE0238/player.html
+ https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Developing a career VO</b><br>2nd lecture<
  br><br>Room:<br><a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 18 Cz
  uber - MB</a>\, 2. Floor<br><br>Details:<br><ul><li><a href="https://tiss.
  tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250">TISS</a></li><li>
  <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18"
- >Room-Info</a></li><li><a href="https://live.video.tuwien.ac.at/room/AE023
- 8/player.html">Lecture Tube</a></li></ul>
+ >Room-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -924,16 +924,14 @@ CATEGORIES:COURSE
 DESCRIPTION:Developing a career VO\n3rd lecture\n\nRoom:\nHS 18 Czuber - M
  B\, 2. Floor\nhttps://maps.tuwien.ac.at/?q=AE0238#map\n\nTISS:\nhttps://ti
  ss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250\n\nRoom-Info:\n
- https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18\n\nLectur
- e Tube:\nhttps://live.video.tuwien.ac.at/room/AE0238/player.html
+ https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Developing a career VO</b><br>3rd lecture<
  br><br>Room:<br><a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 18 Cz
  uber - MB</a>\, 2. Floor<br><br>Details:<br><ul><li><a href="https://tiss.
  tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250">TISS</a></li><li>
  <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18"
- >Room-Info</a></li><li><a href="https://live.video.tuwien.ac.at/room/AE023
- 8/player.html">Lecture Tube</a></li></ul>
+ >Room-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -1100,16 +1098,14 @@ CATEGORIES:COURSE
 DESCRIPTION:Developing a career VO\n4th lecture\n\nRoom:\nHS 18 Czuber - M
  B\, 2. Floor\nhttps://maps.tuwien.ac.at/?q=AE0238#map\n\nTISS:\nhttps://ti
  ss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250\n\nRoom-Info:\n
- https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18\n\nLectur
- e Tube:\nhttps://live.video.tuwien.ac.at/room/AE0238/player.html
+ https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Developing a career VO</b><br>4th lecture<
  br><br>Room:<br><a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 18 Cz
  uber - MB</a>\, 2. Floor<br><br>Details:<br><ul><li><a href="https://tiss.
  tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250">TISS</a></li><li>
  <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18"
- >Room-Info</a></li><li><a href="https://live.video.tuwien.ac.at/room/AE023
- 8/player.html">Lecture Tube</a></li></ul>
+ >Room-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
