@@ -29,21 +29,6 @@ def main():
 
     with webdriver.Firefox() as driver:
         driver.get(COLAB_LECTURETUBE_LINK)
-        # navigation_elements = WebDriverWait(driver, 10).until(
-        #     EC.presence_of_all_elements_located(
-        #         (By.CSS_SELECTOR, NAVIGATION_ELEMENTS_SELECTOR)
-        #     )
-        # )
-
-        # for listelement in navigation_elements:
-        #     ankor = listelement.find_element(By.TAG_NAME, "a")
-        #     href = ankor.get_attribute("href")
-        #     if href and (
-        #         (ANKOR_LECTUREHALL_LIST_IDENTIFIER_DE in href)
-        #         or (ANKOR_LECTUREHALL_LIST_IDENTIFIER_EN in href)
-        #     ):
-        #         ankor.click()
-        #         break
 
         main_content = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located(
