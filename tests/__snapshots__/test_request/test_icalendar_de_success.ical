@@ -185,12 +185,14 @@ UID:20240303T172800Z-4806598@tiss.tuwien.ac.at
 CATEGORIES:GROUP
 DESCRIPTION:Distributed Systems Technologies VU\nAssignment 3 - Diskussion
  \n\nRaum:\nZoom\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.x
- html?courseNr=184260
+ html?courseNr=184260\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php
+ ?id=79446
 LOCATION:Zoom
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Distributed Systems Technologies VU</b><br
  >Assignment 3 - Diskussion<br><br>Raum:<br>Zoom<br><br>Details:<br><ul><li
  ><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=18
- 4260">TISS</a></li></ul>
+ 4260">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php
+ ?id=79446">TUWEL</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DSTP VU - Prüfung
@@ -202,18 +204,20 @@ CATEGORIES:EXAM
 DESCRIPTION:Distributed Systems Technologies (Prüfung) VU\n184.260 Distri
  buted Systems Technologies Prüfung\n\nRaum:\nEI 7 Hörsaal - ETIT\, Erdge
  schoß\nhttps://maps.tuwien.ac.at/?q=CDEG13#map\n\nTISS:\nhttps://tiss.tuw
- ien.ac.at/course/courseDetails.xhtml?courseNr=184260\n\nRaum-Info:\nhttps:
- //tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E7\n\nLecture Tube:
- \nhttps://live.video.tuwien.ac.at/room/CDEG13/player.html
+ ien.ac.at/course/courseDetails.xhtml?courseNr=184260\n\nTUWEL:\nhttps://tu
+ wel.tuwien.ac.at/course/view.php?id=79446\n\nRaum-Info:\nhttps://tiss.tuwi
+ en.ac.at/events/roomSchedule.xhtml?roomCode=E7\n\nLecture Tube:\nhttps://l
+ ive.video.tuwien.ac.at/room/CDEG13/player.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Distributed Systems Technologies (Prüfung
  ) VU</b><br>184.260 Distributed Systems Technologies Prüfung<br><br>Raum:
  <br><a href="https://maps.tuwien.ac.at/?q=CDEG13#map">EI 7 Hörsaal - ETIT
  </a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https://tiss.tuwien
  .ac.at/course/courseDetails.xhtml?courseNr=184260">TISS</a></li><li><a hre
- f="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E7">Raum-I
- nfo</a></li><li><a href="https://live.video.tuwien.ac.at/room/CDEG13/playe
- r.html">Lecture Tube</a></li></ul>
+ f="https://tuwel.tuwien.ac.at/course/view.php?id=79446">TUWEL</a></li><li>
+ <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E7">
+ Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/room/CDEG13
+ /player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -333,17 +337,14 @@ DESCRIPTION:Zwischen Karriere und Barriere VO\nInhaltliche und organisator
  ische Einführung\n\nRaum:\nHS 18 Czuber - MB\, 2. Stock\nhttps://maps.tuw
  ien.ac.at/?q=AE0238#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseD
  etails.xhtml?courseNr=187250\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=H18\n\nLecture Tube:\nhttps://live.video.tu
- wien.ac.at/room/AE0238/player.html
+ ts/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Zwischen Karriere und Barriere VO</b><br>I
  nhaltliche und organisatorische Einführung<br><br>Raum:<br><a href="https
  ://maps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber - MB</a>\, 2. Stock<br><b
  r>Details:<br><ul><li><a href="https://tiss.tuwien.ac.at/course/courseDeta
  ils.xhtml?courseNr=187250">TISS</a></li><li><a href="https://tiss.tuwien.a
- c.at/events/roomSchedule.xhtml?roomCode=H18">Raum-Info</a></li><li><a href
- ="https://live.video.tuwien.ac.at/room/AE0238/player.html">Lecture Tube</a
- ></li></ul>
+ c.at/events/roomSchedule.xhtml?roomCode=H18">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -713,16 +714,14 @@ CATEGORIES:COURSE
 DESCRIPTION:Zwischen Karriere und Barriere VO\n2. VO\n\nRaum:\nHS 18 Czube
  r - MB\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=AE0238#map\n\nTISS:\nhttps
  ://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250\n\nRaum-In
- fo:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18\n\nL
- ecture Tube:\nhttps://live.video.tuwien.ac.at/room/AE0238/player.html
+ fo:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Zwischen Karriere und Barriere VO</b><br>2
  . VO<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 
  18 Czuber - MB</a>\, 2. Stock<br><br>Details:<br><ul><li><a href="https://
  tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250">TISS</a></li
  ><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode
- =H18">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/room/
- AE0238/player.html">Lecture Tube</a></li></ul>
+ =H18">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -909,16 +908,14 @@ CATEGORIES:COURSE
 DESCRIPTION:Zwischen Karriere und Barriere VO\n3. VO\n\nRaum:\nHS 18 Czube
  r - MB\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=AE0238#map\n\nTISS:\nhttps
  ://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250\n\nRaum-In
- fo:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18\n\nL
- ecture Tube:\nhttps://live.video.tuwien.ac.at/room/AE0238/player.html
+ fo:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Zwischen Karriere und Barriere VO</b><br>3
  . VO<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 
  18 Czuber - MB</a>\, 2. Stock<br><br>Details:<br><ul><li><a href="https://
  tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250">TISS</a></li
  ><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode
- =H18">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/room/
- AE0238/player.html">Lecture Tube</a></li></ul>
+ =H18">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -1085,16 +1082,14 @@ CATEGORIES:COURSE
 DESCRIPTION:Zwischen Karriere und Barriere VO\n4. VO\n\nRaum:\nHS 18 Czube
  r - MB\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=AE0238#map\n\nTISS:\nhttps
  ://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250\n\nRaum-In
- fo:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18\n\nL
- ecture Tube:\nhttps://live.video.tuwien.ac.at/room/AE0238/player.html
+ fo:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Zwischen Karriere und Barriere VO</b><br>4
  . VO<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 
  18 Czuber - MB</a>\, 2. Stock<br><br>Details:<br><ul><li><a href="https://
  tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250">TISS</a></li
  ><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode
- =H18">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/room/
- AE0238/player.html">Lecture Tube</a></li></ul>
+ =H18">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
