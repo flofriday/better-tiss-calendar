@@ -459,7 +459,7 @@ def read_rooms() -> dict[str, tuple[str, MultiLangString, str, str]]:
             ]
 
             # Parsing the floor description for localization and consistency
-            floor = None
+            floor = MultiLangString("")
             if floor_fields != []:
                 floor_description = floor_fields[0].strip()
 
