@@ -185,14 +185,12 @@ UID:20240303T172800Z-4806598@tiss.tuwien.ac.at
 CATEGORIES:GROUP
 DESCRIPTION:Distributed Systems Technologies VU\nAssignment 3 - Diskussion
  \n\nRaum:\nZoom\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.x
- html?courseNr=184260\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php
- ?id=79446
+ html?courseNr=184260
 LOCATION:Zoom
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Distributed Systems Technologies VU</b><br
  >Assignment 3 - Diskussion<br><br>Raum:<br>Zoom<br><br>Details:<br><ul><li
  ><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=18
- 4260">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php
- ?id=79446">TUWEL</a></li></ul>
+ 4260">TISS</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DSTP VU - Prüfung
@@ -204,20 +202,18 @@ CATEGORIES:EXAM
 DESCRIPTION:Distributed Systems Technologies (Prüfung) VU\n184.260 Distri
  buted Systems Technologies Prüfung\n\nRaum:\nEI 7 Hörsaal - ETIT\, Erdge
  schoß\nhttps://maps.tuwien.ac.at/?q=CDEG13#map\n\nTISS:\nhttps://tiss.tuw
- ien.ac.at/course/courseDetails.xhtml?courseNr=184260\n\nTUWEL:\nhttps://tu
- wel.tuwien.ac.at/course/view.php?id=79446\n\nRaum-Info:\nhttps://tiss.tuwi
- en.ac.at/events/roomSchedule.xhtml?roomCode=E7\n\nLecture Tube:\nhttps://l
- ive.video.tuwien.ac.at/room/CDEG13/player.html
+ ien.ac.at/course/courseDetails.xhtml?courseNr=184260\n\nRaum-Info:\nhttps:
+ //tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E7\n\nLecture Tube:
+ \nhttps://live.video.tuwien.ac.at/room/CDEG13/player.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Distributed Systems Technologies (Prüfung
  ) VU</b><br>184.260 Distributed Systems Technologies Prüfung<br><br>Raum:
  <br><a href="https://maps.tuwien.ac.at/?q=CDEG13#map">EI 7 Hörsaal - ETIT
  </a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https://tiss.tuwien
  .ac.at/course/courseDetails.xhtml?courseNr=184260">TISS</a></li><li><a hre
- f="https://tuwel.tuwien.ac.at/course/view.php?id=79446">TUWEL</a></li><li>
- <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E7">
- Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/room/CDEG13
- /player.html">Lecture Tube</a></li></ul>
+ f="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E7">Raum-I
+ nfo</a></li><li><a href="https://live.video.tuwien.ac.at/room/CDEG13/playe
+ r.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -229,17 +225,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIP VU
@@ -250,19 +244,18 @@ UID:20251025T030105Z-5297642@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:AI Programming VU\nKick-off\n\nRaum:\nFAV Hörsaal 1 Helmut Ve
  ith - INF\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=HEEG02#map\n\nTISS:\
- nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nT
- UWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75654\n\nRaum-Info:\n
- https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV1\n\nLectu
- re Tube:\nhttps://live.video.tuwien.ac.at/room/HEEG02/player.html
+ nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nR
+ aum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FA
+ V1\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/HEEG02/player.ht
+ ml
 LOCATION:Favoritenstraße 9-11
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Kick-off<br><br>R
  aum:<br><a href="https://maps.tuwien.ac.at/?q=HEEG02#map">FAV Hörsaal 1 H
  elmut Veith - INF</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="ht
  tps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</
- a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=75654">T
- UWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xh
- tml?roomCode=FAV1">Raum-Info</a></li><li><a href="https://live.video.tuwie
- n.ac.at/room/HEEG02/player.html">Lecture Tube</a></li></ul>
+ a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=FAV1">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.a
+ t/room/HEEG02/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -273,15 +266,13 @@ UID:20251025T030106Z-5342139@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:Generative AI VU\nVorbesprechung\n\nRaum:\nhttps://tuwien.zoom
  .us/j/68659854514?pwd=rGPyiiUGa2FPP9KyDiQaVIcHuWtn8o.1\n\nTISS:\nhttps://t
- iss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nTUWEL:\nhtt
- ps://tuwel.tuwien.ac.at/course/view.php?id=77310
+ iss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207
 LOCATION:https://tuwien.zoom.us/j/68659854514?pwd=rGPyiiUGa2FPP9KyDiQaVIcH
  uWtn8o.1
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI VU</b><br>Vorbesprechung<br>
  <br>Raum:<br>https://tuwien.zoom.us/j/68659854514?pwd=rGPyiiUGa2FPP9KyDiQa
  VIcHuWtn8o.1<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.ac.at
- /course/courseDetails.xhtml?courseNr=194207">TISS</a></li><li><a href="htt
- ps://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL</a></li></ul>
+ /course/courseDetails.xhtml?courseNr=194207">TISS</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -293,17 +284,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIP VU
@@ -314,17 +303,15 @@ UID:20251025T030108Z-5297571@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:AI Programming VU\nVorlesung\n\nRaum:\nFAV Hörsaal 2\, Erdges
  choß\nhttps://maps.tuwien.ac.at/?q=HEEG03#map\n\nTISS:\nhttps://tiss.tuwi
- en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nTUWEL:\nhttps://tuw
- el.tuwien.ac.at/course/view.php?id=75654\n\nRaum-Info:\nhttps://tiss.tuwie
- n.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
+ en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nRaum-Info:\nhttps:/
+ /tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
 LOCATION:Favoritenstraße 9-11
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Vorlesung<br><br>
  Raum:<br><a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2<
  /a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.
  ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li><li><a href
- ="https://tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a></li><li><
- a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2"
- >Raum-Info</a></li></ul>
+ ="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Raum-
+ Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ZKB VO
@@ -337,17 +324,14 @@ DESCRIPTION:Zwischen Karriere und Barriere VO\nInhaltliche und organisator
  ische Einführung\n\nRaum:\nHS 18 Czuber - MB\, 2. Stock\nhttps://maps.tuw
  ien.ac.at/?q=AE0238#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseD
  etails.xhtml?courseNr=187250\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=H18\n\nLecture Tube:\nhttps://live.video.tu
- wien.ac.at/room/AE0238/player.html
+ ts/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Zwischen Karriere und Barriere VO</b><br>I
  nhaltliche und organisatorische Einführung<br><br>Raum:<br><a href="https
  ://maps.tuwien.ac.at/?q=AE0238#map">HS 18 Czuber - MB</a>\, 2. Stock<br><b
  r>Details:<br><ul><li><a href="https://tiss.tuwien.ac.at/course/courseDeta
  ils.xhtml?courseNr=187250">TISS</a></li><li><a href="https://tiss.tuwien.a
- c.at/events/roomSchedule.xhtml?roomCode=H18">Raum-Info</a></li><li><a href
- ="https://live.video.tuwien.ac.at/room/AE0238/player.html">Lecture Tube</a
- ></li></ul>
+ c.at/events/roomSchedule.xhtml?roomCode=H18">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -359,20 +343,18 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies (first lectur
  e)\n\nRaum:\nEI 8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.a
  t/?q=CDEG08#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.x
- html?courseNr=192065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php
- ?id=75966\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xht
- ml?roomCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG
- 08/player.html
+ html?courseNr=192065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomS
+ chedule.xhtml?roomCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.a
+ t/room/CDEG08/player.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies (first lecture)<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CDEG08#map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Detail
  s:<br><ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtm
- l?courseNr=192065">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/co
- urse/view.php?id=75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.
- at/events/roomSchedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="h
- ttps://live.video.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></
- li></ul>
+ l?courseNr=192065">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/eve
+ nts/roomSchedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https:/
+ /live.video.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></u
+ l>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -383,19 +365,17 @@ UID:20251025T030111Z-5340287@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:Generative AI VU\nVorlesung\n\nRaum:\nInformatikhörsaal - ARC
  H-INF\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=DEU116#map\n\nTISS:\nhtt
- ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nTUWEL
- :\nhttps://tuwel.tuwien.ac.at/course/view.php?id=77310\n\nRaum-Info:\nhttp
- s://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n\nLecture T
- ube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
+ ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nRaum-
+ Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n
+ \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
 LOCATION:Treitlstraße 3
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI VU</b><br>Vorlesung<br><br>R
  aum:<br><a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikhörsa
  al - ARCH-INF</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https:
  //tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a></
- li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL
- </a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?
- roomCode=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac
- .at/room/DEU116/player.html">Lecture Tube</a></li></ul>
+ li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
+ de=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/ro
+ om/DEU116/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -407,17 +387,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIP VU
@@ -428,17 +406,15 @@ UID:20251025T030113Z-5297572@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:AI Programming VU\nVorlesung\n\nRaum:\nFAV Hörsaal 2\, Erdges
  choß\nhttps://maps.tuwien.ac.at/?q=HEEG03#map\n\nTISS:\nhttps://tiss.tuwi
- en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nTUWEL:\nhttps://tuw
- el.tuwien.ac.at/course/view.php?id=75654\n\nRaum-Info:\nhttps://tiss.tuwie
- n.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
+ en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nRaum-Info:\nhttps:/
+ /tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
 LOCATION:Favoritenstraße 9-11
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Vorlesung<br><br>
  Raum:<br><a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2<
  /a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.
  ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li><li><a href
- ="https://tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a></li><li><
- a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2"
- >Raum-Info</a></li></ul>
+ ="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Raum-
+ Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -450,18 +426,17 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies\n\nRaum:\nEI 
  8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=CDEG08#map\
  n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19
- 2065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75966\n\nRau
- m-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8\n
- \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/player.html
+ 2065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/pl
+ ayer.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=CDEG08#
  map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a
   href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19206
- 5">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id
- =75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSc
- hedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.vide
- o.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
+ 5">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.video.tuwi
+ en.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -472,19 +447,17 @@ UID:20251025T030115Z-5340288@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:Generative AI VU\nVorlesung\n\nRaum:\nInformatikhörsaal - ARC
  H-INF\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=DEU116#map\n\nTISS:\nhtt
- ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nTUWEL
- :\nhttps://tuwel.tuwien.ac.at/course/view.php?id=77310\n\nRaum-Info:\nhttp
- s://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n\nLecture T
- ube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
+ ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nRaum-
+ Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n
+ \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
 LOCATION:Treitlstraße 3
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI VU</b><br>Vorlesung<br><br>R
  aum:<br><a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikhörsa
  al - ARCH-INF</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https:
  //tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a></
- li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL
- </a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?
- roomCode=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac
- .at/room/DEU116/player.html">Lecture Tube</a></li></ul>
+ li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
+ de=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/ro
+ om/DEU116/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -496,17 +469,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIP VU
@@ -517,17 +488,15 @@ UID:20251025T030117Z-5297573@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:AI Programming VU\nVorlesung\n\nRaum:\nFAV Hörsaal 2\, Erdges
  choß\nhttps://maps.tuwien.ac.at/?q=HEEG03#map\n\nTISS:\nhttps://tiss.tuwi
- en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nTUWEL:\nhttps://tuw
- el.tuwien.ac.at/course/view.php?id=75654\n\nRaum-Info:\nhttps://tiss.tuwie
- n.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
+ en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nRaum-Info:\nhttps:/
+ /tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
 LOCATION:Favoritenstraße 9-11
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Vorlesung<br><br>
  Raum:<br><a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2<
  /a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.
  ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li><li><a href
- ="https://tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a></li><li><
- a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2"
- >Raum-Info</a></li></ul>
+ ="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Raum-
+ Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -539,18 +508,17 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies\n\nRaum:\nEI 
  8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=CDEG08#map\
  n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19
- 2065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75966\n\nRau
- m-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8\n
- \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/player.html
+ 2065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/pl
+ ayer.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=CDEG08#
  map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a
   href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19206
- 5">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id
- =75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSc
- hedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.vide
- o.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
+ 5">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.video.tuwi
+ en.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -561,19 +529,17 @@ UID:20251025T030119Z-5340289@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:Generative AI VU\nVorlesung\n\nRaum:\nInformatikhörsaal - ARC
  H-INF\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=DEU116#map\n\nTISS:\nhtt
- ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nTUWEL
- :\nhttps://tuwel.tuwien.ac.at/course/view.php?id=77310\n\nRaum-Info:\nhttp
- s://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n\nLecture T
- ube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
+ ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nRaum-
+ Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n
+ \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
 LOCATION:Treitlstraße 3
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI VU</b><br>Vorlesung<br><br>R
  aum:<br><a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikhörsa
  al - ARCH-INF</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https:
  //tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a></
- li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL
- </a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?
- roomCode=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac
- .at/room/DEU116/player.html">Lecture Tube</a></li></ul>
+ li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
+ de=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/ro
+ om/DEU116/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -585,17 +551,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIP VU
@@ -606,17 +570,15 @@ UID:20251025T030121Z-5297574@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:AI Programming VU\nVorlesung\n\nRaum:\nFAV Hörsaal 2\, Erdges
  choß\nhttps://maps.tuwien.ac.at/?q=HEEG03#map\n\nTISS:\nhttps://tiss.tuwi
- en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nTUWEL:\nhttps://tuw
- el.tuwien.ac.at/course/view.php?id=75654\n\nRaum-Info:\nhttps://tiss.tuwie
- n.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
+ en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nRaum-Info:\nhttps:/
+ /tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
 LOCATION:Favoritenstraße 9-11
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Vorlesung<br><br>
  Raum:<br><a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2<
  /a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.
  ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li><li><a href
- ="https://tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a></li><li><
- a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2"
- >Raum-Info</a></li></ul>
+ ="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Raum-
+ Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -628,18 +590,17 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies\n\nRaum:\nEI 
  8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=CDEG08#map\
  n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19
- 2065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75966\n\nRau
- m-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8\n
- \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/player.html
+ 2065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/pl
+ ayer.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=CDEG08#
  map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a
   href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19206
- 5">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id
- =75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSc
- hedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.vide
- o.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
+ 5">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.video.tuwi
+ en.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -650,19 +611,17 @@ UID:20251025T030123Z-5340290@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:Generative AI VU\nVorlesung\n\nRaum:\nInformatikhörsaal - ARC
  H-INF\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=DEU116#map\n\nTISS:\nhtt
- ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nTUWEL
- :\nhttps://tuwel.tuwien.ac.at/course/view.php?id=77310\n\nRaum-Info:\nhttp
- s://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n\nLecture T
- ube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
+ ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nRaum-
+ Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n
+ \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
 LOCATION:Treitlstraße 3
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI VU</b><br>Vorlesung<br><br>R
  aum:<br><a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikhörsa
  al - ARCH-INF</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https:
  //tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a></
- li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL
- </a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?
- roomCode=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac
- .at/room/DEU116/player.html">Lecture Tube</a></li></ul>
+ li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
+ de=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/ro
+ om/DEU116/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -674,17 +633,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIP VU
@@ -695,17 +652,15 @@ UID:20251025T030125Z-5297575@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:AI Programming VU\nVorlesung\n\nRaum:\nFAV Hörsaal 2\, Erdges
  choß\nhttps://maps.tuwien.ac.at/?q=HEEG03#map\n\nTISS:\nhttps://tiss.tuwi
- en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nTUWEL:\nhttps://tuw
- el.tuwien.ac.at/course/view.php?id=75654\n\nRaum-Info:\nhttps://tiss.tuwie
- n.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
+ en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nRaum-Info:\nhttps:/
+ /tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
 LOCATION:Favoritenstraße 9-11
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Vorlesung<br><br>
  Raum:<br><a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2<
  /a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.
  ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li><li><a href
- ="https://tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a></li><li><
- a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2"
- >Raum-Info</a></li></ul>
+ ="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Raum-
+ Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ZKB VO
@@ -717,16 +672,14 @@ CATEGORIES:COURSE
 DESCRIPTION:Zwischen Karriere und Barriere VO\n2. VO\n\nRaum:\nHS 18 Czube
  r - MB\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=AE0238#map\n\nTISS:\nhttps
  ://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250\n\nRaum-In
- fo:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18\n\nL
- ecture Tube:\nhttps://live.video.tuwien.ac.at/room/AE0238/player.html
+ fo:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Zwischen Karriere und Barriere VO</b><br>2
  . VO<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 
  18 Czuber - MB</a>\, 2. Stock<br><br>Details:<br><ul><li><a href="https://
  tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250">TISS</a></li
  ><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode
- =H18">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/room/
- AE0238/player.html">Lecture Tube</a></li></ul>
+ =H18">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -738,18 +691,17 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies\n\nRaum:\nEI 
  8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=CDEG08#map\
  n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19
- 2065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75966\n\nRau
- m-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8\n
- \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/player.html
+ 2065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/pl
+ ayer.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=CDEG08#
  map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a
   href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19206
- 5">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id
- =75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSc
- hedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.vide
- o.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
+ 5">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.video.tuwi
+ en.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -760,19 +712,17 @@ UID:20251025T030128Z-5340291@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:Generative AI VU\nVorlesung\n\nRaum:\nInformatikhörsaal - ARC
  H-INF\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=DEU116#map\n\nTISS:\nhtt
- ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nTUWEL
- :\nhttps://tuwel.tuwien.ac.at/course/view.php?id=77310\n\nRaum-Info:\nhttp
- s://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n\nLecture T
- ube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
+ ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nRaum-
+ Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n
+ \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
 LOCATION:Treitlstraße 3
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI VU</b><br>Vorlesung<br><br>R
  aum:<br><a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikhörsa
  al - ARCH-INF</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https:
  //tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a></
- li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL
- </a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?
- roomCode=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac
- .at/room/DEU116/player.html">Lecture Tube</a></li></ul>
+ li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
+ de=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/ro
+ om/DEU116/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -784,17 +734,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIP VU
@@ -805,17 +753,15 @@ UID:20251025T030130Z-5297576@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:AI Programming VU\nVorlesung\n\nRaum:\nFAV Hörsaal 2\, Erdges
  choß\nhttps://maps.tuwien.ac.at/?q=HEEG03#map\n\nTISS:\nhttps://tiss.tuwi
- en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nTUWEL:\nhttps://tuw
- el.tuwien.ac.at/course/view.php?id=75654\n\nRaum-Info:\nhttps://tiss.tuwie
- n.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
+ en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nRaum-Info:\nhttps:/
+ /tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
 LOCATION:Favoritenstraße 9-11
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Vorlesung<br><br>
  Raum:<br><a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2<
  /a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.
  ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li><li><a href
- ="https://tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a></li><li><
- a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2"
- >Raum-Info</a></li></ul>
+ ="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Raum-
+ Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -827,18 +773,17 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies\n\nRaum:\nEI 
  8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=CDEG08#map\
  n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19
- 2065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75966\n\nRau
- m-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8\n
- \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/player.html
+ 2065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/pl
+ ayer.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=CDEG08#
  map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a
   href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19206
- 5">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id
- =75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSc
- hedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.vide
- o.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
+ 5">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.video.tuwi
+ en.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -849,19 +794,17 @@ UID:20251025T030132Z-5340292@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:Generative AI VU\nVorlesung\n\nRaum:\nInformatikhörsaal - ARC
  H-INF\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=DEU116#map\n\nTISS:\nhtt
- ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nTUWEL
- :\nhttps://tuwel.tuwien.ac.at/course/view.php?id=77310\n\nRaum-Info:\nhttp
- s://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n\nLecture T
- ube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
+ ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nRaum-
+ Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n
+ \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
 LOCATION:Treitlstraße 3
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI VU</b><br>Vorlesung<br><br>R
  aum:<br><a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikhörsa
  al - ARCH-INF</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https:
  //tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a></
- li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL
- </a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?
- roomCode=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac
- .at/room/DEU116/player.html">Lecture Tube</a></li></ul>
+ li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
+ de=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/ro
+ om/DEU116/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -873,17 +816,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIP VU
@@ -894,14 +835,12 @@ UID:20251025T030134Z-5340499@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:AI Programming VU\nAssignment Discussion Session A1 & A2\n\nRa
  um:\nZoom\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?c
- ourseNr=194193\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75
- 654
+ ourseNr=194193
 LOCATION:Zoom
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Assignment Discus
  sion Session A1 &amp\; A2<br><br>Raum:<br>Zoom<br><br>Details:<br><ul><li>
  <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194
- 193">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?
- id=75654">TUWEL</a></li></ul>
+ 193">TISS</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ZKB VO
@@ -913,16 +852,14 @@ CATEGORIES:COURSE
 DESCRIPTION:Zwischen Karriere und Barriere VO\n3. VO\n\nRaum:\nHS 18 Czube
  r - MB\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=AE0238#map\n\nTISS:\nhttps
  ://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250\n\nRaum-In
- fo:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18\n\nL
- ecture Tube:\nhttps://live.video.tuwien.ac.at/room/AE0238/player.html
+ fo:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Zwischen Karriere und Barriere VO</b><br>3
  . VO<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 
  18 Czuber - MB</a>\, 2. Stock<br><br>Details:<br><ul><li><a href="https://
  tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250">TISS</a></li
  ><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode
- =H18">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/room/
- AE0238/player.html">Lecture Tube</a></li></ul>
+ =H18">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -934,18 +871,17 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies\n\nRaum:\nEI 
  8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=CDEG08#map\
  n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19
- 2065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75966\n\nRau
- m-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8\n
- \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/player.html
+ 2065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/pl
+ ayer.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=CDEG08#
  map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a
   href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19206
- 5">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id
- =75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSc
- hedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.vide
- o.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
+ 5">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.video.tuwi
+ en.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -956,19 +892,17 @@ UID:20251025T030137Z-5340293@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:Generative AI VU\nVorlesung\n\nRaum:\nInformatikhörsaal - ARC
  H-INF\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=DEU116#map\n\nTISS:\nhtt
- ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nTUWEL
- :\nhttps://tuwel.tuwien.ac.at/course/view.php?id=77310\n\nRaum-Info:\nhttp
- s://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n\nLecture T
- ube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
+ ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nRaum-
+ Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n
+ \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
 LOCATION:Treitlstraße 3
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI VU</b><br>Vorlesung<br><br>R
  aum:<br><a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikhörsa
  al - ARCH-INF</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https:
  //tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a></
- li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL
- </a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?
- roomCode=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac
- .at/room/DEU116/player.html">Lecture Tube</a></li></ul>
+ li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
+ de=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/ro
+ om/DEU116/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -980,17 +914,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIP VU
@@ -1001,17 +933,15 @@ UID:20251025T030139Z-5297578@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:AI Programming VU\nVorlesung\n\nRaum:\nFAV Hörsaal 2\, Erdges
  choß\nhttps://maps.tuwien.ac.at/?q=HEEG03#map\n\nTISS:\nhttps://tiss.tuwi
- en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nTUWEL:\nhttps://tuw
- el.tuwien.ac.at/course/view.php?id=75654\n\nRaum-Info:\nhttps://tiss.tuwie
- n.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
+ en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nRaum-Info:\nhttps:/
+ /tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
 LOCATION:Favoritenstraße 9-11
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Vorlesung<br><br>
  Raum:<br><a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2<
  /a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.
  ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li><li><a href
- ="https://tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a></li><li><
- a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2"
- >Raum-Info</a></li></ul>
+ ="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Raum-
+ Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -1023,18 +953,17 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies\n\nRaum:\nEI 
  8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=CDEG08#map\
  n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19
- 2065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75966\n\nRau
- m-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8\n
- \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/player.html
+ 2065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/pl
+ ayer.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=CDEG08#
  map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a
   href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19206
- 5">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id
- =75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSc
- hedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.vide
- o.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
+ 5">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.video.tuwi
+ en.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -1046,17 +975,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIP VU
@@ -1067,17 +994,15 @@ UID:20251025T030142Z-5297579@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:AI Programming VU\nVorlesung\n\nRaum:\nFAV Hörsaal 2\, Erdges
  choß\nhttps://maps.tuwien.ac.at/?q=HEEG03#map\n\nTISS:\nhttps://tiss.tuwi
- en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nTUWEL:\nhttps://tuw
- el.tuwien.ac.at/course/view.php?id=75654\n\nRaum-Info:\nhttps://tiss.tuwie
- n.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
+ en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nRaum-Info:\nhttps:/
+ /tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
 LOCATION:Favoritenstraße 9-11
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Vorlesung<br><br>
  Raum:<br><a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2<
  /a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.
  ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li><li><a href
- ="https://tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a></li><li><
- a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2"
- >Raum-Info</a></li></ul>
+ ="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Raum-
+ Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ZKB VO
@@ -1089,16 +1014,14 @@ CATEGORIES:COURSE
 DESCRIPTION:Zwischen Karriere und Barriere VO\n4. VO\n\nRaum:\nHS 18 Czube
  r - MB\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=AE0238#map\n\nTISS:\nhttps
  ://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250\n\nRaum-In
- fo:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18\n\nL
- ecture Tube:\nhttps://live.video.tuwien.ac.at/room/AE0238/player.html
+ fo:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H18
 LOCATION:Karlsplatz 13
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Zwischen Karriere und Barriere VO</b><br>4
  . VO<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=AE0238#map">HS 
  18 Czuber - MB</a>\, 2. Stock<br><br>Details:<br><ul><li><a href="https://
  tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=187250">TISS</a></li
  ><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode
- =H18">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/room/
- AE0238/player.html">Lecture Tube</a></li></ul>
+ =H18">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -1110,18 +1033,17 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies\n\nRaum:\nEI 
  8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=CDEG08#map\
  n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19
- 2065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75966\n\nRau
- m-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8\n
- \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/player.html
+ 2065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/pl
+ ayer.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=CDEG08#
  map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a
   href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19206
- 5">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id
- =75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSc
- hedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.vide
- o.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
+ 5">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.video.tuwi
+ en.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -1132,19 +1054,17 @@ UID:20251025T030145Z-5340294@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:Generative AI VU\nVorlesung\n\nRaum:\nInformatikhörsaal - ARC
  H-INF\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=DEU116#map\n\nTISS:\nhtt
- ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nTUWEL
- :\nhttps://tuwel.tuwien.ac.at/course/view.php?id=77310\n\nRaum-Info:\nhttp
- s://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n\nLecture T
- ube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
+ ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nRaum-
+ Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n
+ \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
 LOCATION:Treitlstraße 3
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI VU</b><br>Vorlesung<br><br>R
  aum:<br><a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikhörsa
  al - ARCH-INF</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https:
  //tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a></
- li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL
- </a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?
- roomCode=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac
- .at/room/DEU116/player.html">Lecture Tube</a></li></ul>
+ li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
+ de=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/ro
+ om/DEU116/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -1156,17 +1076,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIP VU
@@ -1177,14 +1095,12 @@ UID:20251025T030147Z-5340800@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:AI Programming VU\nAssignment Discussion Session A3 & A4\n\nRa
  um:\nZoom\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?c
- ourseNr=194193\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75
- 654
+ ourseNr=194193
 LOCATION:Zoom
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Assignment Discus
  sion Session A3 &amp\; A4<br><br>Raum:<br>Zoom<br><br>Details:<br><ul><li>
  <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194
- 193">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?
- id=75654">TUWEL</a></li></ul>
+ 193">TISS</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIP VU
@@ -1195,17 +1111,15 @@ UID:20251025T030148Z-5297640@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:AI Programming VU\nVorlesung\n\nRaum:\nFAV Hörsaal 2\, Erdges
  choß\nhttps://maps.tuwien.ac.at/?q=HEEG03#map\n\nTISS:\nhttps://tiss.tuwi
- en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nTUWEL:\nhttps://tuw
- el.tuwien.ac.at/course/view.php?id=75654\n\nRaum-Info:\nhttps://tiss.tuwie
- n.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
+ en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nRaum-Info:\nhttps:/
+ /tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
 LOCATION:Favoritenstraße 9-11
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Vorlesung<br><br>
  Raum:<br><a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2<
  /a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.
  ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li><li><a href
- ="https://tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a></li><li><
- a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2"
- >Raum-Info</a></li></ul>
+ ="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Raum-
+ Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -1217,18 +1131,17 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies\n\nRaum:\nEI 
  8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=CDEG08#map\
  n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19
- 2065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75966\n\nRau
- m-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8\n
- \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/player.html
+ 2065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/pl
+ ayer.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=CDEG08#
  map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a
   href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19206
- 5">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id
- =75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSc
- hedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.vide
- o.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
+ 5">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.video.tuwi
+ en.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -1239,19 +1152,17 @@ UID:20251025T030150Z-5340295@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:Generative AI VU\nVorlesung\n\nRaum:\nInformatikhörsaal - ARC
  H-INF\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=DEU116#map\n\nTISS:\nhtt
- ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nTUWEL
- :\nhttps://tuwel.tuwien.ac.at/course/view.php?id=77310\n\nRaum-Info:\nhttp
- s://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n\nLecture T
- ube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
+ ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nRaum-
+ Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n
+ \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
 LOCATION:Treitlstraße 3
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI VU</b><br>Vorlesung<br><br>R
  aum:<br><a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikhörsa
  al - ARCH-INF</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https:
  //tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a></
- li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL
- </a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?
- roomCode=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac
- .at/room/DEU116/player.html">Lecture Tube</a></li></ul>
+ li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
+ de=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/ro
+ om/DEU116/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -1263,17 +1174,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIP VU
@@ -1284,17 +1193,15 @@ UID:20251025T030152Z-5297641@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:AI Programming VU\nVorlesung\n\nRaum:\nFAV Hörsaal 2\, Erdges
  choß\nhttps://maps.tuwien.ac.at/?q=HEEG03#map\n\nTISS:\nhttps://tiss.tuwi
- en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nTUWEL:\nhttps://tuw
- el.tuwien.ac.at/course/view.php?id=75654\n\nRaum-Info:\nhttps://tiss.tuwie
- n.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
+ en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nRaum-Info:\nhttps:/
+ /tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
 LOCATION:Favoritenstraße 9-11
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Vorlesung<br><br>
  Raum:<br><a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2<
  /a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.
  ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li><li><a href
- ="https://tuwel.tuwien.ac.at/course/view.php?id=75654">TUWEL</a></li><li><
- a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2"
- >Raum-Info</a></li></ul>
+ ="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Raum-
+ Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -1306,18 +1213,17 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies\n\nRaum:\nEI 
  8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=CDEG08#map\
  n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19
- 2065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75966\n\nRau
- m-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8\n
- \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/player.html
+ 2065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/pl
+ ayer.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=CDEG08#
  map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a
   href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19206
- 5">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id
- =75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSc
- hedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.vide
- o.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
+ 5">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.video.tuwi
+ en.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -1328,19 +1234,17 @@ UID:20251025T030154Z-5340296@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:Generative AI VU\nVorlesung\n\nRaum:\nInformatikhörsaal - ARC
  H-INF\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=DEU116#map\n\nTISS:\nhtt
- ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nTUWEL
- :\nhttps://tuwel.tuwien.ac.at/course/view.php?id=77310\n\nRaum-Info:\nhttp
- s://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n\nLecture T
- ube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
+ ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nRaum-
+ Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n
+ \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
 LOCATION:Treitlstraße 3
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI VU</b><br>Vorlesung<br><br>R
  aum:<br><a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikhörsa
  al - ARCH-INF</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https:
  //tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a></
- li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL
- </a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?
- roomCode=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac
- .at/room/DEU116/player.html">Lecture Tube</a></li></ul>
+ li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
+ de=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/ro
+ om/DEU116/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -1352,17 +1256,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -1374,18 +1276,17 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies\n\nRaum:\nEI 
  8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=CDEG08#map\
  n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19
- 2065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75966\n\nRau
- m-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8\n
- \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/player.html
+ 2065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/pl
+ ayer.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=CDEG08#
  map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a
   href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19206
- 5">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id
- =75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSc
- hedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.vide
- o.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
+ 5">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.video.tuwi
+ en.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -1396,19 +1297,17 @@ UID:20251025T030157Z-5340297@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:Generative AI VU\nVorlesung\n\nRaum:\nInformatikhörsaal - ARC
  H-INF\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=DEU116#map\n\nTISS:\nhtt
- ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nTUWEL
- :\nhttps://tuwel.tuwien.ac.at/course/view.php?id=77310\n\nRaum-Info:\nhttp
- s://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n\nLecture T
- ube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
+ ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nRaum-
+ Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n
+ \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
 LOCATION:Treitlstraße 3
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI VU</b><br>Vorlesung<br><br>R
  aum:<br><a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikhörsa
  al - ARCH-INF</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https:
  //tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a></
- li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL
- </a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?
- roomCode=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac
- .at/room/DEU116/player.html">Lecture Tube</a></li></ul>
+ li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
+ de=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/ro
+ om/DEU116/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -1420,17 +1319,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -1442,18 +1339,17 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies\n\nRaum:\nEI 
  8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=CDEG08#map\
  n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19
- 2065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75966\n\nRau
- m-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8\n
- \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/player.html
+ 2065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/pl
+ ayer.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=CDEG08#
  map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a
   href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19206
- 5">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id
- =75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSc
- hedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.vide
- o.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
+ 5">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.video.tuwi
+ en.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -1465,17 +1361,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
@@ -1487,18 +1381,17 @@ CATEGORIES:COURSE
 DESCRIPTION:Cryptocurrencies VU\nVU 192.065 Cryptocurrencies\n\nRaum:\nEI 
  8 Pötzl HS - QUER\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=CDEG08#map\
  n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19
- 2065\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=75966\n\nRau
- m-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8\n
- \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/player.html
+ 2065\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?ro
+ omCode=E8\n\nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/CDEG08/pl
+ ayer.html
 LOCATION:Gußhausstraße 25-29
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Cryptocurrencies VU</b><br>VU 192.065 Cryp
  tocurrencies<br><br>Raum:<br><a href="https://maps.tuwien.ac.at/?q=CDEG08#
  map">EI 8 Pötzl HS - QUER</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a
   href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=19206
- 5">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id
- =75966">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSc
- hedule.xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.vide
- o.tuwien.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
+ 5">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E8">Raum-Info</a></li><li><a href="https://live.video.tuwi
+ en.ac.at/room/CDEG08/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GENAI VU
@@ -1509,19 +1402,17 @@ UID:20251025T030202Z-5340298@tiss.tuwien.ac.at
 CATEGORIES:COURSE
 DESCRIPTION:Generative AI VU\nVorlesung\n\nRaum:\nInformatikhörsaal - ARC
  H-INF\, Erdgeschoß\nhttps://maps.tuwien.ac.at/?q=DEU116#map\n\nTISS:\nhtt
- ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nTUWEL
- :\nhttps://tuwel.tuwien.ac.at/course/view.php?id=77310\n\nRaum-Info:\nhttp
- s://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n\nLecture T
- ube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
+ ps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207\n\nRaum-
+ Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH\n
+ \nLecture Tube:\nhttps://live.video.tuwien.ac.at/room/DEU116/player.html
 LOCATION:Treitlstraße 3
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Generative AI VU</b><br>Vorlesung<br><br>R
  aum:<br><a href="https://maps.tuwien.ac.at/?q=DEU116#map">Informatikhörsa
  al - ARCH-INF</a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https:
  //tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207">TISS</a></
- li><li><a href="https://tuwel.tuwien.ac.at/course/view.php?id=77310">TUWEL
- </a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?
- roomCode=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac
- .at/room/DEU116/player.html">Lecture Tube</a></li></ul>
+ li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCo
+ de=INFH">Raum-Info</a></li><li><a href="https://live.video.tuwien.ac.at/ro
+ om/DEU116/player.html">Lecture Tube</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LLP VU
@@ -1533,17 +1424,15 @@ CATEGORIES:COURSE
 DESCRIPTION:Low-Level Programming VU\nVorlesungen und Übungspräsentation
  en\n\nRaum:\nEI 1 Petritsch HS\, 2. Stock\nhttps://maps.tuwien.ac.at/?q=CF
  0242#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?co
- urseNr=194190\n\nTUWEL:\nhttps://tuwel.tuwien.ac.at/course/view.php?id=769
- 02\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?room
- Code=E1
+ urseNr=194190\n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule
+ .xhtml?roomCode=E1
 LOCATION:Gußhausstraße 25-25a
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  n und Übungspräsentationen<br><br>Raum:<br><a href="https://maps.tuwien.
  ac.at/?q=CF0242#map">EI 1 Petritsch HS</a>\, 2. Stock<br><br>Details:<br><
  ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?cours
- eNr=194190">TISS</a></li><li><a href="https://tuwel.tuwien.ac.at/course/vi
- ew.php?id=76902">TUWEL</a></li><li><a href="https://tiss.tuwien.ac.at/even
- ts/roomSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
+ eNr=194190">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roo
+ mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DYNC VU
@@ -1698,20 +1587,9 @@ UID:20240303T172819Z-10572@tiss.tuwien.ac.at
 CATEGORIES:HOLIDAY
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Anmeldung Distributed Systems Technologies
-DTSTART:20260218T080000
-DTEND:20260218T083000
-CATEGORIES:COURSE
-DESCRIPTION:Registrations for Distributed Systems Technologies are now ope
- n.
-URL:https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=184260
-X-ALT-DESC;FMTTYPE=TEXT/HTML:<a href="https://tiss.tuwien.ac.at/course/cou
- rseDetails.xhtml?courseNr=184260">Register on Tiss</a>
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Anmeldung Developing a career - coping with obstacles
-DTSTART:20251007T080000
-DTEND:20251007T083000
+DTSTART:20261006T080000
+DTEND:20261006T083000
 CATEGORIES:COURSE
 DESCRIPTION:Registrations for Developing a career - coping with obstacles 
  are now open.
@@ -1720,19 +1598,9 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<a href="https://tiss.tuwien.ac.at/course/cou
  rseDetails.xhtml?courseNr=187250">Register on Tiss</a>
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Anmeldung Cryptocurrencies
-DTSTART:20250831T100000
-DTEND:20250831T103000
-CATEGORIES:COURSE
-DESCRIPTION:Registrations for Cryptocurrencies are now open.
-URL:https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192065
-X-ALT-DESC;FMTTYPE=TEXT/HTML:<a href="https://tiss.tuwien.ac.at/course/cou
- rseDetails.xhtml?courseNr=192065">Register on Tiss</a>
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Anmeldung Low-Level Programming
-DTSTART:20250901T000000
-DTEND:20250901T080000
+DTSTART:20260831T000000
+DTEND:20260831T080000
 CATEGORIES:COURSE
 DESCRIPTION:Registrations for Low-Level Programming are now open.
 URL:https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194190
@@ -1740,19 +1608,9 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<a href="https://tiss.tuwien.ac.at/course/cou
  rseDetails.xhtml?courseNr=194190">Register on Tiss</a>
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Anmeldung AI Programming
-DTSTART:20250929T000500
-DTEND:20250929T080000
-CATEGORIES:COURSE
-DESCRIPTION:Registrations for AI Programming are now open.
-URL:https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194193
-X-ALT-DESC;FMTTYPE=TEXT/HTML:<a href="https://tiss.tuwien.ac.at/course/cou
- rseDetails.xhtml?courseNr=194193">Register on Tiss</a>
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Anmeldung Generative AI
-DTSTART:20250922T000000
-DTEND:20250922T080000
+DTSTART:20260901T000000
+DTEND:20260901T080000
 CATEGORIES:COURSE
 DESCRIPTION:Registrations for Generative AI are now open.
 URL:https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194207
