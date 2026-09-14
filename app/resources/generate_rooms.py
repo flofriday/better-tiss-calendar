@@ -34,12 +34,18 @@ def main():
         )
 
         for i in range(0, len(navigation_buttons)):
-            navigation_buttons = WebDriverWait(driver, 5).until(
+            navigation_buttons = WebDriverWait(driver, 10).until(
                 EC.presence_of_all_elements_located(
                     (By.CSS_SELECTOR, NAVIGATION_BUTTON_SELECTOR)
                 )
             )
-            navigation_buttons[i].click()
+            if "ui-state-active" not in (
+                navigation_buttons[i].get_attribute("class") or ""
+            ):
+                old_rows = driver.find_elements(By.CSS_SELECTOR, TABLE_ROW_SELECTOR)
+                navigation_buttons[i].click()
+                if old_rows:
+                    WebDriverWait(driver, 10).until(EC.staleness_of(old_rows[0]))
             table_rows = WebDriverWait(driver, 10).until(
                 EC.presence_of_all_elements_located(
                     (By.CSS_SELECTOR, TABLE_ROW_SELECTOR)
