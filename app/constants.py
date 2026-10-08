@@ -1,5 +1,6 @@
 from enum import StrEnum
 
+KEY_WORDS = ["Ausweich", "Alternative"]
 
 class SessionType(StrEnum):
     VORLESUNG = "Vorlesung"

@@ -848,19 +848,6 @@ DESCRIPTION:<b>Low-Level Programming VU</b><br>Vorlesungen und Übungsprä
 LOCATION:Gußhausstraße 25-25a
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AIP VU
-DTSTART;TZID=Europe/Vienna:20251211T100000
-DTEND;TZID=Europe/Vienna:20251211T120000
-DTSTAMP:20251011T114455Z
-UID:20251025T030147Z-5340800@tiss.tuwien.ac.at
-CATEGORIES:COURSE
-DESCRIPTION:<b>AI Programming VU</b><br>Assignment Discussion Session A3 &
- amp\; A4<br><br>Raum:<br>Zoom<br><br>Details:<br><ul><li><a href="https://
- tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li
- ></ul>
-LOCATION:Zoom
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:AIP VO
 DTSTART;TZID=Europe/Vienna:20251211T100000
 DTEND;TZID=Europe/Vienna:20251211T120000
@@ -869,10 +856,10 @@ UID:20251025T030148Z-5297640@tiss.tuwien.ac.at
 CATEGORIES:Vorlesung
 DESCRIPTION:<b>AI Programming VU</b><br>Vorlesung<br><br>Raum:<br><a href=
  "https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2</a>\, Erdgeschoß
- <br><br>Details:<br><ul><li><a href="https://tiss.tuwien.ac.at/course/cour
- seDetails.xhtml?courseNr=194193">TISS</a></li><li><a href="https://tiss.tu
- wien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Raum-Info</a></li></ul
- >
+ <br>Weitere Räume: Zoom<br><br>Details:<br><ul><li><a href="https://tiss.
+ tuwien.ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li><li>
+ <a href="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
+ ">Raum-Info</a></li></ul>
 LOCATION:Favoritenstraße 9-11
 END:VEVENT
 BEGIN:VEVENT

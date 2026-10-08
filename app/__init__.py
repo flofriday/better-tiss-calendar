@@ -1,4 +1,5 @@
 import json
+import logging
 import sqlite3
 import traceback
 from urllib.parse import urlparse
@@ -13,6 +14,12 @@ from app.monitoring import add_usage, get_chart_data, get_statistics
 app = Flask(__name__)
 
 DATABASE = "bettercal.db"
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    handlers=[logging.FileHandler("app.log")],
+)
 
 
 def create_db() -> sqlite3.Connection:

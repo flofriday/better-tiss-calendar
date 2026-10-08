@@ -1062,36 +1062,23 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:Lectures and presentations of project results
  >Room-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AI Programming VU
-DTSTART;TZID=Europe/Vienna:20251211T100000
-DTEND;TZID=Europe/Vienna:20251211T120000
-DTSTAMP:20251011T114444Z
-UID:20251025T004604Z-5340800@tiss.tuwien.ac.at
-CATEGORIES:COURSE
-DESCRIPTION:Assignment Discussion Session A3 & A4\n\nRoom:\nZoom\n\nTISS:\
- nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194193
-LOCATION:Zoom
-X-ALT-DESC;FMTTYPE=TEXT/HTML:Assignment Discussion Session A3 &amp\; A4<br
- ><br>Room:<br>Zoom<br><br>Details:<br><ul><li><a href="https://tiss.tuwien
- .ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li></ul>
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:AI Programming VO
 DTSTART;TZID=Europe/Vienna:20251211T100000
 DTEND;TZID=Europe/Vienna:20251211T120000
 DTSTAMP:20251011T114444Z
 UID:20251025T004605Z-5297640@tiss.tuwien.ac.at
 CATEGORIES:Vorlesung
-DESCRIPTION:Lecture\n\nRoom:\nFAV Hörsaal 2\, Ground Floor\nhttps://maps.
- tuwien.ac.at/?q=HEEG03#map\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/cour
- seDetails.xhtml?courseNr=194193\n\nRoom-Info:\nhttps://tiss.tuwien.ac.at/e
- vents/roomSchedule.xhtml?roomCode=FAV2
+DESCRIPTION:Lecture\n\nRoom:\nFAV Hörsaal 2\, Ground Floor\nFurther rooms
+ : Zoom\nhttps://maps.tuwien.ac.at/?q=HEEG03#map\n\nTISS:\nhttps://tiss.tuw
+ ien.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nRoom-Info:\nhttps:
+ //tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
 LOCATION:Favoritenstraße 9-11
 X-ALT-DESC;FMTTYPE=TEXT/HTML:Lecture<br><br>Room:<br><a href="https://maps
- .tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2</a>\, Ground Floor<br><br>Deta
- ils:<br><ul><li><a href="https://tiss.tuwien.ac.at/course/courseDetails.xh
- tml?courseNr=194193">TISS</a></li><li><a href="https://tiss.tuwien.ac.at/e
- vents/roomSchedule.xhtml?roomCode=FAV2">Room-Info</a></li></ul>
+ .tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2</a>\, Ground Floor<br>Further 
+ rooms: Zoom<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.ac.at/
+ course/courseDetails.xhtml?courseNr=194193">TISS</a></li><li><a href="http
+ s://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Room-Info</
+ a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cryptocurrencies VU

@@ -1087,22 +1087,6 @@ X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>Low-Level Programming VU</b><br>Vorlesunge
  mSchedule.xhtml?roomCode=E1">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AIP VU
-DTSTART;TZID=Europe/Vienna:20251211T100000
-DTEND;TZID=Europe/Vienna:20251211T120000
-DTSTAMP:20251011T114455Z
-UID:20251025T030147Z-5340800@tiss.tuwien.ac.at
-CATEGORIES:COURSE
-DESCRIPTION:AI Programming VU\nAssignment Discussion Session A3 & A4\n\nRa
- um:\nZoom\n\nTISS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?c
- ourseNr=194193
-LOCATION:Zoom
-X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Assignment Discus
- sion Session A3 &amp\; A4<br><br>Raum:<br>Zoom<br><br>Details:<br><ul><li>
- <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194
- 193">TISS</a></li></ul>
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:AIP VO
 DTSTART;TZID=Europe/Vienna:20251211T100000
 DTEND;TZID=Europe/Vienna:20251211T120000
@@ -1110,16 +1094,17 @@ DTSTAMP:20251011T114455Z
 UID:20251025T030148Z-5297640@tiss.tuwien.ac.at
 CATEGORIES:Vorlesung
 DESCRIPTION:AI Programming VU\nVorlesung\n\nRaum:\nFAV Hörsaal 2\, Erdges
- choß\nhttps://maps.tuwien.ac.at/?q=HEEG03#map\n\nTISS:\nhttps://tiss.tuwi
- en.ac.at/course/courseDetails.xhtml?courseNr=194193\n\nRaum-Info:\nhttps:/
- /tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2
+ choß\nWeitere Räume: Zoom\nhttps://maps.tuwien.ac.at/?q=HEEG03#map\n\nTI
+ SS:\nhttps://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194193\
+ n\nRaum-Info:\nhttps://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCod
+ e=FAV2
 LOCATION:Favoritenstraße 9-11
 X-ALT-DESC;FMTTYPE=TEXT/HTML:<b>AI Programming VU</b><br>Vorlesung<br><br>
  Raum:<br><a href="https://maps.tuwien.ac.at/?q=HEEG03#map">FAV Hörsaal 2<
- /a>\, Erdgeschoß<br><br>Details:<br><ul><li><a href="https://tiss.tuwien.
- ac.at/course/courseDetails.xhtml?courseNr=194193">TISS</a></li><li><a href
- ="https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=FAV2">Raum-
- Info</a></li></ul>
+ /a>\, Erdgeschoß<br>Weitere Räume: Zoom<br><br>Details:<br><ul><li><a hr
+ ef="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194193">
+ TISS</a></li><li><a href="https://tiss.tuwien.ac.at/events/roomSchedule.xh
+ tml?roomCode=FAV2">Raum-Info</a></li></ul>
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CC VU
