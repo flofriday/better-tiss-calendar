@@ -10,8 +10,7 @@ import icalendar
 from icalendar import Component, vDDDTypes
 from icalendar import Event as IcalEvent
 
-from app.constants import SessionType
-from app.utils import merge_group, parse_session_type
+from app.utils import merge_group
 
 summary_regex = re.compile("([0-9A-Z]{3}\\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
 word_split_regex = re.compile(
@@ -35,7 +34,6 @@ class Event:
     additional: str | None = None
     number: str
     description: str
-    session_type: SessionType
     address: str | None = None
     room: str | None = None
     room_code: str | None = None
@@ -186,19 +184,8 @@ def improve_calendar(
         event = add_location(event)
 
         # Serialize the summary
-        base_name = event.shorthand if event.shorthand is not None else event.name
-        if event.session_type != SessionType.OTHER:
-            type_tag = event.session_type.shorthand
-            # Google calendar and other clients (exclude Icalendar)
-            # can sort and show events by categories
-            component.pop("categories", None)
-            component.add("categories", event.session_type.value)
-
-        else:
-            type_tag = event.lecture_type
-
-        summary = f"{base_name} {type_tag}"
-
+        summary = event.shorthand if event.shorthand is not None else event.name
+        summary += f" {event.lecture_type}"
         if event.additional is not None:
             summary += " - " + event.additional
         component.pop("summary")
@@ -299,11 +286,8 @@ def event_from_ical(component) -> Event:
 
     room = component.get("location")
     description = component.get("description")
-    categories = component.get("categories")
     extra_rooms = component.get("X-EXTRA-ROOMS")
     extra_rooms = str(extra_rooms).split(",") if extra_rooms else None
-
-    session_type = parse_session_type(description, categories)
 
     # FIXME: We could also set the semester, but that would mean we would need
     # to calculate the semester.
@@ -316,7 +300,6 @@ def event_from_ical(component) -> Event:
         name=name,
         number=number,
         lecture_type=lecture_type,
-        session_type=session_type,
         additional=additional if additional.strip() else None,
         room=room if room.strip() else None,
         description=description,

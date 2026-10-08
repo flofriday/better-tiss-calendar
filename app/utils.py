@@ -1,35 +1,6 @@
-from logging import getLogger
-
 from icalendar import Event as IcalEvent
 
-from app.constants import KEY_WORDS, SessionType
-
-logger = getLogger(__name__)
-
-
-def parse_session_type(
-    description: str | None, categories: list[str] | str | None = None
-) -> SessionType:
-    if categories:
-        cats = [categories] if isinstance(categories, str) else categories
-        if "GROUP" in cats:
-            return SessionType.GROUP
-
-    desc_lower = description.lower() if description else ""
-
-    if "vorlesung" in desc_lower or "lecture" in desc_lower:
-        return SessionType.VORLESUNG
-
-    if "vorbesprechung" in desc_lower:
-        return SessionType.VORBESPRECHUNG
-
-    if "testeinsicht" in desc_lower:
-        return SessionType.TESTEINSICHT
-
-    if "prüfung" in desc_lower or "test" in desc_lower:
-        return SessionType.EXAM
-
-    return SessionType.OTHER
+KEY_WORDS = ["Ausweich", "Alternative"]
 
 
 def merge_group(group: list[IcalEvent]) -> IcalEvent:
@@ -74,14 +45,5 @@ def merge_group(group: list[IcalEvent]) -> IcalEvent:
 
         return updated_component
 
-    except Exception as e:
-        data_to_log = []
-        for component in group:
-            data_to_log.append(component.to_json())
-
-        logger.error(
-            f"Could not merge {len(group)} events with the same name and start, "
-            f"using the first one instead. Reason: {type(e).__name__}: {e}. "
-            f"Data: {data_to_log}"
-        )
+    except Exception:
         return group[0]

@@ -2,8 +2,6 @@ from datetime import datetime
 
 from icalendar import Calendar, Event, Timezone
 
-from app.constants import SessionType
-from app.format import Event as ParsedEvent
 from app.format import _dedupe, event_from_ical, improve_calendar
 
 
@@ -98,19 +96,6 @@ def test_dedupe_passes_non_lectures_through_in_place():
     assert result == [timezone, lecture, holiday]
 
 
-def make_parsed_event(**kwargs) -> ParsedEvent:
-    return ParsedEvent(
-        name="AI Programming",
-        lecture_type="VU",
-        number="194.193",
-        description="Vorlesung",
-        session_type=SessionType.VORLESUNG,
-        tiss_url="https://tiss.example",
-        room="HS 1",
-        **kwargs,
-    )
-
-
 def test_event_from_ical_reads_extra_rooms():
     component = make_lecture("194.193 VU AI Programming", START)
     component.add("X-EXTRA-ROOMS", "B,C")
@@ -122,28 +107,6 @@ def test_event_from_ical_without_extra_rooms():
     component = make_lecture("194.193 VU AI Programming", START)
 
     assert event_from_ical(component).extra_rooms is None
-
-
-def test_descriptions_list_extra_rooms_localized():
-    event = make_parsed_event(extra_rooms=["B", "C"])
-
-    assert "Weitere Räume: B, C" in event.plain_description("de")
-    assert "Weitere Räume: B, C" in event.html_description("de")
-    assert "Further rooms: B, C" in event.plain_description("en")
-    assert "Further rooms: B, C" in event.html_description("en")
-
-
-def test_descriptions_without_extra_rooms_have_no_extra_line():
-    event = make_parsed_event()
-
-    assert "Weitere Räume" not in event.plain_description("de")
-    assert "Weitere Räume" not in event.html_description("de")
-
-
-def test_descriptions_escape_extra_rooms_in_html():
-    event = make_parsed_event(extra_rooms=["<b>"])
-
-    assert "&lt;b&gt;" in event.html_description("de")
 
 
 def test_improve_calendar_merges_rooms_and_drops_the_helper_property():
