@@ -8,3 +8,4 @@ bettercal.db*
 .DS_Store
 requirements.txt
 backup.sh
+*.log
