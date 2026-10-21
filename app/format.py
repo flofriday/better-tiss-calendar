@@ -7,7 +7,10 @@ from datetime import datetime, timedelta
 from functools import cache
 
 import icalendar
-from icalendar import Component
+from icalendar import Component, vDDDTypes
+from icalendar import Event as IcalEvent
+
+from app.utils import merge_group
 
 summary_regex = re.compile("([0-9A-Z]{3}\\.[0-9A-Z]{3}) ([A-Z]{2}) (.*)")
 word_split_regex = re.compile(
@@ -34,6 +37,7 @@ class Event:
     address: str | None = None
     room: str | None = None
     room_code: str | None = None
+    extra_rooms: list[str] | None = None
     floor: MultiLangString | None = None
     tiss_url: str
     tuwel_url: str | None = None
@@ -53,6 +57,8 @@ class Event:
             if self.floor is not None:
                 text += f", {self.floor.en if lang == 'en' else self.floor.de}"
             text += "\n"
+            if self.extra_rooms:
+                text += f"{_extra_rooms_localize(self.extra_rooms, lang)}\n"
             if self.map_url is not None:
                 text += f"{self.map_url}\n"
             text += "\n"
@@ -91,6 +97,11 @@ class Event:
                     f", {html.escape(self.floor.en if lang == 'en' else self.floor.de)}"
                 )
 
+            if self.extra_rooms:
+                text += (
+                    f"<br>{html.escape(_extra_rooms_localize(self.extra_rooms, lang))}"
+                )
+
             text += "<br><br>"
 
         details = [
@@ -110,6 +121,42 @@ class Event:
         return text
 
 
+def _extra_rooms_localize(extra_rooms: list[str], lang: str) -> str:
+    prefix = "Further rooms" if lang == "en" else "Weitere Räume"
+    return f"{prefix}: {', '.join(extra_rooms)}"
+
+
+def _is_lecture(component: Component) -> bool:
+    return component.name == "VEVENT" and bool(
+        summary_regex.match(component.get("summary"))
+    )
+
+
+def _dedupe(cal: Component) -> list[Component]:
+    groups: dict[str, list[IcalEvent]] = {}
+    ordered: list[Component | str] = []
+
+    for component in cal.subcomponents:
+        if not isinstance(component, IcalEvent) or not _is_lecture(component):
+            ordered.append(component)
+            continue
+
+        component_name = "".join(str(component.get("SUMMARY")).split(" ")[2:])
+        ds: vDDDTypes = component.get("DTSTART")
+        ds_clean_for_key = "_".join(str(ds.dt).split(" "))
+
+        key = f"{component_name}_{ds_clean_for_key}"
+
+        if key not in groups:
+            groups[key] = []
+            ordered.append(key)
+        groups[key].append(component)
+
+    return [
+        merge_group(groups[item]) if isinstance(item, str) else item for item in ordered
+    ]
+
+
 def improve_calendar(
     cal: Component,
     use_shorthand: bool = True,
@@ -121,14 +168,16 @@ def improve_calendar(
 
     seen_lecture_numbers: set[str] = set()
 
-    for component in cal.walk():
-        if component.name != "VEVENT" or not summary_regex.match(
-            component.get("summary")
-        ):
+    cal.subcomponents = _dedupe(cal)
+
+    for component in cal.subcomponents:
+        if not _is_lecture(component):
             continue
 
         # Parse the event and enrich it
         event = event_from_ical(component)
+        # Only used to carry the rooms over, it shouldn't end up in the output
+        component.pop("X-EXTRA-ROOMS", None)
         seen_lecture_numbers.add(event.number)
         if use_shorthand:
             event.shorthand = create_shorthand(event.name)
@@ -237,6 +286,8 @@ def event_from_ical(component) -> Event:
 
     room = component.get("location")
     description = component.get("description")
+    extra_rooms = component.get("X-EXTRA-ROOMS")
+    extra_rooms = str(extra_rooms).split(",") if extra_rooms else None
 
     # FIXME: We could also set the semester, but that would mean we would need
     # to calculate the semester.
@@ -253,6 +304,7 @@ def event_from_ical(component) -> Event:
         room=room if room.strip() else None,
         description=description,
         tiss_url=tiss_url,
+        extra_rooms=extra_rooms,
     )
 
 
