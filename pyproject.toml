@@ -7,7 +7,7 @@ dependencies = [
     "icalendar>=7.3.0",
     "requests>=2.34.2",
 ]
-requires-python = "==3.14.*"
+requires-python = "==3.15.*"
 authors = [{ name = "flofriday" }]
 description = "A better TISS calendar"
 readme = "README.md"
