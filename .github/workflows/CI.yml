@@ -1,4 +1,4 @@
-# Run tests on all branches and always deploy the main branch
+# Run tests on all branches
 
 name: CI
 
@@ -34,25 +34,3 @@ jobs:
 
       - name: Test with pytest
         run: uv run pytest
-
-  deploy:
-    needs: test
-    if: ${{ github.ref_name == 'main' }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: deploy on production server
-        uses: appleboy/ssh-action@v1.2.1
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          port: ${{ secrets.PORT }}
-          script_stop: true
-          script: |
-            cd better-tiss-calendar
-            git fetch --all
-            git reset --hard origin/main
-            npm install
-            npx @tailwindcss/cli --minify -i app/templates/template.css -o app/static/style.css
-            /home/bettercal/.local/bin/uv sync
-            systemctl --user restart bettercal.service
